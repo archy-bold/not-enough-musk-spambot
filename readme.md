@@ -4,6 +4,12 @@ This Reddit Comment Bot is a python-based auto-responder.
   - Designate a specific comment to search for
   - Set your bot's reply
 
+### Install
+
+```bash
+pip install python-dotenv praw
+```
+
 ### Requirements
   - [Python](https://www.python.org/downloads/)
   - [Praw](https://praw.readthedocs.io/en/latest/getting_started/installation.html)
@@ -20,11 +26,14 @@ This Reddit Comment Bot is a python-based auto-responder.
 7. **redirect uri:** http://localhost:8080
 8. Note the outputted *client id* and *secret*
 
-###### config.py:
-1. **username:** your Reddit username
-2. **password:** your Reddit password
-3. **client_id:** the outputted client id
-4. **client_secret:** the outputted secret
+###### .env:
+```bash
+cp .env.example .env
+```
+1. **BOT_NAME:** your Reddit username
+2. **PASSWORD:** your Reddit password
+3. **CLIENT_ID:** the outputted client id
+4. **CLIENT_SECRET:** the outputted secret
 
 ###### reddit_bot.py:
 
