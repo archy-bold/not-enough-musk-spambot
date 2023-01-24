@@ -9,6 +9,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+subreddit = os.getenv('SUBREDDIT')
+sleep = int(os.getenv('SLEEP'))
 submission_replies = {
     "tesla": [
         "We don’t control the federal reserve. The higher the rates, the harder they fall"],
@@ -65,14 +67,14 @@ def bot_login():
 def run_bot(r, con, c):
 
     print("Searching newest submissions")
-    for submission in r.subreddit('EnoughMuskSpam').new():
+    for submission in r.subreddit(subreddit).new():
         replied = have_replied_to_submission(c, submission.id)
         if replied is None:
             for key in submission_replies:
                 if key in submission.title and submission.author != r.user.me():
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
                     response = random.choice(submission_replies[key])
-                    submission.reply(response)
+                    # submission.reply(response)
                     print("Replied to submission " + submission.id + " with " + response)
 
                     insert_submission(c, submission)
@@ -89,7 +91,7 @@ def run_bot(r, con, c):
                 if key in comment.body and comment.author != r.user.me():
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
                     response = random.choice(comment_replies[key])
-                    comment.reply(response)
+                    # comment.reply(response)
                     print("Replied to comment " + comment.id + " with " + response)
 
                     insert_comment(c, comment)
@@ -100,9 +102,8 @@ def run_bot(r, con, c):
 
     con.commit()
 
-    print("Sleeping for 10 seconds...")
-    #Sleep for 10 seconds...		
-    time.sleep(10)
+    print("Sleeping for " + str(sleep) + " seconds...")
+    time.sleep(sleep)
 
 def have_replied_to_submission(c, id):
     # Get the submission from the db
