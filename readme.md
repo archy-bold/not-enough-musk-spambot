@@ -8,7 +8,7 @@ This Reddit Comment Bot is a python-based auto-responder.
 
 ```bash
 # Install dependencies
-pip install python-dotenv praw
+pip install -r requirements.txt
 # Setup the sqlite db
 python setup.py
 ```
