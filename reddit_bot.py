@@ -1,6 +1,9 @@
 import praw
 import time
 import os
+import sqlite3 as sl
+import sys
+import traceback
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,70 +24,86 @@ def bot_login():
 
     return r
 
-def run_bot(r, submissions_replied_to, comments_replied_to):
+def run_bot(r, con, c):
 
     print("Searching newest submissions")
     for submission in r.subreddit('test').new():
-        if "musk" in submission.title and submission.id not in submissions_replied_to and submission.author != r.user.me():
-            print("String with \"musk\" found in submission " + submission.id)
-            submission.reply("Interesting")
-            print("Replied to submission " + submission.id)
-            submissions_replied_to.append(submission.id)
+        replied = have_replied_to_submission(c, submission.id)
+        if replied is None:
+            if "musk" in submission.title and submission.author != r.user.me():
+                print("String with \"musk\" found in submission " + submission.title + " " + submission.id)
+                submission.reply("Interesting")
+                print("Replied to submission " + submission.id)
 
-            with open ("submissions_replied_to.txt", "a") as f:
-                f.write(submission.id + "\n")
+                insert_submission(c, submission)
 
     print("Search Completed.")
-
-    print(submissions_replied_to)
 
     print("Searching last 1,000 comments")
     for comment in r.subreddit('test').comments(limit=1000):
-        if "interesting" in comment.body and comment.id not in comments_replied_to and comment.author != r.user.me():
-            print("String with \"interesting\" found in comment " + comment.id)
-            comment.reply("!!")
-            print("Replied to comment " + comment.id)
+        replied = have_replied_to_comment(c, comment.id)
+        if replied is None:
+            if "interesting" in comment.body and comment.author != r.user.me():
+                print("String with \"interesting\" found in comment \"" + comment.body + "\" " + comment.id)
+                comment.reply("!!")
+                print("Replied to comment " + comment.id)
 
-            comments_replied_to.append(comment.id)
-
-            with open ("comments_replied_to.txt", "a") as f:
-                f.write(comment.id + "\n")
+                insert_comment(c, comment)
 
     print("Search Completed.")
 
-    print(comments_replied_to)
+    con.commit()
 
     print("Sleeping for 10 seconds...")
     #Sleep for 10 seconds...		
     time.sleep(10)
 
-def get_saved_comments():
-    if not os.path.isfile("comments_replied_to.txt"):
-        comments_replied_to = []
+def have_replied_to_submission(c, id):
+    # Get the submission from the db
+    c.execute('SELECT replied FROM submissions WHERE id= ?', (id,))
+    res = c.fetchone()
+    if res is None:
+        return None
     else:
-        with open("comments_replied_to.txt", "r") as f:
-            comments_replied_to = f.read()
-            comments_replied_to = comments_replied_to.split("\n")
-            comments_replied_to = list(filter(None, comments_replied_to))
+        return bool(res[0])
 
-    return comments_replied_to
-
-def get_saved_submissions():
-    if not os.path.isfile("submissions_replied_to.txt"):
-        submissions_replied_to = []
+def have_replied_to_comment(c, id):
+    # Get the comment from the cb
+    c.execute('SELECT replied FROM comments WHERE id= ?', (id,))
+    res = c.fetchone()
+    if res is None:
+        return None
     else:
-        with open("submissions_replied_to.txt", "r") as f:
-            submissions_replied_to = f.read()
-            submissions_replied_to = submissions_replied_to.split("\n")
-            submissions_replied_to = list(filter(None, submissions_replied_to))
+        return bool(res[0])
 
-    return submissions_replied_to
+def insert_submission(c, submission, replied =True):
+    try:
+        c.execute(
+            'INSERT INTO submissions (id, subreddit, replied) VALUES (?, ?, ?)',
+            (submission.id, submission.subreddit.display_name, replied,))
+    except sl.Error as er:
+        print('SQLite error: %s' % (' '.join(er.args)))
+        print("Exception class is: ", er.__class__)
+        print('SQLite traceback: ')
+        exc_type, exc_value, exc_tb = sys.exc_info()
+        print(traceback.format_exception(exc_type, exc_value, exc_tb))
+
+def insert_comment(c, comment, replied =True):
+    try:
+        c.execute(
+            'INSERT INTO comments (id, submission_id, subreddit, replied) VALUES (?, ?, ?, ?)',
+            (comment.id, comment.submission.id, comment.subreddit.display_name, replied,))
+    except sl.Error as er:
+        print('SQLite error: %s' % (' '.join(er.args)))
+        print("Exception class is: ", er.__class__)
+        print('SQLite traceback: ')
+        exc_type, exc_value, exc_tb = sys.exc_info()
+        print(traceback.format_exception(exc_type, exc_value, exc_tb))
+
 
 r = bot_login()
-comments_replied_to = get_saved_comments()
-submissions_replied_to = get_saved_submissions()
-print(comments_replied_to)
-print(submissions_replied_to)
+con = sl.connect('bot.db')
+c = con.cursor()
 
 while True:
-    run_bot(r, submissions_replied_to, comments_replied_to)
+    run_bot(r, con, c)
