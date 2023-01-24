@@ -1,12 +1,50 @@
 import praw
 import time
 import os
+import random
 import sqlite3 as sl
 import sys
 import traceback
 from dotenv import load_dotenv
 
 load_dotenv()
+
+submission_replies = {
+    "tesla": [
+        "We don’t control the federal reserve. The higher the rates, the harder they fall"],
+    "files": ["!!"],
+    "twitter": ["Looking into this."],
+    "no plan": ["Amazing. You're a jackass!"],
+    "wealth": ["I’m rich, bitch!"],
+}
+
+comment_replies = {
+    "crypto": ["I will keep supporting Dogecoin"],
+    "spacex": [
+        "My car is orbiting mars",
+        "Humanity will reach Mars in 2026",
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
+    "stephen king": ["I’m still a fan tbh"],
+    "mastadon": ["What do you call someone who is a master at baiting?"],
+    "files": ["!!"],
+    "twitter blue": ["We need to pay the bills somehow! How about $7?"],
+    "twitter": ["Pay me $8!", "Looking into this."],
+    "covid": ["My pronouns are Prosecute/Fauci", "The coronavirus pandemic is dumb."],
+    "pronouns": [
+        "My pronouns are Prosecute/Fauci",
+        "Pronouns suck",
+        "The woke mind virus is either defeated or nothing else matters"],
+    "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
+    "thai": ["Such a pedo guy"],
+    "wealth": ["I’m rich, bitch!"],
+    "stock": ["Funding secured."],
+    "loan": ["Funding secured."],
+    "interest rate": ["Funding secured."],
+    "repulican": ["I’m not right wing."],
+    # Let that sink in
+    # woke mind virus
+    # I will resign as CEO as soon as I find someone foolish enough to take the job!," Musk wrote in a follow-up tweet. "After that, I will just run the software & servers teams.
+}
 
 def bot_login():
     print("Logging in...")
@@ -27,28 +65,36 @@ def bot_login():
 def run_bot(r, con, c):
 
     print("Searching newest submissions")
-    for submission in r.subreddit('test').new():
+    for submission in r.subreddit('EnoughMuskSpam').new():
         replied = have_replied_to_submission(c, submission.id)
         if replied is None:
-            if "musk" in submission.title and submission.author != r.user.me():
-                print("String with \"musk\" found in submission " + submission.title + " " + submission.id)
-                submission.reply("Interesting")
-                print("Replied to submission " + submission.id)
+            for key in submission_replies:
+                if key in submission.title and submission.author != r.user.me():
+                    print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
+                    response = random.choice(submission_replies[key])
+                    submission.reply(response)
+                    print("Replied to submission " + submission.id + " with " + response)
 
-                insert_submission(c, submission)
+                    insert_submission(c, submission)
+
+                    break
 
     print("Search Completed.")
 
     print("Searching last 1,000 comments")
-    for comment in r.subreddit('test').comments(limit=1000):
+    for comment in r.subreddit('EnoughMuskSpam').comments(limit=1000):
         replied = have_replied_to_comment(c, comment.id)
         if replied is None:
-            if "interesting" in comment.body and comment.author != r.user.me():
-                print("String with \"interesting\" found in comment \"" + comment.body + "\" " + comment.id)
-                comment.reply("!!")
-                print("Replied to comment " + comment.id)
+            for key in comment_replies:
+                if key in comment.body and comment.author != r.user.me():
+                    print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
+                    response = random.choice(comment_replies[key])
+                    comment.reply(response)
+                    print("Replied to comment " + comment.id + " with " + response)
 
-                insert_comment(c, comment)
+                    insert_comment(c, comment)
+
+                    break
 
     print("Search Completed.")
 
