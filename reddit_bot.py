@@ -24,23 +24,26 @@ print("MODE=" + mode)
 submission_replies = {
     "tesla": [
         "We don’t control the federal reserve. The higher the rates, the harder they fall"],
-    "files": ["!!"],
-    "twitter": ["Looking into this."],
+    "files": ["!!", "Interesting"],
+    "twitter": ["Looking into this.", "Interesting"],
     "no plan": ["Amazing. You're a jackass!"],
     "wealth": ["I’m rich, bitch!"],
+    "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
+    "fascist": ["Comedy is now legal on Twitter."],
 }
 
 comment_replies = {
     "crypto": ["I will keep supporting Dogecoin"],
+    "dogecoin": ["I will keep supporting Dogecoin"],
     "spacex": [
         "My car is orbiting mars",
         "Humanity will reach Mars in 2026",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
     "stephen king": ["I’m still a fan tbh"],
     "mastadon": ["What do you call someone who is a master at baiting?"],
-    "files": ["!!"],
+    "files": ["!!", "Interesting"],
     "twitter blue": ["We need to pay the bills somehow! How about $7?"],
-    "twitter": ["Pay me $8!", "Looking into this."],
+    "twitter": ["Pay me $8!", "Looking into this.", "Interesting"],
     "covid": ["My pronouns are Prosecute/Fauci", "The coronavirus pandemic is dumb."],
     "pronouns": [
         "My pronouns are Prosecute/Fauci",
@@ -52,11 +55,13 @@ comment_replies = {
     "wealth": ["I’m rich, bitch!"],
     "stock": ["Funding secured."],
     "loan": ["Funding secured."],
-    "interest rate": ["Funding secured."],
-    "repulican": ["I’m not right wing."],
+    "interest rate": ["Funding secured.", "Interesting"],
+    "republican": ["I’m not right wing.", "Interesting"],
     "takeover": ["Let that sink in"],
     "ban": ["Comedy is now legal on Twitter."],
     "suspend": ["Comedy is now legal on Twitter."],
+    "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
+    "fascist": ["Comedy is now legal on Twitter.", "Interesting"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": ["The woke mind virus is either defeated or nothing else matters"],
 }
