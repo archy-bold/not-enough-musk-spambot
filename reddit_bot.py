@@ -186,7 +186,7 @@ def insert_comment(c, comment, replied =True):
 
 r = bot_login()
 me = r.user.me(use_cache=True)
-con = sl.connect('bot.db')
+con = sl.connect(os.getcwd() + '/bot.db')
 c = con.cursor()
 
 if mode == "once":
