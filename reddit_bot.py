@@ -17,6 +17,7 @@ submission_prob = float(os.getenv('SUBMISSION_PROBABILITY'))
 comment_prob = float(os.getenv('COMMENT_PROBABILITY'))
 env = os.getenv('ENV', 'test')
 mode = os.getenv('MODE', 'once')
+me = None
 print("SUBREDDIT=" + subreddit)
 print("SLEEP=" + str(sleep) + "s")
 print("SUBMISSION_PROBABILITY=" + str(submission_prob * 100) + "%")
@@ -90,7 +91,7 @@ def run_bot(r, con, c):
         replied = have_replied_to_submission(c, submission.id)
         if replied is None:
             for key in submission_replies:
-                if key in submission.title and submission.author != r.user.me():
+                if key in submission.title and submission.author != me:
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
                     if random.random() < submission_prob:
                         response = random.choice(submission_replies[key])
@@ -112,7 +113,7 @@ def run_bot(r, con, c):
         replied = have_replied_to_comment(c, comment.id)
         if replied is None:
             for key in comment_replies:
-                if key in comment.body and comment.author != r.user.me():
+                if key in comment.body and comment.author != me:
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
                     if random.random() < comment_prob:
                         response = random.choice(comment_replies[key])
@@ -178,6 +179,7 @@ def insert_comment(c, comment, replied =True):
 
 
 r = bot_login()
+me = r.user.me(use_cache=True)
 con = sl.connect('bot.db')
 c = con.cursor()
 
