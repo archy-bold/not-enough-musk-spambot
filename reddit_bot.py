@@ -37,15 +37,16 @@ comment_replies = {
         "Pronouns suck",
         "The woke mind virus is either defeated or nothing else matters"],
     "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
+    "daughter": ["Can’t win ‘em all"],
     "thai": ["Such a pedo guy"],
     "wealth": ["I’m rich, bitch!"],
     "stock": ["Funding secured."],
     "loan": ["Funding secured."],
     "interest rate": ["Funding secured."],
     "repulican": ["I’m not right wing."],
-    # Let that sink in
-    # woke mind virus
-    # I will resign as CEO as soon as I find someone foolish enough to take the job!," Musk wrote in a follow-up tweet. "After that, I will just run the software & servers teams.
+    "takeover": ["Let that sink in"],
+    "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
+    "woke": ["The woke mind virus is either defeated or nothing else matters"],
 }
 
 def bot_login():
