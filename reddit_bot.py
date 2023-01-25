@@ -104,6 +104,8 @@ def run_bot(r, con, c):
                     else:
                         insert_submission(c, submission, replied=False)
 
+                    if env == "production":
+                        con.commit()
                     break
 
     print("Search Completed.")
@@ -119,6 +121,7 @@ def run_bot(r, con, c):
                         response = random.choice(comment_replies[key])
                         if env == "production":
                             comment.reply(response)
+                            con.commit()
                             time.sleep(2)
                         print("Replied to comment " + comment.id + " with " + response)
 
@@ -126,11 +129,14 @@ def run_bot(r, con, c):
                     else:
                         insert_comment(c, comment, replied=False)
 
+                    if env == "production":
+                        con.commit()
                     break
 
     print("Search Completed.")
 
-    con.commit()
+    if env != "production":
+        con.commit()
 
     print("Sleeping for " + str(sleep) + " seconds...")
     time.sleep(sleep)
