@@ -79,7 +79,7 @@ def bot_login():
                 password = password,
                 client_id = client_id,
                 client_secret = client_secret,
-                user_agent = "testscript by u/archy_bold")
+                user_agent = "r/EnoughMuskSpam bot")
     print("Logged in as " + str(r.user.me()))
 
     return r
