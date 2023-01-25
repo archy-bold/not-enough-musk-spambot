@@ -146,8 +146,8 @@ def have_replied_to_comment(c, id):
 def insert_submission(c, submission, replied =True):
     try:
         c.execute(
-            'INSERT INTO submissions (id, subreddit, replied) VALUES (?, ?, ?)',
-            (submission.id, submission.subreddit.display_name, replied,))
+            'INSERT INTO submissions (id, subreddit, score, replied) VALUES (?, ?, ?, ?)',
+            (submission.id, submission.subreddit.display_name, submission.score, replied,))
     except sl.Error as er:
         print('SQLite error: %s' % (' '.join(er.args)))
         print("Exception class is: ", er.__class__)
@@ -158,8 +158,8 @@ def insert_submission(c, submission, replied =True):
 def insert_comment(c, comment, replied =True):
     try:
         c.execute(
-            'INSERT INTO comments (id, submission_id, subreddit, replied) VALUES (?, ?, ?, ?)',
-            (comment.id, comment.submission.id, comment.subreddit.display_name, replied,))
+            'INSERT INTO comments (id, submission_id, subreddit, score, replied) VALUES (?, ?, ?, ?, ?)',
+            (comment.id, comment.submission.id, comment.subreddit.display_name, comment.score, replied,))
     except sl.Error as er:
         print('SQLite error: %s' % (' '.join(er.args)))
         print("Exception class is: ", er.__class__)
