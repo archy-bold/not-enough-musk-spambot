@@ -186,7 +186,8 @@ def insert_comment(c, comment, replied =True):
 
 r = bot_login()
 me = r.user.me(use_cache=True)
-con = sl.connect(os.getcwd() + '/bot.db')
+dir = os.path.dirname(os.path.realpath(__file__))
+con = sl.connect(dir + '/bot.db')
 c = con.cursor()
 
 if mode == "once":
