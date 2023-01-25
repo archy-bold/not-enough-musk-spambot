@@ -13,11 +13,13 @@ subreddit = os.getenv('SUBREDDIT')
 sleep = int(os.getenv('SLEEP'))
 submission_prob = float(os.getenv('SUBMISSION_PROBABILITY'))
 comment_prob = float(os.getenv('COMMENT_PROBABILITY'))
-mode = os.getenv('MODE', 'test')
+env = os.getenv('ENV', 'test')
+mode = os.getenv('MODE', 'once')
 print("SUBREDDIT=" + subreddit)
 print("SLEEP=" + str(sleep) + "s")
 print("SUBMISSION_PROBABILITY=" + str(submission_prob * 100) + "%")
 print("COMMENT_PROBABILITY=" + str(comment_prob * 100) + "%")
+print("ENV=" + env)
 print("MODE=" + mode)
 submission_replies = {
     "tesla": [
@@ -85,7 +87,7 @@ def run_bot(r, con, c):
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
                     if random.random() < submission_prob:
                         response = random.choice(submission_replies[key])
-                        if mode == "production":
+                        if env == "production":
                             submission.reply(response)
                         print("Replied to submission " + submission.id + " with " + response)
 
@@ -106,7 +108,7 @@ def run_bot(r, con, c):
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
                     if random.random() < comment_prob:
                         response = random.choice(comment_replies[key])
-                        if mode == "production":
+                        if env == "production":
                             comment.reply(response)
                         print("Replied to comment " + comment.id + " with " + response)
 
@@ -170,5 +172,8 @@ r = bot_login()
 con = sl.connect('bot.db')
 c = con.cursor()
 
-while True:
+if mode == "once":
     run_bot(r, con, c)
+else:
+    while True:
+        run_bot(r, con, c)
