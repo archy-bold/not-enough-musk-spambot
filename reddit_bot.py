@@ -11,6 +11,14 @@ load_dotenv()
 
 subreddit = os.getenv('SUBREDDIT')
 sleep = int(os.getenv('SLEEP'))
+submission_prob = float(os.getenv('SUBMISSION_PROBABILITY'))
+comment_prob = float(os.getenv('COMMENT_PROBABILITY'))
+mode = os.getenv('MODE', 'test')
+print("SUBREDDIT=" + subreddit)
+print("SLEEP=" + str(sleep) + "s")
+print("SUBMISSION_PROBABILITY=" + str(submission_prob * 100) + "%")
+print("COMMENT_PROBABILITY=" + str(comment_prob * 100) + "%")
+print("MODE=" + mode)
 submission_replies = {
     "tesla": [
         "We don’t control the federal reserve. The higher the rates, the harder they fall"],
@@ -45,6 +53,8 @@ comment_replies = {
     "interest rate": ["Funding secured."],
     "repulican": ["I’m not right wing."],
     "takeover": ["Let that sink in"],
+    "ban": ["Comedy is now legal on Twitter."],
+    "suspend": ["Comedy is now legal on Twitter."],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": ["The woke mind virus is either defeated or nothing else matters"],
 }
@@ -60,8 +70,7 @@ def bot_login():
                 client_id = client_id,
                 client_secret = client_secret,
                 user_agent = "testscript by u/archy_bold")
-    print("Logged in!")
-    print(r.user.me())
+    print("Logged in as " + str(r.user.me()))
 
     return r
 
@@ -74,11 +83,15 @@ def run_bot(r, con, c):
             for key in submission_replies:
                 if key in submission.title and submission.author != r.user.me():
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
-                    response = random.choice(submission_replies[key])
-                    # submission.reply(response)
-                    print("Replied to submission " + submission.id + " with " + response)
+                    if random.random() < submission_prob:
+                        response = random.choice(submission_replies[key])
+                        if mode == "production":
+                            submission.reply(response)
+                        print("Replied to submission " + submission.id + " with " + response)
 
-                    insert_submission(c, submission)
+                        insert_submission(c, submission, replied=True)
+                    else:
+                        insert_submission(c, submission, replied=False)
 
                     break
 
@@ -91,11 +104,15 @@ def run_bot(r, con, c):
             for key in comment_replies:
                 if key in comment.body and comment.author != r.user.me():
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
-                    response = random.choice(comment_replies[key])
-                    # comment.reply(response)
-                    print("Replied to comment " + comment.id + " with " + response)
+                    if random.random() < comment_prob:
+                        response = random.choice(comment_replies[key])
+                        if mode == "production":
+                            comment.reply(response)
+                        print("Replied to comment " + comment.id + " with " + response)
 
-                    insert_comment(c, comment)
+                        insert_comment(c, comment, replied=True)
+                    else:
+                        insert_comment(c, comment, replied=False)
 
                     break
 
