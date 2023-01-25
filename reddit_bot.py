@@ -97,7 +97,7 @@ def run_bot(r, con, c):
                         response = random.choice(submission_replies[key])
                         if env == "production":
                             submission.reply(response)
-                            sleep(2)
+                            time.sleep(2)
                         print("Replied to submission " + submission.id + " with " + response)
 
                         insert_submission(c, submission, replied=True)
@@ -119,7 +119,7 @@ def run_bot(r, con, c):
                         response = random.choice(comment_replies[key])
                         if env == "production":
                             comment.reply(response)
-                            sleep(2)
+                            time.sleep(2)
                         print("Replied to comment " + comment.id + " with " + response)
 
                         insert_comment(c, comment, replied=True)
