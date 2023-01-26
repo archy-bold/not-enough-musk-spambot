@@ -54,7 +54,7 @@ comment_replies = {
         "My pronouns are Prosecute/Fauci",
         "Pronouns suck",
         "The woke mind virus is either defeated or nothing else matters"],
-    "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
+    # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     "daughter": ["Can’t win ‘em all"],
     "thai": ["Such a pedo guy"],
     "wealth": ["I’m rich, bitch!"],
