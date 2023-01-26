@@ -26,7 +26,8 @@ print("ENV=" + env)
 print("MODE=" + mode)
 submission_replies = {
     "tesla": [
-        "We don’t control the federal reserve. The higher the rates, the harder they fall"],
+        "We don’t control the federal reserve. The higher the rates, the harder they fall",
+        "The fun police made us do it (sigh)"],
     "files": ["!!", "Interesting"],
     "twitter": ["Looking into this.", "Interesting"],
     " bot": ["Looking into this.", "Interesting"],
@@ -92,7 +93,7 @@ def run_bot(r, con, c):
         replied = have_replied_to_submission(c, submission.id)
         if replied is None:
             for key in submission_replies:
-                if key in submission.title and submission.author != me:
+                if key in submission.title.lower() and submission.author != me:
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
                     if random.random() < submission_prob:
                         response = random.choice(submission_replies[key])
@@ -116,7 +117,7 @@ def run_bot(r, con, c):
         replied = have_replied_to_comment(c, comment.id)
         if replied is None:
             for key in comment_replies:
-                if key in comment.body and comment.author != me:
+                if key in comment.body.lower() and comment.author != me:
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
                     if random.random() < comment_prob:
                         response = random.choice(comment_replies[key])
