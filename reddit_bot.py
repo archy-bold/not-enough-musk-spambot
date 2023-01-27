@@ -64,6 +64,7 @@ comment_replies = {
     "republican": ["I’m not right wing.", "Interesting"],
     "takeover": ["Let that sink in"],
     " ban ": ["Comedy is now legal on Twitter."],
+    " bans": ["Comedy is now legal on Twitter."],
     "suspend": ["Comedy is now legal on Twitter."],
     "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
     "fascist": ["Comedy is now legal on Twitter.", "Interesting"],
