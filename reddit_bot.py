@@ -35,6 +35,9 @@ submission_replies = {
     "wealth": ["I’m rich, bitch!"],
     "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
     "fascist": ["Comedy is now legal on Twitter."],
+    "severance": ["You’re fired."],
+    "engineer": ["Print out 50 pages of code you’ve done in the last 30 days"],
+    "takeover": ["Let that sink in"],
 }
 
 comment_replies = {
@@ -49,12 +52,18 @@ comment_replies = {
     "files": ["!!", "Interesting"],
     "twitter blue": ["We need to pay the bills somehow! How about $7?"],
     "twitter": ["Pay me $8!", "Looking into this.", "Interesting"],
+    "king of twitter": ["let that sink in"],
+    "dad joke": ["let that sink in"],
+    "takeover": ["Let that sink in"],
+    "engineer": ["Print out 50 pages of code you’ve done in the last 30 days"],
+    "developer": ["Print out 50 pages of code you’ve done in the last 30 days"],
+    "server": ["Print out 50 pages of code you’ve done in the last 30 days"],
+    "severance": ["You’re fired."],
+    "employee": ["You’re fired.", "We’re going to need you to stay in overnight, we’re going ultra hardcore."],
+    "fired": ["You’re fired!"],
+    "working hours": ["Are you super hardcore?", "Are you extremely hardcore?"],
+    "hardcore": ["Are you super hardcore?", "Are you extremely hardcore?"],
     "covid": ["My pronouns are Prosecute/Fauci", "The coronavirus pandemic is dumb."],
-    "pronouns": [
-        "My pronouns are Prosecute/Fauci",
-        "Pronouns suck",
-        "The woke mind virus is either defeated or nothing else matters"],
-    # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     "daughter": ["Can’t win ‘em all"],
     "thai": ["Such a pedo guy"],
     "wealth": ["I’m rich, bitch!"],
@@ -62,7 +71,6 @@ comment_replies = {
     "loan": ["Funding secured."],
     "interest rate": ["Funding secured.", "Interesting"],
     "republican": ["I’m not right wing.", "Interesting"],
-    "takeover": ["Let that sink in"],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
     "suspend": ["Comedy is now legal on Twitter."],
@@ -70,6 +78,11 @@ comment_replies = {
     "fascist": ["Comedy is now legal on Twitter.", "Interesting"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": ["The woke mind virus is either defeated or nothing else matters"],
+    "pronouns": [
+        "My pronouns are Prosecute/Fauci",
+        "Pronouns suck",
+        "The woke mind virus is either defeated or nothing else matters"],
+    # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
 }
 
 def bot_login():
