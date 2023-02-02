@@ -46,9 +46,10 @@ comment_replies = {
     "spacex": [
         "My car is orbiting mars",
         "Humanity will reach Mars in 2026",
-        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reach Mars"],
     "stephen king": ["I’m still a fan tbh"],
     "mastadon": ["What do you call someone who is a master at baiting?"],
+    "mastodon": ["What do you call someone who is a master at baiting?"],
     "files": ["!!", "Interesting"],
     "twitter blue": ["We need to pay the bills somehow! How about $7?"],
     "twitter": ["Pay me $8!", "Looking into this.", "Interesting"],
@@ -77,12 +78,20 @@ comment_replies = {
     "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
     "fascist": ["Comedy is now legal on Twitter.", "Interesting"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
-    "woke": ["The woke mind virus is either defeated or nothing else matters"],
+    "woke": [
+        "The woke mind virus is either defeated or nothing else matters",
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reach Mars"],
     "pronouns": [
         "My pronouns are Prosecute/Fauci",
         "Pronouns suck",
         "The woke mind virus is either defeated or nothing else matters"],
+    "chappelle": ["What do I say, Dave?"],
+    "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
+    "batchnorm": ["Gaming rocks"],
+    "game": ["Gaming rocks"],
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
+    # boring company
+    # microservices just add bloat
 }
 
 def bot_login():
