@@ -53,7 +53,11 @@ submission_replies = {
     "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
     "fascist": ["Comedy is now legal on Twitter."],
     "severance": ["You’re fired."],
-    "engineer": ["Print out 50 pages of code you’ve done in the last 30 days"],
+    "engineer": [
+        "Print out 50 pages of code you’ve done in the last 30 days",
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
+    ],
     "takeover": ["Let that sink in"],
 }
 
@@ -84,11 +88,19 @@ comment_replies = {
     "king of twitter": ["Let that sink in"],
     "dad joke": ["Let that sink in"],
     "takeover": ["Let that sink in"],
-    "engineer": ["Print out 50 pages of code you’ve done in the last 30 days"],
+    "engineer": [
+        "Print out 50 pages of code you’ve done in the last 30 days",
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
+    ],
     "developer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
         "Just ~$100/month for API access with ID verification will clean things up greatly."],
-    "server": ["Print out 50 pages of code you’ve done in the last 30 days"],
+    "server": [
+        "Print out 50 pages of code you’ve done in the last 30 days",
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
+    ],
     "severance": ["You’re fired."],
     "employee": ["You’re fired.", "We’re going to need you to stay in overnight, we’re going ultra hardcore."],
     "fired": ["You’re fired!"],
@@ -104,6 +116,8 @@ comment_replies = {
     "republican": ["I’m not right wing.", "Interesting"],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
+    " bot ": ["We will defeat the spam bots or die trying!"],
+    " bots": ["We will defeat the spam bots or die trying!"],
     "suspend": ["Comedy is now legal on Twitter."],
     "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
     "fascist": ["Comedy is now legal on Twitter.", "Interesting"],
