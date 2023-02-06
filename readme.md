@@ -63,4 +63,7 @@ $ python reddit_bot.py
 
 ### Credits
 
-User [u/citycentre95 for convincing me to do this and a few ideas](https://www.reddit.com/r/EnoughMuskSpam/comments/10fivfd/comment/j4zebju/?utm_source=reddit&utm_medium=web2x&context=3) and [u/Which_way_witcher](https://www.reddit.com/r/EnoughMuskSpam/comments/10muplo/a_leaked_internal_message_appears_to_show_elon/j66cjrf/?context=3) for a few more ideas.
+- [u/citycentre95 for convincing me to do this and a few ideas](https://www.reddit.com/r/EnoughMuskSpam/comments/10fivfd/comment/j4zebju/?utm_source=reddit&utm_medium=web2x&context=3).
+- [u/Which_way_witcher](https://www.reddit.com/r/EnoughMuskSpam/comments/10muplo/a_leaked_internal_message_appears_to_show_elon/j66cjrf/?context=3) for a few more ideas.
+- [u/RespondNo4954](https://www.reddit.com/r/EnoughMuskSpam/comments/10tl1ef/petition_to_unban_unotenoughmuskspam/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) for starting a petition to unban the bot, and succeeding!
+- Everyone on [r/EnoughMuskSpam](https://www.reddit.com/r/EnoughMuskSpam/) who had something nice to say about the bot. Very few of the things I make gets feedback like this.
