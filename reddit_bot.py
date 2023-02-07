@@ -37,6 +37,7 @@ submission_replies = {
         "Interesting",
         "Interesting",
         "Concerning",
+        "Twitter is now trending to breakeven if we keep at it.",
         "Something fundamental is wrong",
         "Something is wrong"],
     " bot": [
@@ -87,6 +88,7 @@ comment_replies = {
         "Interesting",
         "Interesting",
         "Concerning",
+        "Twitter is now trending to breakeven if we keep at it.",
         "Something fundamental is wrong",
         "Something is wrong"],
     "king of twitter": ["Let that sink in"],
