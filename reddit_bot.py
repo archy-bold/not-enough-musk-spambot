@@ -96,6 +96,7 @@ comment_replies = {
     "severance": ["You’re fired."],
     "employee": ["You’re fired.", "We’re going to need you to stay in overnight, we’re going ultra hardcore."],
     "fired": ["You’re fired!"],
+    " fire ": ["You’re fired, you’re fired!"],
     "working hours": ["Are you super hardcore?", "Are you extremely hardcore?"],
     "hardcore": ["Are you super hardcore?", "Are you extremely hardcore?"],
     "covid": ["My pronouns are Prosecute/Fauci", "The coronavirus pandemic is dumb."],
