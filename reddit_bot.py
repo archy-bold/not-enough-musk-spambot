@@ -77,8 +77,22 @@ submission_replies = {
     " ad ": ["Press the heart"],
     "advert": ["Press the heart"],
     "competitor": ["Press the heart"],
-    "opinion": ["I get all my opinions from Twitter"],
-    "reddit": ["I get all my opinions from Twitter"],
+    "opinion": [
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Interesting",
+        "Concerning",
+        "Extremely concerning",
+        "I get all my opinions from Twitter"],
+    "reddit": [
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Interesting",
+        "Concerning",
+        "Extremely concerning",
+        "I get all my opinions from Twitter"],
 }
 
 comment_replies = {
@@ -178,8 +192,22 @@ comment_replies = {
     " ad ": ["Press the heart"],
     "advert": ["Press the heart"],
     "competitor": ["Press the heart"],
-    "opinion": ["I get all my opinions from Twitter"],
-    "reddit": ["I get all my opinions from Twitter"],
+    "opinion": [
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Interesting",
+        "Concerning",
+        "Extremely concerning",
+        "I get all my opinions from Twitter"],
+    "reddit": [
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Interesting",
+        "Concerning",
+        "Extremely concerning",
+        "I get all my opinions from Twitter"],
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat
