@@ -31,9 +31,11 @@ submission_replies = {
     "files": ["!!", "Interesting"],
     "twitter": [
         "Looking into this.",
+        "This is bizarre. Looking into it."
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Negative feedback is a good thing"
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -44,9 +46,11 @@ submission_replies = {
         "I get all my opinions from Twitter"],
     " bot": [
         "Looking into this.",
+        "This is bizarre. Looking into it."
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Negative feedback is a good thing"
         "Something fundamental is wrong",
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
@@ -63,8 +67,20 @@ submission_replies = {
     "culture": ["End of days vibes"],
     "no plan": ["Amazing. You're a jackass!"],
     "wealth": ["I’m rich, bitch!"],
-    "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
-    "fascist": ["Comedy is now legal on Twitter."],
+    "fascist": [
+        "Comedy is now legal on Twitter.",
+        "Interesting",
+        "We should stop canceling comedy!"],
+    "racism": [
+        "Comedy is now legal on Twitter.",
+        "Interesting",
+        "We should stop canceling comedy!"
+        "Simultaneously, an interesting question and a tongue twister!"],
+    "racist": [
+        "Comedy is now legal on Twitter.",
+        "Interesting",
+        "We should stop canceling comedy!"
+        "Simultaneously, an interesting question and a tongue twister!"],
     "severance": ["You’re fired."],
     "engineer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
@@ -84,6 +100,7 @@ submission_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Negative feedback is a good thing"
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -92,7 +109,10 @@ submission_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Negative feedback is a good thing"
         "I get all my opinions from Twitter"],
+    "block": ["Negative feedback is a good thing"],
+    "?$": ["Simultaneously, an interesting question and a tongue twister!"],
 }
 
 comment_replies = {
@@ -110,6 +130,7 @@ comment_replies = {
     "twitter": [
         "Pay me $8!",
         "Looking into this.",
+        "This is bizarre. Looking into it."
         "Interesting",
         "Concerning",
         "Extremely concerning ...",
@@ -156,9 +177,11 @@ comment_replies = {
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
         "Looking into this.",
+        "This is bizarre. Looking into it."
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Negative feedback is a good thing"
         "Something fundamental is wrong",
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
@@ -173,8 +196,20 @@ comment_replies = {
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge"],
     "suspend": ["Comedy is now legal on Twitter."],
-    "fascism": ["Comedy is now legal on Twitter.", "Interesting"],
-    "fascist": ["Comedy is now legal on Twitter.", "Interesting"],
+    "fascist": [
+        "Comedy is now legal on Twitter.",
+        "Interesting",
+        "We should stop canceling comedy!"],
+    "racism": [
+        "Comedy is now legal on Twitter.",
+        "Interesting",
+        "We should stop canceling comedy!"
+        "Simultaneously, an interesting question and a tongue twister!"],
+    "racist": [
+        "Comedy is now legal on Twitter.",
+        "Interesting",
+        "We should stop canceling comedy!"
+        "Simultaneously, an interesting question and a tongue twister!"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": [
         "The woke mind virus is either defeated or nothing else matters",
@@ -199,6 +234,7 @@ comment_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Negative feedback is a good thing"
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -207,7 +243,10 @@ comment_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Negative feedback is a good thing"
         "I get all my opinions from Twitter"],
+    "block": ["Negative feedback is a good thing"],
+    "?$": ["Simultaneously, an interesting question and a tongue twister!"],
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat
@@ -235,7 +274,7 @@ def run_bot(r, con, c):
         replied = have_replied_to_submission(c, submission.id)
         if replied is None:
             for key in submission_replies:
-                if key in submission.title.lower() and submission.author != me:
+                if text_contains(submission.title, key) and submission.author != me:
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
                     if random.random() < submission_prob:
                         response = random.choice(submission_replies[key])
@@ -259,7 +298,7 @@ def run_bot(r, con, c):
         replied = have_replied_to_comment(c, comment.id)
         if replied is None:
             for key in comment_replies:
-                if key in comment.body.lower() and comment.author != me:
+                if text_contains(comment.body, key) and comment.author != me:
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
                     if random.random() < comment_prob:
                         response = random.choice(comment_replies[key])
@@ -327,6 +366,8 @@ def insert_comment(c, comment, replied =True):
         exc_type, exc_value, exc_tb = sys.exc_info()
         print(traceback.format_exception(exc_type, exc_value, exc_tb))
 
+def text_contains(haystack, needle):
+    return needle in haystack.lower() or (needle.endswith("$") and haystack.lower().endswith(needle.replace("$", "")))
 
 r = bot_login()
 me = r.user.me(use_cache=True)
