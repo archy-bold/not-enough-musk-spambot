@@ -31,11 +31,11 @@ submission_replies = {
     "files": ["!!", "Interesting"],
     "twitter": [
         "Looking into this.",
-        "This is bizarre. Looking into it."
+        "This is bizarre. Looking into it.",
         "Interesting",
         "Concerning",
         "Extremely concerning",
-        "Negative feedback is a good thing"
+        "Negative feedback is a good thing",
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -46,11 +46,11 @@ submission_replies = {
         "I get all my opinions from Twitter"],
     " bot": [
         "Looking into this.",
-        "This is bizarre. Looking into it."
+        "This is bizarre. Looking into it.",
         "Interesting",
         "Concerning",
         "Extremely concerning",
-        "Negative feedback is a good thing"
+        "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
@@ -74,12 +74,12 @@ submission_replies = {
     "racism": [
         "Comedy is now legal on Twitter.",
         "Interesting",
-        "We should stop canceling comedy!"
+        "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
     "racist": [
         "Comedy is now legal on Twitter.",
         "Interesting",
-        "We should stop canceling comedy!"
+        "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
     "severance": ["You’re fired."],
     "engineer": [
@@ -100,7 +100,7 @@ submission_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
-        "Negative feedback is a good thing"
+        "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -109,7 +109,7 @@ submission_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
-        "Negative feedback is a good thing"
+        "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "block": ["Negative feedback is a good thing"],
     "?$": ["Simultaneously, an interesting question and a tongue twister!"],
@@ -130,7 +130,7 @@ comment_replies = {
     "twitter": [
         "Pay me $8!",
         "Looking into this.",
-        "This is bizarre. Looking into it."
+        "This is bizarre. Looking into it.",
         "Interesting",
         "Concerning",
         "Extremely concerning ...",
@@ -177,11 +177,11 @@ comment_replies = {
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
         "Looking into this.",
-        "This is bizarre. Looking into it."
+        "This is bizarre. Looking into it.",
         "Interesting",
         "Concerning",
         "Extremely concerning",
-        "Negative feedback is a good thing"
+        "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
@@ -203,12 +203,12 @@ comment_replies = {
     "racism": [
         "Comedy is now legal on Twitter.",
         "Interesting",
-        "We should stop canceling comedy!"
+        "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
     "racist": [
         "Comedy is now legal on Twitter.",
         "Interesting",
-        "We should stop canceling comedy!"
+        "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": [
@@ -234,7 +234,7 @@ comment_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
-        "Negative feedback is a good thing"
+        "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -243,7 +243,7 @@ comment_replies = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
-        "Negative feedback is a good thing"
+        "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "block": ["Negative feedback is a good thing"],
     "?$": ["Simultaneously, an interesting question and a tongue twister!"],
