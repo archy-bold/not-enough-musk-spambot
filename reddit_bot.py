@@ -55,7 +55,7 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
                         if env == "production":
                             submission.reply(response)
                             time.sleep(2)
-                        print("Replied to submission " + submission.id + " with " + response)
+                        print("Replied to submission \"" + submission.id + "\" with " + response)
 
                         insert_submission(c, submission, replied=True)
                     else:
@@ -80,7 +80,7 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
                             comment.reply(response)
                             con.commit()
                             time.sleep(2)
-                        print("Replied to comment " + comment.id + " with " + response)
+                        print("Replied to comment \"" + comment.id + "\" with " + response)
 
                         insert_comment(c, comment, replied=True)
                     else:
