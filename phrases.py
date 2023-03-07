@@ -324,6 +324,17 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning"],
+    "NotEnoughMuskSpam": [
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Interesting",
+        "!!",
+        "Concerning",
+        "Extremely concerning",
+        "Super concerning",
+        "Negative feedback is a good thing",
+        "I get all my opinions from Twitter"]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat
