@@ -56,3 +56,5 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Idiocracy is happening so fast*](https://twitter.com/elonmusk/status/1632795933741129728)
 * [*Super concerning*](https://twitter.com/elonmusk/status/1632796324356579331)
 * [*This is not a right wing takeover, but rather a centrist takeover.*](https://twitter.com/elonmusk/status/1632685129498869763)
+* [*This platform is so brittle (sigh). Will be fixed shortly.*](https://twitter.com/elonmusk/status/1632794008060567552)
+* [*A small API change had massive ramifications. The code stack is extremely brittle for no good reason.*](https://twitter.com/elonmusk/status/1632810081497513993)
