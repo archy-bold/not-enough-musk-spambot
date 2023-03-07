@@ -12,6 +12,7 @@ submission_replies: dict[str, list[str]] = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Super concerning",
         "Negative feedback is a good thing",
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -27,6 +28,7 @@ submission_replies: dict[str, list[str]] = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Super concerning",
         "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
@@ -44,6 +46,11 @@ submission_replies: dict[str, list[str]] = {
     "culture": ["End of days vibes"],
     "no plan": ["Amazing. You're a jackass!"],
     "wealth": ["I’m rich, bitch!"],
+    "misinformation": [
+        "This is not a right wing takeover, but rather a centrist takeover.",
+        "Interesting",
+        "Comedy is now legal on Twitter.",
+        "We should stop canceling comedy!"],
     "fascist": [
         "Comedy is now legal on Twitter.",
         "Interesting",
@@ -64,7 +71,9 @@ submission_replies: dict[str, list[str]] = {
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
     ],
-    "takeover": ["Let that sink in"],
+    "takeover": [
+        "Let that sink in",
+        "This is not a right wing takeover, but rather a centrist takeover."],
     "vote ": ["Vox Populi Vox Dei"],
     " poll": ["Vox Populi Vox Dei"],
     " ad ": ["Press the heart"],
@@ -77,6 +86,7 @@ submission_replies: dict[str, list[str]] = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Super concerning",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "reddit": [
@@ -86,10 +96,21 @@ submission_replies: dict[str, list[str]] = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Super concerning",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
+    " meme": [
+        "The meme community has high standards!",
+        "Let that sink in"],
+    " fun": ["The meme community has high standards!"],
     "block": ["Negative feedback is a good thing"],
-    "?$": ["Simultaneously, an interesting question and a tongue twister!"],
+    "?$": [
+        "Simultaneously, an interesting question and a tongue twister!",
+        "Interesting",
+        "!!",
+        "Concerning",
+        "Extremely concerning",
+        "Super concerning"],
 }
 
 comment_replies: dict[str, list[str]] = {
@@ -120,9 +141,15 @@ comment_replies: dict[str, list[str]] = {
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter"],
     "culture": ["End of days vibes"],
-    "king of twitter": ["Let that sink in"],
-    "dad joke": ["Let that sink in"],
-    "takeover": ["Let that sink in"],
+    "king of twitter": [
+        "The meme community has high standards!",
+        "Let that sink in"],
+    "dad joke": [
+        "The meme community has high standards!",
+        "Let that sink in"],
+    "takeover": [
+        "Let that sink in",
+        "This is not a right wing takeover, but rather a centrist takeover."],
     "engineer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
@@ -149,7 +176,15 @@ comment_replies: dict[str, list[str]] = {
     "stock": ["Funding secured."],
     "loan": ["Funding secured."],
     "interest rate": ["Funding secured.", "Interesting"],
-    "republican": ["I’m not right wing.", "Interesting"],
+    "republican": [
+        "I’m not right wing.",
+        "Interesting",
+        "This is not a right wing takeover, but rather a centrist takeover."],
+    "misinformation": [
+        "This is not a right wing takeover, but rather a centrist takeover.",
+        "Interesting",
+        "Comedy is now legal on Twitter.",
+        "We should stop canceling comedy!"],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
@@ -158,6 +193,7 @@ comment_replies: dict[str, list[str]] = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Super concerning",
         "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
@@ -189,12 +225,18 @@ comment_replies: dict[str, list[str]] = {
         "Simultaneously, an interesting question and a tongue twister!"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": [
+        "Idiocracy is happening so fast",
         "The woke mind virus is either defeated or nothing else matters",
-        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",],
     "pronouns": [
         "My pronouns are Prosecute/Fauci",
         "Pronouns suck",
         "The woke mind virus is either defeated or nothing else matters"],
+    "youth": ["Idiocracy is happening so fast"],
+    "young": ["Idiocracy is happening so fast"],
+    "future": [
+        "Idiocracy is happening so fast",
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
     "chappelle": ["Dave, what should I say?"],
     "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
     "batchnorm": ["Gaming rocks"],
@@ -211,6 +253,7 @@ comment_replies: dict[str, list[str]] = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Super concerning",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "reddit": [
@@ -220,10 +263,21 @@ comment_replies: dict[str, list[str]] = {
         "Interesting",
         "Concerning",
         "Extremely concerning",
+        "Super concerning",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
+    " meme": [
+        "The meme community has high standards!",
+        "Let that sink in"],
+    " fun": ["The meme community has high standards!"],
     "block": ["Negative feedback is a good thing"],
-    "?$": ["Simultaneously, an interesting question and a tongue twister!"],
+    "?$": [
+        "Simultaneously, an interesting question and a tongue twister!",
+        "Interesting",
+        "!!",
+        "Concerning",
+        "Extremely concerning",
+        "Super concerning"],
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat
