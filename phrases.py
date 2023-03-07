@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- 
 
-submission_replies = {
+submission_replies: dict[str, list[str]] = {
     "tesla": [
         "We don’t control the federal reserve. The higher the rates, the harder they fall",
         "The fun police made us do it (sigh)"],
@@ -92,7 +92,7 @@ submission_replies = {
     "?$": ["Simultaneously, an interesting question and a tongue twister!"],
 }
 
-comment_replies = {
+comment_replies: dict[str, list[str]] = {
     "crypto": ["I will keep supporting Dogecoin"],
     "dogecoin": ["I will keep supporting Dogecoin"],
     "spacex": [
