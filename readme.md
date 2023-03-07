@@ -61,6 +61,10 @@ Run your bot:
 $ python reddit_bot.py
 ```
 
+### Phrase Sources
+
+For a rundown of the phrases and their sources, see [phrases.md](phrases.md). Yes, Elon Musk has said everything this dumb bot repeats.
+
 ### Credits
 
 - [u/citycentre95 for convincing me to do this and a few ideas](https://www.reddit.com/r/EnoughMuskSpam/comments/10fivfd/comment/j4zebju/?utm_source=reddit&utm_medium=web2x&context=3).
