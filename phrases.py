@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- 
 
-submission_replies: dict[str, list[str]] = {
+from typing import Dict, List
+
+submission_replies: Dict[str, List[str]] = {
     "tesla": [
         "We don’t control the federal reserve. The higher the rates, the harder they fall",
         "The fun police made us do it (sigh)"],
@@ -135,7 +137,7 @@ submission_replies: dict[str, list[str]] = {
         "Super concerning"],
 }
 
-comment_replies: dict[str, list[str]] = {
+comment_replies: Dict[str, List[str]] = {
     "crypto": ["I will keep supporting Dogecoin"],
     "dogecoin": ["I will keep supporting Dogecoin"],
     "spacex": [

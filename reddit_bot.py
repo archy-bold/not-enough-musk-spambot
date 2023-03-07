@@ -7,7 +7,7 @@ import sqlite3 as sl
 import sys
 import traceback
 from dotenv import load_dotenv
-from typing import Optional
+from typing import Optional, List
 from phrases import *
 
 load_dotenv()
@@ -101,7 +101,7 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
 def have_replied_to_submission(c: sl.Cursor, id: str) -> Optional[bool]:
     # Get the submission from the db
     c.execute('SELECT replied FROM submissions WHERE id= ?', (id,))
-    res: Optional[list[bool]] = c.fetchone()
+    res: Optional[List[bool]] = c.fetchone()
     if res is None:
         return None
     else:
@@ -110,7 +110,7 @@ def have_replied_to_submission(c: sl.Cursor, id: str) -> Optional[bool]:
 def have_replied_to_comment(c: sl.Cursor, id: str) -> Optional[bool]:
     # Get the comment from the cb
     c.execute('SELECT replied FROM comments WHERE id= ?', (id,))
-    res: Optional[list[bool]] = c.fetchone()
+    res: Optional[List[bool]] = c.fetchone()
     if res is None:
         return None
     else:
