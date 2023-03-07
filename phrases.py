@@ -324,7 +324,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning"],
-    "NotEnoughMuskSpam": [
+    "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
