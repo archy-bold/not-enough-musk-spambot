@@ -58,3 +58,7 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*This is not a right wing takeover, but rather a centrist takeover.*](https://twitter.com/elonmusk/status/1632685129498869763)
 * [*This platform is so brittle (sigh). Will be fixed shortly.*](https://twitter.com/elonmusk/status/1632794008060567552)
 * [*A small API change had massive ramifications. The code stack is extremely brittle for no good reason.*](https://twitter.com/elonmusk/status/1632810081497513993)
+* [*It’s a hit piece*](https://twitter.com/elonmusk/status/1633146660833624064)
+* [*He's the worst, sorry.*](https://www.bbc.co.uk/news/technology-64884287) (deleted tweet)
+* [*Better to talk to people than communicate via tweet.*](https://twitter.com/elonmusk/status/1633240643727138824)
+

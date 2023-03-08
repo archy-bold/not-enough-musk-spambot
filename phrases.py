@@ -89,7 +89,13 @@ submission_replies: Dict[str, List[str]] = {
         "Interesting",
         "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
-    "severance": ["You’re fired."],
+    "severance": [
+        "You’re fired.",
+        "Better to talk to people than communicate via tweet."],
+    "payoff": [
+        "You’re fired.",
+        "Better to talk to people than communicate via tweet."],
+    "social media": ["Better to talk to people than communicate via tweet."],
     "engineer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
@@ -128,6 +134,11 @@ submission_replies: Dict[str, List[str]] = {
         "Let that sink in"],
     " fun": ["The meme community has high standards!"],
     "block": ["Negative feedback is a good thing"],
+    "tweet": ["Better to talk to people than communicate via tweet."],
+    "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
+    "documentary": ["It’s a hit piece", "Concerning"],
+    "film": ["It’s a hit piece", "Concerning"],
+    "movie": ["It’s a hit piece", "Concerning"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
@@ -187,8 +198,25 @@ comment_replies: Dict[str, List[str]] = {
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
     ],
-    "severance": ["You’re fired."],
-    "employee": ["You’re fired.", "We’re going to need you to stay in overnight, we’re going ultra hardcore."],
+    "severance": [
+        "You’re fired.",
+        "Better to talk to people than communicate via tweet."],
+    "payoff": [
+        "You’re fired.",
+        "Better to talk to people than communicate via tweet."],
+    "employee": [
+        "You’re fired.",
+        "We’re going to need you to stay in overnight, we’re going ultra hardcore.",
+        "He’s the worst, sorry.",
+        "Better to talk to people than communicate via tweet."],
+    "communicate": ["Better to talk to people than communicate via tweet."],
+    "social media": ["Better to talk to people than communicate via tweet."],
+    "disabled": [
+        "He’s the worst, sorry.",
+        "Better to talk to people than communicate via tweet."],
+    "disability": [
+        "He’s the worst, sorry.",
+        "Better to talk to people than communicate via tweet."],
     "fired": ["You’re fired!"],
     " fire ": ["You’re fired, you’re fired!"],
     "working hours": ["Are you super hardcore?", "Are you extremely hardcore?"],
@@ -196,6 +224,7 @@ comment_replies: Dict[str, List[str]] = {
     "covid": ["My pronouns are Prosecute/Fauci", "The coronavirus pandemic is dumb"],
     "daughter": ["Can’t win ‘em all"],
     "thai": ["Sorry pedo guy, you really did ask for it."],
+    "diver": ["Sorry pedo guy, you really did ask for it."],
     "wealth": ["I’m rich, bitch!"],
     "stock": ["Funding secured."],
     "loan": ["Funding secured."],
@@ -317,6 +346,11 @@ comment_replies: Dict[str, List[str]] = {
         "Let that sink in"],
     " fun": ["The meme community has high standards!"],
     "block": ["Negative feedback is a good thing"],
+    "tweet": ["Better to talk to people than communicate via tweet."],
+    "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
+    "documentary": ["It’s a hit piece", "Concerning"],
+    "film": ["It’s a hit piece", "Concerning"],
+    "movie": ["It’s a hit piece", "Concerning"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
