@@ -134,7 +134,10 @@ submission_replies: Dict[str, List[str]] = {
         "Let that sink in"],
     " fun": ["The meme community has high standards!"],
     "block": ["Negative feedback is a good thing"],
-    "tweet": ["Better to talk to people than communicate via tweet."],
+    "tweet": [
+        "Concerning",
+        "!",
+        "Better to talk to people than communicate via tweet."],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": ["It’s a hit piece", "Concerning"],
@@ -346,7 +349,10 @@ comment_replies: Dict[str, List[str]] = {
         "Let that sink in"],
     " fun": ["The meme community has high standards!"],
     "block": ["Negative feedback is a good thing"],
-    "tweet": ["Better to talk to people than communicate via tweet."],
+    "tweet": [
+        "Concerning",
+        "!",
+        "Better to talk to people than communicate via tweet."],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": ["It’s a hit piece", "Concerning"],
