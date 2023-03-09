@@ -158,6 +158,10 @@ comment_replies: Dict[str, List[str]] = {
         "My car is currently orbiting mars",
         "Humanity will reach Mars in 2026",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
+    "mars": [
+        "My car is currently orbiting mars",
+        "Humanity will reach Mars in 2026",
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
     "stephen king": ["I’m still a fan tbh"],
     "mastadon": ["What do you call someone who is a master at baiting?"],
     "mastodon": ["What do you call someone who is a master at baiting?"],
