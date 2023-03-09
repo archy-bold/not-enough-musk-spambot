@@ -61,4 +61,4 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*It’s a hit piece*](https://twitter.com/elonmusk/status/1633146660833624064)
 * [*He's the worst, sorry.*](https://www.bbc.co.uk/news/technology-64884287) (deleted tweet)
 * [*Better to talk to people than communicate via tweet.*](https://twitter.com/elonmusk/status/1633240643727138824)
-
+* [*He loves bats next-level.*](https://twitter.com/elonmusk/status/1633527828955250689)

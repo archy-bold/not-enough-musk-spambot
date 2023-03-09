@@ -357,6 +357,8 @@ comment_replies: Dict[str, List[str]] = {
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": ["It’s a hit piece", "Concerning"],
     "movie": ["It’s a hit piece", "Concerning"],
+    "batman": ["He loves bats next-level."],
+    " bats": ["He loves bats next-level."],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
