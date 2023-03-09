@@ -68,7 +68,7 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
     print("Search Completed.")
 
     print("Searching last 1,000 comments")
-    for comment in r.subreddit('EnoughMuskSpam').comments(limit=1000):
+    for comment in r.subreddit(subreddit).comments(limit=1000):
         replied = have_replied_to_comment(c, comment.id)
         if replied is None:
             for key in comment_replies:
