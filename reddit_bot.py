@@ -46,9 +46,9 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
     print("Searching newest submissions")
     for submission in r.subreddit(subreddit).new():
         replied = have_replied_to_submission(c, submission.id)
-        if replied is None and not submission.locked:
+        if replied is None:
             for key in submission_replies:
-                if text_contains(submission.title, key) and submission.author != me:
+                if text_contains(submission.title, key) and submission.author != me and not submission.locked:
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
                     if random.random() < submission_prob:
                         response: str = random.choice(submission_replies[key])
@@ -70,9 +70,9 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
     print("Searching last 1,000 comments")
     for comment in r.subreddit(subreddit).comments(limit=1000):
         replied = have_replied_to_comment(c, comment.id)
-        if replied is None and not comment.submission.locked:
+        if replied is None:
             for key in comment_replies:
-                if text_contains(comment.body, key) and comment.author != me:
+                if text_contains(comment.body, key) and comment.author != me and not comment.submission.locked:
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id + " (submission " + comment.submission.id + ")")
                     if random.random() < comment_prob:
                         response: str = random.choice(comment_replies[key])
