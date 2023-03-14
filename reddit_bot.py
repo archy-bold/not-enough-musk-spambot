@@ -73,7 +73,7 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
         if replied is None:
             for key in comment_replies:
                 if text_contains(comment.body, key) and comment.author != me:
-                    print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id)
+                    print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id + "(submission " + comment.submission.id + ")")
                     if random.random() < comment_prob:
                         response: str = random.choice(comment_replies[key])
                         if env == "production":
