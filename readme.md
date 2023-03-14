@@ -71,4 +71,5 @@ For a rundown of the phrases and their sources, see [phrases.md](phrases.md). Ye
 - [u/Which_way_witcher](https://www.reddit.com/r/EnoughMuskSpam/comments/10muplo/a_leaked_internal_message_appears_to_show_elon/j66cjrf/?context=3) for a few more ideas.
 - [u/RespondNo4954](https://www.reddit.com/r/EnoughMuskSpam/comments/10tl1ef/petition_to_unban_unotenoughmuskspam/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) for starting a petition to unban the bot, and succeeding!
 - [u/throwaway3292923](https://www.reddit.com/u/NotEnoughMuskSpam/comments/113s6wc/comment/jbcmtqz/?utm_source=share&utm_medium=web2x&context=3) for joining the discussion with a suggestion, "It's a hit piece".
+- [u/Hot-Bint](https://www.reddit.com/user/Hot-Bint/) for a bunch of ideas.
 - Everyone on [r/EnoughMuskSpam](https://www.reddit.com/r/EnoughMuskSpam/) who had something nice to say about the bot. Very few of the things I make gets feedback like this.

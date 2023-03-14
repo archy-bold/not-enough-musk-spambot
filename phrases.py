@@ -23,7 +23,9 @@ submission_replies: Dict[str, List[str]] = {
         "Something fundamental is wrong",
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
-        "I get all my opinions from Twitter"],
+        "I get all my opinions from Twitter",
+        "Haha what a tool",
+        "Super big deal"],
     " bot": [
         "Looking into this.",
         "This is bizarre. Looking into it.",
@@ -68,17 +70,23 @@ submission_replies: Dict[str, List[str]] = {
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "culture": ["End of days vibes"],
-    "no plan": ["Amazing. You're a jackass!"],
+    "no plan": [
+        "Amazing. You're a jackass!",
+        "Haha what a tool"],
     "wealth": ["I’m rich, bitch!"],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
         "Comedy is now legal on Twitter.",
-        "We should stop canceling comedy!"],
+        "We should stop canceling comedy!",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
     "fascist": [
         "Comedy is now legal on Twitter.",
         "Interesting",
-        "We should stop canceling comedy!"],
+        "We should stop canceling comedy!",
+        "Does seem asymmetric"],
     "racism": [
         "Comedy is now legal on Twitter.",
         "Interesting",
@@ -89,13 +97,20 @@ submission_replies: Dict[str, List[str]] = {
         "Interesting",
         "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
+    "antifa": [
+        "Comedy is now legal on Twitter.",
+        "Does seem asymmetric"],
     "severance": [
         "You’re fired.",
-        "Better to talk to people than communicate via tweet."],
+        "Better to talk to people than communicate via tweet.",
+        "Haha what a tool"],
     "payoff": [
         "You’re fired.",
-        "Better to talk to people than communicate via tweet."],
-    "social media": ["Better to talk to people than communicate via tweet."],
+        "Better to talk to people than communicate via tweet.",
+        "Haha what a tool"],
+    "social media": [
+        "Better to talk to people than communicate via tweet.",
+        "Super big deal"],
     "engineer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
@@ -106,9 +121,28 @@ submission_replies: Dict[str, List[str]] = {
         "This is not a right wing takeover, but rather a centrist takeover."],
     "vote ": ["Vox Populi Vox Dei"],
     " poll": ["Vox Populi Vox Dei"],
-    " ad ": ["Press the heart"],
-    "advert": ["Press the heart"],
+    " ad ": [
+        "Press the heart",
+        "Super big deal"],
+    "advert": [
+        "Press the heart",
+        "Super big deal"],
     "competitor": ["Press the heart"],
+    "truth": [
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+    "true": [
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+    "liar": [
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -128,11 +162,15 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Negative feedback is a good thing",
-        "I get all my opinions from Twitter"],
+        "I get all my opinions from Twitter",
+        "Haha what a tool"],
     " meme": [
         "The meme community has high standards!",
+        "Have you considered a career in comedy?",
         "Let that sink in"],
-    " fun": ["The meme community has high standards!"],
+    " fun": [
+        "The meme community has high standards!",
+        "Have you considered a career in comedy?"],
     "block": ["Negative feedback is a good thing"],
     "tweet": [
         "Concerning",
@@ -142,6 +180,8 @@ submission_replies: Dict[str, List[str]] = {
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": ["It’s a hit piece", "Concerning"],
     "movie": ["It’s a hit piece", "Concerning"],
+    "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
+    "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
@@ -152,7 +192,9 @@ submission_replies: Dict[str, List[str]] = {
 }
 
 comment_replies: Dict[str, List[str]] = {
-    "crypto": ["I will keep supporting Dogecoin"],
+    "crypto": [
+        "I will keep supporting Dogecoin",
+        "I do hope to succeed in business \U0001F91E"],
     "dogecoin": ["I will keep supporting Dogecoin"],
     "spacex": [
         "My car is currently orbiting mars",
@@ -181,13 +223,16 @@ comment_replies: Dict[str, List[str]] = {
         "Something fundamental is wrong",
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
-        "I get all my opinions from Twitter"],
+        "I get all my opinions from Twitter",
+        "Haha what a tool",
+        "Super big deal"],
     "culture": ["End of days vibes"],
     "king of twitter": [
         "The meme community has high standards!",
         "Let that sink in"],
     "dad joke": [
         "The meme community has high standards!",
+        "Have you considered a career in comedy?",
         "Let that sink in"],
     "takeover": [
         "Let that sink in",
@@ -207,22 +252,33 @@ comment_replies: Dict[str, List[str]] = {
     ],
     "severance": [
         "You’re fired.",
-        "Better to talk to people than communicate via tweet."],
+        "Better to talk to people than communicate via tweet.",
+        "Haha what a tool"],
     "payoff": [
         "You’re fired.",
-        "Better to talk to people than communicate via tweet."],
+        "Better to talk to people than communicate via tweet.",
+        "Haha what a tool"],
     "employee": [
         "You’re fired.",
         "We’re going to need you to stay in overnight, we’re going ultra hardcore.",
         "He’s the worst, sorry.",
-        "Better to talk to people than communicate via tweet."],
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
+        "Better to talk to people than communicate via tweet.",
+        "Haha what a tool"],
     "communicate": ["Better to talk to people than communicate via tweet."],
-    "social media": ["Better to talk to people than communicate via tweet."],
+    "social media": [
+        "Better to talk to people than communicate via tweet.",
+        "Super big deal"],
+    "social network": [
+        "Better to talk to people than communicate via tweet.",
+        "Super big deal"],
     "disabled": [
         "He’s the worst, sorry.",
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "Better to talk to people than communicate via tweet."],
     "disability": [
         "He’s the worst, sorry.",
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "Better to talk to people than communicate via tweet."],
     "fired": ["You’re fired!"],
     " fire ": ["You’re fired, you’re fired!"],
@@ -233,7 +289,9 @@ comment_replies: Dict[str, List[str]] = {
     "thai": ["Sorry pedo guy, you really did ask for it."],
     "diver": ["Sorry pedo guy, you really did ask for it."],
     "wealth": ["I’m rich, bitch!"],
-    "stock": ["Funding secured."],
+    "stock": [
+        "Funding secured.",
+        "I do hope to succeed in business \U0001F91E"],
     "loan": ["Funding secured."],
     "interest rate": ["Funding secured.", "Interesting"],
     "republican": [
@@ -244,7 +302,10 @@ comment_replies: Dict[str, List[str]] = {
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
         "Comedy is now legal on Twitter.",
-        "We should stop canceling comedy!"],
+        "We should stop canceling comedy!",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
@@ -294,7 +355,8 @@ comment_replies: Dict[str, List[str]] = {
     "fascist": [
         "Comedy is now legal on Twitter.",
         "Interesting",
-        "We should stop canceling comedy!"],
+        "We should stop canceling comedy!",
+        "Does seem asymmetric"],
     "racism": [
         "Comedy is now legal on Twitter.",
         "Interesting",
@@ -305,6 +367,10 @@ comment_replies: Dict[str, List[str]] = {
         "Interesting",
         "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
+    "antifa": [
+        "Comedy is now legal on Twitter.",
+        "Does seem asymmetric"],
+    "january 6": ["Does seem asymmetric"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": [
         "Idiocracy is happening so fast",
@@ -326,8 +392,25 @@ comment_replies: Dict[str, List[str]] = {
     "vote ": ["Vox Populi Vox Dei"],
     " poll": ["Vox Populi Vox Dei"],
     " ad ": ["Press the heart"],
-    "advert": ["Press the heart"],
+    "advert": [
+        "Press the heart",
+        "Super big deal"],
     "competitor": ["Press the heart"],
+    "truth": [
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+    "true": [
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+    "liar": [
+        "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
+        "New Twitter is the source of truth",
+        "Twitter is the source of truth",
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -347,22 +430,50 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Negative feedback is a good thing",
-        "I get all my opinions from Twitter"],
+        "I get all my opinions from Twitter",
+        "Haha what a tool"],
     " meme": [
         "The meme community has high standards!",
+        "Have you considered a career in comedy?",
         "Let that sink in"],
-    " fun": ["The meme community has high standards!"],
+    " fun": [
+        "The meme community has high standards!",
+        "Have you considered a career in comedy?"],
     "block": ["Negative feedback is a good thing"],
     "tweet": [
         "Concerning",
         "!",
         "Better to talk to people than communicate via tweet."],
+    "business": [
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "I do hope to succeed in business \U0001F91E"],
+    "career": [
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "I do hope to succeed in business \U0001F91E"],
+    "comedy": [
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Have you considered a career in comedy?"],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": ["It’s a hit piece", "Concerning"],
     "movie": ["It’s a hit piece", "Concerning"],
     "batman": ["He loves bats next-level."],
     " bats": ["He loves bats next-level."],
+    "concerning": ["Yeah"],
+    " old": ["The gerontocracy is real"],
+    "biden": [
+        "Concerning",
+        "The gerontocracy is real"],
+    "pelosi": [
+        "Super concerning",
+        "The gerontocracy is real"],
+    "soros": [
+        "Extremely concerning",
+        "The gerontocracy is real"],
+    "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
+    "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
