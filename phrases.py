@@ -79,26 +79,29 @@ submission_replies: Dict[str, List[str]] = {
         "Interesting",
         "Comedy is now legal on Twitter.",
         "We should stop canceling comedy!",
+        "Funny cause it’s true",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
-    "fascist": [
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
+    "fascis": [
         "Comedy is now legal on Twitter.",
         "Interesting",
         "We should stop canceling comedy!",
-        "Does seem asymmetric"],
-    "racism": [
-        "Comedy is now legal on Twitter.",
-        "Interesting",
-        "We should stop canceling comedy!",
-        "Simultaneously, an interesting question and a tongue twister!"],
-    "racist": [
+        "Does seem asymmetric",
+        "By the way, I am actually a socialist."],
+    "racis": [
         "Comedy is now legal on Twitter.",
         "Interesting",
         "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
     "antifa": [
         "Comedy is now legal on Twitter.",
+        "Does seem asymmetric"],
+    "both sides": [
+        "Comedy is now legal on Twitter.",
+        "This is not a right wing takeover, but rather a centrist takeover.",
         "Does seem asymmetric"],
     "severance": [
         "You’re fired.",
@@ -132,17 +135,23 @@ submission_replies: Dict[str, List[str]] = {
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -170,7 +179,9 @@ submission_replies: Dict[str, List[str]] = {
         "Let that sink in"],
     " fun": [
         "The meme community has high standards!",
-        "Have you considered a career in comedy?"],
+        "Have you considered a career in comedy?"
+        "Funny cause it’s true"],
+    "babylon": ["Funny cause it’s true"],
     "block": ["Negative feedback is a good thing"],
     "tweet": [
         "Concerning",
@@ -297,15 +308,21 @@ comment_replies: Dict[str, List[str]] = {
     "republican": [
         "I’m not right wing.",
         "Interesting",
+        "By the way, I am actually a socialist.",
         "This is not a right wing takeover, but rather a centrist takeover."],
+    "socialis": ["By the way, I am actually a socialist."],
+    "communis": ["By the way, I am actually a socialist."],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
         "Comedy is now legal on Twitter.",
         "We should stop canceling comedy!",
+        "Funny cause it’s true",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
@@ -352,23 +369,23 @@ comment_replies: Dict[str, List[str]] = {
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "suspend": ["Comedy is now legal on Twitter."],
-    "fascist": [
+    "fascis": [
         "Comedy is now legal on Twitter.",
         "Interesting",
         "We should stop canceling comedy!",
-        "Does seem asymmetric"],
-    "racism": [
-        "Comedy is now legal on Twitter.",
-        "Interesting",
-        "We should stop canceling comedy!",
-        "Simultaneously, an interesting question and a tongue twister!"],
-    "racist": [
+        "Does seem asymmetric",
+        "By the way, I am actually a socialist."],
+    "racis": [
         "Comedy is now legal on Twitter.",
         "Interesting",
         "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!"],
     "antifa": [
         "Comedy is now legal on Twitter.",
+        "Does seem asymmetric"],
+    "both sides": [
+        "Comedy is now legal on Twitter.",
+        "This is not a right wing takeover, but rather a centrist takeover.",
         "Does seem asymmetric"],
     "january 6": ["Does seem asymmetric"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
@@ -400,17 +417,23 @@ comment_replies: Dict[str, List[str]] = {
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
         "Twitter is the source of truth",
-        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission."],
+        "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
+        "Fight for truth, whole truth & nothin but!",
+        "Seeking only the least wrong truth."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -438,7 +461,9 @@ comment_replies: Dict[str, List[str]] = {
         "Let that sink in"],
     " fun": [
         "The meme community has high standards!",
-        "Have you considered a career in comedy?"],
+        "Have you considered a career in comedy?",
+        "Funny cause it’s true"],
+    "babylon": ["Funny cause it’s true"],
     "block": ["Negative feedback is a good thing"],
     "tweet": [
         "Concerning",
@@ -463,6 +488,7 @@ comment_replies: Dict[str, List[str]] = {
     " bats": ["He loves bats next-level."],
     "concerning": ["Yeah"],
     " old": ["The gerontocracy is real"],
+    "boomer": ["The gerontocracy is real"],
     "biden": [
         "Concerning",
         "The gerontocracy is real"],

@@ -74,3 +74,7 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Have you considered a career in comedy?*](https://twitter.com/elonmusk/status/1634406393594761221)
 * [*Super big deal*](https://twitter.com/elonmusk/status/1634538416615432197)
 * [*Does seem asymmetric*](https://twitter.com/elonmusk/status/1634422581389303808)
+* [*Funny cause it’s true*](https://twitter.com/elonmusk/status/1635874573819191298)
+* [*By the way, I am actually a socialist.*](https://twitter.com/elonmusk/status/1008013111058526209)
+* [*Fight for truth, whole truth & nothin but!*](https://twitter.com/elonmusk/status/1635510381874667520)
+* [*Seeking only the least wrong truth.*](https://twitter.com/elonmusk/status/1635689626739544064)
