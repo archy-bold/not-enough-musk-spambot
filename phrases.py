@@ -502,10 +502,26 @@ comment_replies: Dict[str, List[str]] = {
     "soros": [
         "Extremely concerning",
         "The gerontocracy is real"],
-    "parent": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
-    "school": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
-    "college": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
-    "child": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "parent": [
+        "Interesting",
+        "!!",
+        "Concerning",
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "school": [
+        "Interesting",
+        "!!",
+        "Concerning",
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "college": [
+        "Interesting",
+        "!!",
+        "Concerning",
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "child": [
+        "Interesting",
+        "!!",
+        "Concerning",
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "?$": [
