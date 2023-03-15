@@ -78,3 +78,4 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*By the way, I am actually a socialist.*](https://twitter.com/elonmusk/status/1008013111058526209)
 * [*Fight for truth, whole truth & nothin but!*](https://twitter.com/elonmusk/status/1635510381874667520)
 * [*Seeking only the least wrong truth.*](https://twitter.com/elonmusk/status/1635689626739544064)
+* [*Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!*](https://twitter.com/elonmusk/status/1635699420326133760)

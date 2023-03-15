@@ -310,8 +310,12 @@ comment_replies: Dict[str, List[str]] = {
         "Interesting",
         "By the way, I am actually a socialist.",
         "This is not a right wing takeover, but rather a centrist takeover."],
-    "socialis": ["By the way, I am actually a socialist."],
-    "communis": ["By the way, I am actually a socialist."],
+    "socialis": [
+        "By the way, I am actually a socialist.",
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "communis": [
+        "By the way, I am actually a socialist.",
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
@@ -498,6 +502,10 @@ comment_replies: Dict[str, List[str]] = {
     "soros": [
         "Extremely concerning",
         "The gerontocracy is real"],
+    "parent": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "school": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "college": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+    "child": ["Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "?$": [
