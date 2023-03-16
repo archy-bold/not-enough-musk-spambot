@@ -79,3 +79,6 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Fight for truth, whole truth & nothin but!*](https://twitter.com/elonmusk/status/1635510381874667520)
 * [*Seeking only the least wrong truth.*](https://twitter.com/elonmusk/status/1635689626739544064)
 * [*Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!*](https://twitter.com/elonmusk/status/1635699420326133760)
+* [*Some of the smartest people I know actively believe the press … amazing*](https://twitter.com/elonmusk/status/1624438288898744328)
+* [*Some hate humanity, but I love humanity so much*](https://twitter.com/elonmusk/status/1533413197629296640)
+* [*You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.*](https://twitter.com/elonmusk/status/1589427115157778433)

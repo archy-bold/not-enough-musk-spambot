@@ -117,8 +117,7 @@ submission_replies: Dict[str, List[str]] = {
     "engineer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
-        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
-    ],
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months."],
     "takeover": [
         "Let that sink in",
         "This is not a right wing takeover, but rather a centrist takeover."],
@@ -174,14 +173,27 @@ submission_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "Haha what a tool"],
     " meme": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F923\U0001F4AF", # laugh/100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in"],
     " fun": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F923\U0001F4AF", # laugh/100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?"
         "Funny cause it’s true"],
-    "babylon": ["Funny cause it’s true"],
+    "babylon": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F923\U0001F4AF", # laugh/100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Funny cause it’s true"],
     "block": ["Negative feedback is a good thing"],
     "tweet": [
         "Concerning",
@@ -193,6 +205,15 @@ submission_replies: Dict[str, List[str]] = {
     "movie": ["It’s a hit piece", "Concerning"],
     "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
+    "nyt": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
+    "new york times": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
+    "washington post": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
@@ -242,6 +263,7 @@ comment_replies: Dict[str, List[str]] = {
         "The meme community has high standards!",
         "Let that sink in"],
     "dad joke": [
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in"],
@@ -251,8 +273,7 @@ comment_replies: Dict[str, List[str]] = {
     "engineer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
-        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
-    ],
+        "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months."],
     "developer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
@@ -460,14 +481,27 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "Haha what a tool"],
     " meme": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F923\U0001F4AF", # laugh/100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in"],
     " fun": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F923\U0001F4AF", # laugh/100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Funny cause it’s true"],
-    "babylon": ["Funny cause it’s true"],
+    "babylon": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F923\U0001F4AF", # laugh/100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Funny cause it’s true"],
     "block": ["Negative feedback is a good thing"],
     "tweet": [
         "Concerning",
@@ -524,6 +558,24 @@ comment_replies: Dict[str, List[str]] = {
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
+    "love": ["Some hate humanity, but I love humanity so much"],
+    " hate": ["Some hate humanity, but I love humanity so much"],
+    "human": ["Some hate humanity, but I love humanity so much"],
+    "journalis": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
+    "news": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
+    "nyt": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
+    "new york times": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
+    "washington post": [
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
