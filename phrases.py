@@ -24,6 +24,8 @@ submission_replies: Dict[str, List[str]] = {
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
+        "It’s kinda flattering to be insulted on this site tbh",
+        "You’re terrible & I love you\n\n*not terrible"
         "Haha what a tool",
         "Super big deal"],
     " bot": [
@@ -171,6 +173,8 @@ submission_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
+        "It’s kinda flattering to be insulted on this site tbh",
+        "You’re terrible & I love you\n\n*not terrible"
         "Haha what a tool"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
@@ -256,6 +260,8 @@ comment_replies: Dict[str, List[str]] = {
         "Something is wrong",
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
+        "It’s kinda flattering to be insulted on this site tbh",
+        "You’re terrible & I love you\n\n*not terrible"
         "Haha what a tool",
         "Super big deal"],
     "culture": ["End of days vibes"],
@@ -330,7 +336,16 @@ comment_replies: Dict[str, List[str]] = {
         "I’m not right wing.",
         "Interesting",
         "By the way, I am actually a socialist.",
-        "This is not a right wing takeover, but rather a centrist takeover."],
+        "This is not a right wing takeover, but rather a centrist takeover.",
+        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
+    "democrat": [
+        "By the way, I am actually a socialist.",
+        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
+    "party": [
+        "I’m not right wing.",
+        "Interesting",
+        "By the way, I am actually a socialist.",
+        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
     "socialis": [
         "By the way, I am actually a socialist.",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
@@ -479,6 +494,8 @@ comment_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
+        "It’s kinda flattering to be insulted on this site tbh",
+        "You’re terrible & I love you\n\n*not terrible"
         "Haha what a tool"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
@@ -576,6 +593,21 @@ comment_replies: Dict[str, List[str]] = {
     "washington post": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing"],
+    "musk": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Interesting",
+        "Concerning",
+        "Extremely concerning",
+        "Super concerning",
+        "Negative feedback is a good thing",
+        "I get all my opinions from Twitter",
+        "It’s kinda flattering to be insulted on this site tbh",
+        "You’re terrible & I love you\n\n*not terrible"
+        "Haha what a tool"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",

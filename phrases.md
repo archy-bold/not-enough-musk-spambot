@@ -82,3 +82,6 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Some of the smartest people I know actively believe the press … amazing*](https://twitter.com/elonmusk/status/1624438288898744328)
 * [*Some hate humanity, but I love humanity so much*](https://twitter.com/elonmusk/status/1533413197629296640)
 * [*You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.*](https://twitter.com/elonmusk/status/1589427115157778433)
+* [*If other party is always wrong. And your party is always right. You are at least partly wrong*](https://twitter.com/elonmusk/status/1636452680900943880)
+* [*It’s kinda flattering to be insulted on this site tbh*](https://twitter.com/elonmusk/status/1636408026939932674)
+* [*You’re terrible & I love you. \*not terrible*](https://twitter.com/elonmusk/status/1636414725549592576)
