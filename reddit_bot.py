@@ -18,6 +18,7 @@ submission_prob: float = float(os.getenv('SUBMISSION_PROBABILITY'))
 comment_prob: float = float(os.getenv('COMMENT_PROBABILITY'))
 env: str = os.getenv('ENV', 'test')
 mode: str = os.getenv('MODE', 'once')
+reply_age: int = int(os.getenv('REPLY_AGE', 7))
 me = None
 print("SUBREDDIT=" + subreddit)
 print("SLEEP=" + str(sleep) + "s")
@@ -25,6 +26,7 @@ print("SUBMISSION_PROBABILITY=" + str(submission_prob * 100) + "%")
 print("COMMENT_PROBABILITY=" + str(comment_prob * 100) + "%")
 print("ENV=" + env)
 print("MODE=" + mode)
+print("REPLY_AGE=" + str(reply_age))
 
 def bot_login() -> praw.Reddit:
     print("Logging in...")
@@ -48,7 +50,10 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
         replied = have_replied_to_submission(c, submission.id)
         if replied is None:
             for key in submission_replies:
-                if text_contains(submission.title, key) and submission.author != me and not submission.locked:
+                if (text_contains(submission.title, key) and
+                    submission.author != me and
+                        not submission.locked and
+                            not timestamp_older_than_days(submission.created_utc, reply_age)):
                     print("String with \"" + key + "\" found in submission " + submission.title + " " + submission.id)
                     if random.random() < submission_prob:
                         response: str = random.choice(submission_replies[key])
@@ -72,10 +77,16 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
         replied = have_replied_to_comment(c, comment.id)
         if replied is None:
             for key in comment_replies:
-                if text_contains(comment.body, key) and comment.author != me and not comment.submission.locked:
+                if (text_contains(comment.body, key) and
+                        comment.author != me and
+                            not comment.submission.locked and
+                                not timestamp_older_than_days(comment.created_utc, reply_age)):
                     print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id + " (submission " + comment.submission.id + ")")
                     if random.random() < comment_prob:
                         response: str = random.choice(comment_replies[key])
+                        if response.lower() in comment.body.lower():
+                            break
+
                         if env == "production":
                             comment.reply(response)
                             con.commit()
@@ -142,6 +153,9 @@ def insert_comment(c: sl.Cursor, comment: any, replied: bool =True) -> None:
 
 def text_contains(haystack: str, needle: str) -> bool:
     return needle in haystack.lower() or (needle.endswith("$") and haystack.lower().endswith(needle.replace("$", "")))
+
+def timestamp_older_than_days(ts: float, days: int) -> bool:
+    return (time.time() - ts) > (days * 86400)
 
 r: praw.Reddit = bot_login()
 me: any = r.user.me(use_cache=True)
