@@ -25,7 +25,7 @@ submission_replies: Dict[str, List[str]] = {
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
-        "You’re terrible & I love you\n\n*not terrible"
+        "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
         "Super big deal"],
     " bot": [
@@ -174,7 +174,7 @@ submission_replies: Dict[str, List[str]] = {
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
-        "You’re terrible & I love you\n\n*not terrible"
+        "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
@@ -190,7 +190,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
-        "Have you considered a career in comedy?"
+        "Have you considered a career in comedy?",
         "Funny cause it’s true"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
@@ -261,7 +261,7 @@ comment_replies: Dict[str, List[str]] = {
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
-        "You’re terrible & I love you\n\n*not terrible"
+        "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
         "Super big deal"],
     "culture": ["End of days vibes"],
@@ -495,7 +495,7 @@ comment_replies: Dict[str, List[str]] = {
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
-        "You’re terrible & I love you\n\n*not terrible"
+        "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
@@ -606,7 +606,7 @@ comment_replies: Dict[str, List[str]] = {
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
-        "You’re terrible & I love you\n\n*not terrible"
+        "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
