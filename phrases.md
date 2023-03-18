@@ -85,3 +85,4 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*If other party is always wrong. And your party is always right. You are at least partly wrong*](https://twitter.com/elonmusk/status/1636452680900943880)
 * [*It’s kinda flattering to be insulted on this site tbh*](https://twitter.com/elonmusk/status/1636408026939932674)
 * [*You’re terrible & I love you. \*not terrible*](https://twitter.com/elonmusk/status/1636414725549592576)
+* [*You rang? 😈*](https://twitter.com/elonmusk/status/1636887876234272770)

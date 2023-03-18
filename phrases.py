@@ -175,7 +175,8 @@ submission_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
-        "Haha what a tool"],
+        "Haha what a tool",
+        "You rang? \U0001F608"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -496,7 +497,8 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
-        "Haha what a tool"],
+        "Haha what a tool",
+        "You rang? \U0001F608"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -607,7 +609,9 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
-        "Haha what a tool"],
+        "Haha what a tool",
+        "You rang? \U0001F608"],
+    "horny": ["You rang? \U0001F608"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
