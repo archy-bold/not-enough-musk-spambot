@@ -644,8 +644,16 @@ comment_replies: Dict[str, List[str]] = {
         "Haha what a tool",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby"],
-    "horny": ["You rang? \U0001F608"],
-    " poo": ["Yes!! \U0001F923\U0001F923"],
+    "horny": [
+        "You rang? \U0001F608",
+        "\U0001F6AC",
+        "Her limbic resonance skill is exceptional"],
+    "taylor swift": [
+        "You rang? \U0001F608",
+        "\U0001F6AC",
+        "Her limbic resonance skill is exceptional"],
+    " poo ": ["Yes!! \U0001F923\U0001F923"],
+    " poop": ["Yes!! \U0001F923\U0001F923"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",

@@ -90,3 +90,5 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government*](https://twitter.com/elonmusk/status/1637398266575740929)
 * [*A latte is really just an excuse for adults to order warm milk without sounding like a baby*](https://twitter.com/elonmusk/status/1637511926925127680)
 * [*Yes!! 🤣🤣*](https://twitter.com/elonmusk/status/1637849494564773888)
+* [*🚬*](https://twitter.com/elonmusk/status/1636860551652429829)
+* [*Her limbic resonance skill is exceptional*](https://twitter.com/elonmusk/status/1636872251474583554)
