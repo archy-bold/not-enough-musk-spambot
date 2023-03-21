@@ -86,3 +86,7 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*It’s kinda flattering to be insulted on this site tbh*](https://twitter.com/elonmusk/status/1636408026939932674)
 * [*You’re terrible & I love you. \*not terrible*](https://twitter.com/elonmusk/status/1636414725549592576)
 * [*You rang? 😈*](https://twitter.com/elonmusk/status/1636887876234272770)
+* [*press@twitter.com now auto responds with 💩*](https://twitter.com/elonmusk/status/1637420728743088130)
+* [*falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government*](https://twitter.com/elonmusk/status/1637398266575740929)
+* [*A latte is really just an excuse for adults to order warm milk without sounding like a baby*](https://twitter.com/elonmusk/status/1637511926925127680)
+* [*Yes!! 🤣🤣*](https://twitter.com/elonmusk/status/1637849494564773888)

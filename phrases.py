@@ -212,13 +212,16 @@ submission_replies: Dict[str, List[str]] = {
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "nyt": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
     "new york times": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
     "washington post": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
@@ -577,24 +580,53 @@ comment_replies: Dict[str, List[str]] = {
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
-    "love": ["Some hate humanity, but I love humanity so much"],
+    "love": [
+        "Some hate humanity, but I love humanity so much",
+        "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government"],
     " hate": ["Some hate humanity, but I love humanity so much"],
     "human": ["Some hate humanity, but I love humanity so much"],
+    "government": [
+        "Does seem asymmetric",
+        "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government",
+        "By the way, I am actually a socialist."],
+    "paranoi": ["falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government"],
     "journalis": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
     "news": [
-        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "You represent the problem: journalists who think they are the only source of legitimate information. Thatfalling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the governments the big lie.",
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
     "nyt": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
     "new york times": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
     "washington post": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
-        "Some of the smartest people I know actively believe the press … amazing"],
+        "Some of the smartest people I know actively believe the press … amazing",
+        "press@twitter.com now auto responds with \U0001F4A9"],
+    "elon": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F3AF", # bullseye
+        "\U0001F4AF", # 100
+        "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Interesting",
+        "Concerning",
+        "Extremely concerning",
+        "Super concerning",
+        "Negative feedback is a good thing",
+        "I get all my opinions from Twitter",
+        "It’s kinda flattering to be insulted on this site tbh",
+        "You’re terrible & I love you\n\n*not terrible",
+        "Haha what a tool",
+        "You rang? \U0001F608",
+        "A latte is really just an excuse for adults to order warm milk without sounding like a baby"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -610,8 +642,10 @@ comment_replies: Dict[str, List[str]] = {
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
-        "You rang? \U0001F608"],
+        "You rang? \U0001F608",
+        "A latte is really just an excuse for adults to order warm milk without sounding like a baby"],
     "horny": ["You rang? \U0001F608"],
+    " poo": ["Yes!! \U0001F923\U0001F923"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "Interesting",
