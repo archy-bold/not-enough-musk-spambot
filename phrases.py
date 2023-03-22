@@ -237,11 +237,11 @@ comment_replies: Dict[str, List[str]] = {
         "I do hope to succeed in business \U0001F91E"],
     "dogecoin": ["I will keep supporting Dogecoin"],
     "spacex": [
-        "My car is currently orbiting mars",
+        "My car is currently orbiting Mars",
         "Humanity will reach Mars in 2026",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
     "mars": [
-        "My car is currently orbiting mars",
+        "My car is currently orbiting Mars",
         "Humanity will reach Mars in 2026",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
     "stephen king": ["I’m still a fan tbh"],
@@ -589,6 +589,9 @@ comment_replies: Dict[str, List[str]] = {
         "Does seem asymmetric",
         "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government",
         "By the way, I am actually a socialist."],
+    "russia": [
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
+        "Nice doors"],
     "paranoi": ["falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government"],
     "journalis": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
@@ -626,7 +629,8 @@ comment_replies: Dict[str, List[str]] = {
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
         "You rang? \U0001F608",
-        "A latte is really just an excuse for adults to order warm milk without sounding like a baby"],
+        "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
+        "Nice doors"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -643,7 +647,8 @@ comment_replies: Dict[str, List[str]] = {
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
         "You rang? \U0001F608",
-        "A latte is really just an excuse for adults to order warm milk without sounding like a baby"],
+        "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
+        "Nice doors"],
     "horny": [
         "You rang? \U0001F608",
         "\U0001F6AC",
