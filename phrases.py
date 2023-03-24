@@ -15,6 +15,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -35,6 +36,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
@@ -161,6 +163,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "reddit": [
@@ -171,6 +174,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -184,7 +188,8 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
-        "Let that sink in"],
+        "Let that sink in",
+        "That’s what she said"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -192,7 +197,8 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
-        "Funny cause it’s true"],
+        "Funny cause it’s true",
+        "That’s what she said"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -203,6 +209,7 @@ submission_replies: Dict[str, List[str]] = {
     "tweet": [
         "Concerning",
         "!",
+        "That’s what she said",
         "Better to talk to people than communicate via tweet."],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
     "documentary": ["It’s a hit piece", "Concerning"],
@@ -224,6 +231,7 @@ submission_replies: Dict[str, List[str]] = {
         "press@twitter.com now auto responds with \U0001F4A9"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
+        "That’s what she said",
         "Interesting",
         "!!",
         "Concerning",
@@ -259,6 +267,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "That’s what she said",
         "Twitter is now trending to breakeven if we keep at it.",
         "Something fundamental is wrong",
         "Something is wrong",
@@ -337,15 +346,18 @@ comment_replies: Dict[str, List[str]] = {
     "loan": ["Funding secured."],
     "interest rate": ["Funding secured.", "Interesting"],
     "republican": [
+        "That’s what she said",
         "I’m not right wing.",
         "Interesting",
         "By the way, I am actually a socialist.",
         "This is not a right wing takeover, but rather a centrist takeover.",
         "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
     "democrat": [
+        "That’s what she said",
         "By the way, I am actually a socialist.",
         "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
     "party": [
+        "That’s what she said",
         "I’m not right wing.",
         "Interesting",
         "By the way, I am actually a socialist.",
@@ -376,6 +388,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
@@ -486,6 +499,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter"],
     "reddit": [
@@ -496,6 +510,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -509,7 +524,8 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
-        "Let that sink in"],
+        "Let that sink in",
+        "That’s what she said"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -517,7 +533,8 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
-        "Funny cause it’s true"],
+        "Funny cause it’s true",
+        "That’s what she said"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -526,6 +543,7 @@ comment_replies: Dict[str, List[str]] = {
         "Funny cause it’s true"],
     "block": ["Negative feedback is a good thing"],
     "tweet": [
+        "That’s what she said",
         "Concerning",
         "!",
         "Better to talk to people than communicate via tweet."],
@@ -538,6 +556,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF", # 100
         "I do hope to succeed in business \U0001F91E"],
     "comedy": [
+        "That’s what she said",
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Have you considered a career in comedy?"],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
@@ -554,6 +573,7 @@ comment_replies: Dict[str, List[str]] = {
         "The gerontocracy is real"],
     "pelosi": [
         "Super concerning",
+        "That’s what she said",
         "The gerontocracy is real"],
     "soros": [
         "Extremely concerning",
@@ -623,6 +643,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -641,6 +662,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -650,6 +672,7 @@ comment_replies: Dict[str, List[str]] = {
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
         "Nice doors"],
     "horny": [
+        "That’s what she said",
         "You rang? \U0001F608",
         "\U0001F6AC",
         "Her limbic resonance skill is exceptional"],
@@ -661,6 +684,7 @@ comment_replies: Dict[str, List[str]] = {
     " poop": ["Yes!! \U0001F923\U0001F923"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
+        "That’s what she said",
         "Interesting",
         "!!",
         "Concerning",
@@ -675,6 +699,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter"]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],

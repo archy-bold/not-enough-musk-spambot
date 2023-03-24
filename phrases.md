@@ -92,3 +92,5 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Yes!! 🤣🤣*](https://twitter.com/elonmusk/status/1637849494564773888)
 * [*🚬*](https://twitter.com/elonmusk/status/1636860551652429829)
 * [*Her limbic resonance skill is exceptional*](https://twitter.com/elonmusk/status/1636872251474583554)
+* [*Nice doors*](https://twitter.com/elonmusk/status/1638229535903846400)
+* [*That’s what she said*](https://twitter.com/elonmusk/status/1638835835146747904)
