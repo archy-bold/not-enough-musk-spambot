@@ -94,3 +94,8 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Her limbic resonance skill is exceptional*](https://twitter.com/elonmusk/status/1636872251474583554)
 * [*Nice doors*](https://twitter.com/elonmusk/status/1638229535903846400)
 * [*That’s what she said*](https://twitter.com/elonmusk/status/1638835835146747904)
+* [*Accurate*](https://twitter.com/elonmusk/status/1639939401001181189)
+* [*I never take notes*](https://twitter.com/elonmusk/status/1639675949095481344)
+* [*Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.*](https://twitter.com/elonmusk/status/1639681386318536706)
+* [*Extremely dire situation.*](https://twitter.com/elonmusk/status/1639681386318536706)
+* [*My prediction is that this will be the only platform you can trust*](https://twitter.com/elonmusk/status/1640514131500634112)

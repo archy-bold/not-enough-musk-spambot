@@ -20,11 +20,15 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Twitter is now trending to breakeven if we keep at it.",
         "Something fundamental is wrong",
         "Something is wrong",
+        "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
+        "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
@@ -40,36 +44,42 @@ submission_replies: Dict[str, List[str]] = {
         "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
         "We will defeat the spam bots or die trying!"],
     "bug ": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     " error": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "broken": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter down": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter is down": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
@@ -88,6 +98,7 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     "fascis": [
         "Comedy is now legal on Twitter.",
@@ -140,6 +151,7 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -147,6 +159,7 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -154,11 +167,13 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Interesting",
         "Concerning",
         "Extremely concerning",
@@ -170,6 +185,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Interesting",
         "Concerning",
         "Extremely concerning",
@@ -177,6 +193,7 @@ submission_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
+        "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
@@ -267,12 +284,16 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "That’s what she said",
         "Twitter is now trending to breakeven if we keep at it.",
         "Something fundamental is wrong",
         "Something is wrong",
+        "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
+        "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
@@ -378,6 +399,7 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
@@ -392,36 +414,42 @@ comment_replies: Dict[str, List[str]] = {
         "Negative feedback is a good thing",
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
         "We will defeat the spam bots or die trying!"],
     "bug ": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     " error": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "broken": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter down": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter is down": [
         "Something fundamental is wrong",
         "Something is wrong",
+        "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
@@ -476,6 +504,7 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -483,6 +512,7 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -490,11 +520,13 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter is the source of truth",
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
+        "My prediction is that this will be the only platform you can trust",
         "Seeking only the least wrong truth."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Interesting",
         "Concerning",
         "Extremely concerning",
@@ -506,6 +538,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Interesting",
         "Concerning",
         "Extremely concerning",
@@ -513,6 +546,7 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
+        "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
@@ -550,10 +584,12 @@ comment_replies: Dict[str, List[str]] = {
     "business": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "Accurate",
         "I do hope to succeed in business \U0001F91E"],
     "career": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "Accurate",
         "I do hope to succeed in business \U0001F91E"],
     "comedy": [
         "That’s what she said",
@@ -639,6 +675,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Interesting",
         "Concerning",
         "Extremely concerning",
@@ -646,6 +683,7 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
+        "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
@@ -658,6 +696,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Interesting",
         "Concerning",
         "Extremely concerning",
@@ -665,6 +704,7 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Negative feedback is a good thing",
         "I get all my opinions from Twitter",
+        "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
@@ -694,6 +734,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
+        "Accurate",
         "Interesting",
         "!!",
         "Concerning",
