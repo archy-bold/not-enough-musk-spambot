@@ -680,7 +680,7 @@ comment_replies: Dict[str, List[str]] = {
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
     "news": [
-        "You represent the problem: journalists who think they are the only source of legitimate information. Thatfalling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the governments the big lie.",
+        "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
     "nyt": [
