@@ -104,3 +104,8 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*We’ll \[also\] go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil.*](https://twitter.com/elonmusk/status/1643335710840070148)
 * [*$7 is a small price for freedom*](https://twitter.com/elonmusk/status/1642401913361641473)
 * [*RAGE FOR THE MACHINE!!*](https://www.latestly.com/socially/world/rage-for-the-machine-latest-tweet-by-elon-musk-5033620.html) (deleted tweet)
+* [*They posted my exact real-time location, basically assassination coordinates*](https://twitter.com/elonmusk/status/1603587970832793600)
+* [*Negative feedback received on this platform is great for reducing ego-based errors*](https://twitter.com/elonmusk/status/1647271684519411712)
+* [*#SoBrave*](https://twitter.com/elonmusk/status/1647281034868686849)
+* [*We need to move on from the Twitter Files*](https://twitter.com/wideofthepost/status/1646182266744209409)
+* [*69% Government-Funded Media*](https://www.businessinsider.com/cbc-twitter-label-69-government-funded-media-elon-musk-2023-4?r=US&IR=T)

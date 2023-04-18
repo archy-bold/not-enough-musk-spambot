@@ -8,19 +8,24 @@ submission_replies: Dict[str, List[str]] = {
         "We don’t control the federal reserve. The higher the rates, the harder they fall",
         "The fun police made us do it (sigh)",
         "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil."],
-    "files": ["!!", "Interesting"],
+    "files": [
+        "!!",
+        "Interesting",
+        "We need to move on from the Twitter Files"],
     "twitter": [
         "Pay me $8!",
         "$7 is a small price for freedom",
         "Looking into this.",
         "This is bizarre. Looking into it.",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -46,6 +51,7 @@ submission_replies: Dict[str, List[str]] = {
         "Super concerning",
         "That’s what she said",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "Something fundamental is wrong",
         "Something is wrong",
         "Extremely dire situation.",
@@ -60,6 +66,7 @@ submission_replies: Dict[str, List[str]] = {
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     " error": [
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "Something fundamental is wrong",
         "Something is wrong",
         "Extremely dire situation.",
@@ -93,6 +100,7 @@ submission_replies: Dict[str, List[str]] = {
         "Haha what a tool"],
     "wealth": [
         "I’m rich, bitch!",
+        "Amm rerrch, berrtch!"
         "$7 is a small price for freedom"],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
@@ -182,11 +190,13 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "That’s what she said",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -194,12 +204,14 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -231,7 +243,9 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Funny cause it’s true",
         "RAGE FOR THE MACHINE!!"],
-    "block": ["Negative feedback is a good thing"],
+    "block": [
+        "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors"],
     "tweet": [
         "Concerning",
         "!",
@@ -244,7 +258,7 @@ submission_replies: Dict[str, List[str]] = {
     "movie": ["It’s a hit piece", "Concerning"],
     "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
-    "nyt": [
+    "nyt ": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9",
@@ -258,6 +272,7 @@ submission_replies: Dict[str, List[str]] = {
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
+    "cbc": ["69% Government-Funded Media"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "That’s what she said",
@@ -287,7 +302,10 @@ comment_replies: Dict[str, List[str]] = {
     "stephen king": ["I’m still a fan tbh"],
     "mastadon": ["What do you call someone who is a master at baiting?"],
     "mastodon": ["What do you call someone who is a master at baiting?"],
-    "files": ["!!", "Interesting"],
+    "files": [
+        "!!",
+        "Interesting",
+        "We need to move on from the Twitter Files"],
     "twitter blue": [
         "We need to pay the bills somehow! How about $7?",
         "$7 is a small price for freedom"],
@@ -297,6 +315,7 @@ comment_replies: Dict[str, List[str]] = {
         "Looking into this.",
         "This is bizarre. Looking into it.",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning ...",
         "\U0001F3AF", # bullseye
@@ -381,6 +400,7 @@ comment_replies: Dict[str, List[str]] = {
     "diver": ["Sorry pedo guy, you really did ask for it."],
     "wealth": [
         "I’m rich, bitch!",
+        "Amm rerrch, berrtch!"
         "$7 is a small price for freedom"],
     "stock": [
         "Funding secured.",
@@ -434,6 +454,7 @@ comment_replies: Dict[str, List[str]] = {
         "Super concerning",
         "That’s what she said",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "Something fundamental is wrong",
         "Something is wrong",
         "Extremely dire situation.",
@@ -448,6 +469,7 @@ comment_replies: Dict[str, List[str]] = {
         "This platform is so brittle (sigh). Will be fixed shortly.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     " error": [
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "Something fundamental is wrong",
         "Something is wrong",
         "Extremely dire situation.",
@@ -550,11 +572,13 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "That’s what she said",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -562,12 +586,14 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -599,7 +625,9 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Funny cause it’s true",
         "RAGE FOR THE MACHINE!!"],
-    "block": ["Negative feedback is a good thing"],
+    "block": [
+        "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors"],
     "tweet": [
         "Concerning",
         "!",
@@ -678,12 +706,14 @@ comment_replies: Dict[str, List[str]] = {
     "journalis": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing",
-        "press@twitter.com now auto responds with \U0001F4A9"],
+        "press@twitter.com now auto responds with \U0001F4A9",
+        "They posted my exact real-time location, basically assassination coordinates"],
+    "dox": ["They posted my exact real-time location, basically assassination coordinates"],
     "news": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
-    "nyt": [
+    "nyt ": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9",
@@ -697,6 +727,7 @@ comment_replies: Dict[str, List[str]] = {
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
+    "cbc": ["69% Government-Funded Media"],
     "elon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -705,12 +736,14 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -727,12 +760,14 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
+        "#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -767,6 +802,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
+        "#SoBrave",
         "!!",
         "Concerning",
         "Extremely concerning",
@@ -774,6 +810,7 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
+        "Negative feedback received on this platform is great for reducing ego-based errors",
         "I get all my opinions from Twitter"]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
