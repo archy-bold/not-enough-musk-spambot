@@ -18,7 +18,7 @@ submission_replies: Dict[str, List[str]] = {
         "Looking into this.",
         "This is bizarre. Looking into it.",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -190,7 +190,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -204,7 +204,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -315,7 +315,7 @@ comment_replies: Dict[str, List[str]] = {
         "Looking into this.",
         "This is bizarre. Looking into it.",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning ...",
         "\U0001F3AF", # bullseye
@@ -572,7 +572,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -586,7 +586,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -736,7 +736,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -760,7 +760,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -802,7 +802,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Interesting",
-        "#SoBrave",
+        "\#SoBrave",
         "!!",
         "Concerning",
         "Extremely concerning",
