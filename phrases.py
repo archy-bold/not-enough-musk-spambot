@@ -100,7 +100,7 @@ submission_replies: Dict[str, List[str]] = {
         "Haha what a tool"],
     "wealth": [
         "I’m rich, bitch!",
-        "Amm rerrch, berrtch!"
+        "Amm rerrch, berrtch!",
         "$7 is a small price for freedom"],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
@@ -400,7 +400,7 @@ comment_replies: Dict[str, List[str]] = {
     "diver": ["Sorry pedo guy, you really did ask for it."],
     "wealth": [
         "I’m rich, bitch!",
-        "Amm rerrch, berrtch!"
+        "Amm rerrch, berrtch!",
         "$7 is a small price for freedom"],
     "stock": [
         "Funding secured.",
