@@ -151,8 +151,12 @@ submission_replies: Dict[str, List[str]] = {
     "takeover": [
         "Let that sink in",
         "This is not a right wing takeover, but rather a centrist takeover."],
-    "vote ": ["Vox Populi Vox Dei"],
-    " poll": ["Vox Populi Vox Dei"],
+    "vote ": [
+        "Vox Populi Vox Dei",
+        "Demographics is destiny"],
+    " poll": [
+        "Vox Populi Vox Dei",
+        "Demographics is destiny"],
     " ad ": [
         "Press the heart",
         "Super big deal"],
@@ -217,7 +221,8 @@ submission_replies: Dict[str, List[str]] = {
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
-        "You rang? \U0001F608"],
+        "You rang? \U0001F608",
+        "You’re welcome namaste \U0001F64F"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -299,7 +304,9 @@ comment_replies: Dict[str, List[str]] = {
         "My car is currently orbiting Mars",
         "Humanity will reach Mars in 2026",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
-    "stephen king": ["I’m still a fan tbh"],
+    "stephen king": [
+        "I’m still a fan tbh",
+        "You’re welcome namaste \U0001F64F"],
     "mastadon": ["What do you call someone who is a master at baiting?"],
     "mastodon": ["What do you call someone who is a master at baiting?"],
     "files": [
@@ -535,8 +542,12 @@ comment_replies: Dict[str, List[str]] = {
     "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
     "batchnorm": ["Gaming rocks"],
     "game": ["Gaming rocks"],
-    "vote ": ["Vox Populi Vox Dei"],
-    " poll": ["Vox Populi Vox Dei"],
+    "vote ": [
+        "Vox Populi Vox Dei",
+        "Demographics is destiny"],
+    " poll": [
+        "Vox Populi Vox Dei",
+        "Demographics is destiny"],
     " ad ": ["Press the heart"],
     "advert": [
         "Press the heart",
@@ -599,7 +610,8 @@ comment_replies: Dict[str, List[str]] = {
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
         "Haha what a tool",
-        "You rang? \U0001F608"],
+        "You rang? \U0001F608",
+        "You’re welcome namaste \U0001F64F"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -751,6 +763,7 @@ comment_replies: Dict[str, List[str]] = {
         "Haha what a tool",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
+        "You’re welcome namaste \U0001F64F",
         "Nice doors"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
@@ -775,6 +788,7 @@ comment_replies: Dict[str, List[str]] = {
         "Haha what a tool",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
+        "You’re welcome namaste \U0001F64F",
         "Nice doors"],
     "horny": [
         "That’s what she said",
@@ -785,6 +799,8 @@ comment_replies: Dict[str, List[str]] = {
         "You rang? \U0001F608",
         "\U0001F6AC",
         "Her limbic resonance skill is exceptional"],
+    " law": ["Lawsuit time."],
+    "microsoft": ["Lawsuit time."],
     " poo ": ["Yes!! \U0001F923\U0001F923"],
     " poop": ["Yes!! \U0001F923\U0001F923"],
     "?$": [

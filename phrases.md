@@ -109,3 +109,6 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*#SoBrave*](https://twitter.com/elonmusk/status/1647281034868686849)
 * [*We need to move on from the Twitter Files*](https://twitter.com/wideofthepost/status/1646182266744209409)
 * [*69% Government-Funded Media*](https://www.businessinsider.com/cbc-twitter-label-69-government-funded-media-elon-musk-2023-4?r=US&IR=T)
+* [*Lawsuit time.*](https://twitter.com/elonmusk/status/1648784955655192577)
+* [*You’re welcome namaste 🙏*](https://twitter.com/elonmusk/status/1649181726395052039)
+* [*Demographics is destiny*](https://twitter.com/elonmusk/status/1649799372606001153)
