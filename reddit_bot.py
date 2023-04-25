@@ -6,42 +6,19 @@ import random
 import sqlite3 as sl
 import sys
 import traceback
-from dotenv import load_dotenv
 from typing import Optional, List
 from phrases import *
+from src.env import *
+from src.reddit import *
 
-load_dotenv()
-
-subreddit: str = os.getenv('SUBREDDIT')
-sleep: int = int(os.getenv('SLEEP'))
-submission_prob: float = float(os.getenv('SUBMISSION_PROBABILITY'))
-comment_prob: float = float(os.getenv('COMMENT_PROBABILITY'))
-env: str = os.getenv('ENV', 'test')
-mode: str = os.getenv('MODE', 'once')
-reply_age: int = int(os.getenv('REPLY_AGE', 7))
+subreddit: str = read_env('SUBREDDIT')
+sleep: int = read_env_int('SLEEP')
+submission_prob: float = read_env_float('SUBMISSION_PROBABILITY')
+comment_prob: float = read_env_float('COMMENT_PROBABILITY')
+env: str = read_env('ENV', 'test')
+mode: str = read_env('MODE', 'once')
+reply_age: int = read_env_int('REPLY_AGE', 7)
 me = None
-print("SUBREDDIT=" + subreddit)
-print("SLEEP=" + str(sleep) + "s")
-print("SUBMISSION_PROBABILITY=" + str(submission_prob * 100) + "%")
-print("COMMENT_PROBABILITY=" + str(comment_prob * 100) + "%")
-print("ENV=" + env)
-print("MODE=" + mode)
-print("REPLY_AGE=" + str(reply_age))
-
-def bot_login() -> praw.Reddit:
-    print("Logging in...")
-    username: str = os.getenv('BOT_NAME')
-    password: str = os.getenv('PASSWORD')
-    client_id: str = os.getenv('CLIENT_ID')
-    client_secret: str = os.getenv('CLIENT_SECRET')
-    r: praw.Reddit = praw.Reddit(username = username,
-                password = password,
-                client_id = client_id,
-                client_secret = client_secret,
-                user_agent = "r/EnoughMuskSpam bot")
-    print("Logged in as " + str(r.user.me()))
-
-    return r
 
 def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
 
