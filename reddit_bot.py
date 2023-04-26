@@ -4,10 +4,8 @@ import time
 import os
 import random
 import sqlite3 as sl
-import sys
-import traceback
-from typing import Optional, List
 from phrases import *
+from src.db import *
 from src.env import *
 from src.reddit import *
 
@@ -85,48 +83,6 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
 
     print("Sleeping for " + str(sleep) + " seconds...")
     time.sleep(sleep)
-
-def have_replied_to_submission(c: sl.Cursor, id: str) -> Optional[bool]:
-    # Get the submission from the db
-    c.execute('SELECT replied FROM submissions WHERE id= ?', (id,))
-    res: Optional[List[bool]] = c.fetchone()
-    if res is None:
-        return None
-    else:
-        return bool(res[0])
-
-def have_replied_to_comment(c: sl.Cursor, id: str) -> Optional[bool]:
-    # Get the comment from the cb
-    c.execute('SELECT replied FROM comments WHERE id= ?', (id,))
-    res: Optional[List[bool]] = c.fetchone()
-    if res is None:
-        return None
-    else:
-        return bool(res[0])
-
-def insert_submission(c: sl.Cursor, submission: any, replied: bool =True) -> None:
-    try:
-        c.execute(
-            'INSERT INTO submissions (id, subreddit, score, replied) VALUES (?, ?, ?, ?)',
-            (submission.id, submission.subreddit.display_name, submission.score, replied,))
-    except sl.Error as er:
-        print('SQLite error: %s' % (' '.join(er.args)))
-        print("Exception class is: ", er.__class__)
-        print('SQLite traceback: ')
-        exc_type, exc_value, exc_tb = sys.exc_info()
-        print(traceback.format_exception(exc_type, exc_value, exc_tb))
-
-def insert_comment(c: sl.Cursor, comment: any, replied: bool =True) -> None:
-    try:
-        c.execute(
-            'INSERT INTO comments (id, submission_id, subreddit, score, replied) VALUES (?, ?, ?, ?, ?)',
-            (comment.id, comment.submission.id, comment.subreddit.display_name, comment.score, replied,))
-    except sl.Error as er:
-        print('SQLite error: %s' % (' '.join(er.args)))
-        print("Exception class is: ", er.__class__)
-        print('SQLite traceback: ')
-        exc_type, exc_value, exc_tb = sys.exc_info()
-        print(traceback.format_exception(exc_type, exc_value, exc_tb))
 
 def text_contains(haystack: str, needle: str) -> bool:
     return needle in haystack.lower() or (needle.endswith("$") and haystack.lower().endswith(needle.replace("$", "")))
