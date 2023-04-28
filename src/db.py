@@ -43,3 +43,11 @@ def insert_comment(c: sl.Cursor, comment: any, replied: bool =True) -> None:
         c,
         'INSERT INTO comments (id, submission_id, subreddit, score, replied) VALUES (?, ?, ?, ?, ?)',
         (comment.id, comment.submission.id, comment.subreddit.display_name, comment.score, replied,))
+
+def get_replied_comment_ids(c: sl.Cursor) -> List[str]:
+    run_query(c, 'SELECT id FROM comments WHERE replied=1')
+    return [row[0] for row in c.fetchall()]
+
+def get_replied_submission_ids(c: sl.Cursor) -> List[str]:
+    run_query(c, 'SELECT id FROM submissions WHERE replied=1')
+    return [row[0] for row in c.fetchall()]
