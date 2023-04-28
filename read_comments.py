@@ -28,6 +28,8 @@ if doLatest:
     for comment in me.comments.hot(limit=None):
         if not have_comment(cStats, comment.id):
             insert_comment(cStats, comment)
+        else:
+            update_comment(cStats, comment)
 
 else:
     # Read the bot database
