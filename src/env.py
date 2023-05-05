@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 import os
+import typing
 from dotenv import load_dotenv
 
-load_dotenv()
+def load_env(file: str=None) -> None:
+    load_dotenv(file)
 
 def read_env(key: str, default: str=None) -> str:
     val: str = os.getenv(key, default)
