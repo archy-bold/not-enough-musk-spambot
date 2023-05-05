@@ -22,6 +22,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -31,6 +32,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Twitter is now trending to breakeven if we keep at it.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Something fundamental is wrong",
         "Something is wrong",
         "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
@@ -40,6 +42,7 @@ submission_replies: Dict[str, List[str]] = {
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
+        "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "Super big deal"],
     " bot": [
@@ -49,6 +52,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -143,6 +147,7 @@ submission_replies: Dict[str, List[str]] = {
         "Haha what a tool"],
     "social media": [
         "Better to talk to people than communicate via tweet.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Super big deal"],
     "engineer": [
         "Print out 50 pages of code you’ve done in the last 30 days",
@@ -198,6 +203,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -212,6 +218,7 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -220,6 +227,7 @@ submission_replies: Dict[str, List[str]] = {
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
+        "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "You rang? \U0001F608",
         "You’re welcome namaste \U0001F64F"],
@@ -265,16 +273,19 @@ submission_replies: Dict[str, List[str]] = {
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "nyt ": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9",
         "The real tragedy of @NYTimes is that their propaganda isn’t even interesting"],
     "new york times": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9",
         "The real tragedy of @NYTimes is that their propaganda isn’t even interesting"],
     "washington post": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
     "cbc": ["69% Government-Funded Media"],
@@ -286,7 +297,8 @@ submission_replies: Dict[str, List[str]] = {
         "!!",
         "Concerning",
         "Extremely concerning",
-        "Super concerning"],
+        "Super concerning",
+        "Strange"]
 }
 
 comment_replies: Dict[str, List[str]] = {
@@ -298,10 +310,12 @@ comment_replies: Dict[str, List[str]] = {
         "I will keep supporting Dogecoin"],
     "spacex": [
         "My car is currently orbiting Mars",
+        "Hard to believe Starship actually did launch on 4/20 lol",
         "Humanity will reach Mars in 2026",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
     "mars": [
         "My car is currently orbiting Mars",
+        "Hard to believe Starship actually did launch on 4/20 lol",
         "Humanity will reach Mars in 2026",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
     "stephen king": [
@@ -332,6 +346,7 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Haha that would sickkk",
         "Twitter is now trending to breakeven if we keep at it.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Something fundamental is wrong",
         "Something is wrong",
         "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
@@ -341,6 +356,7 @@ comment_replies: Dict[str, List[str]] = {
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
+        "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "Super big deal"],
     "culture": ["End of days vibes"],
@@ -385,9 +401,11 @@ comment_replies: Dict[str, List[str]] = {
     "communicate": ["Better to talk to people than communicate via tweet."],
     "social media": [
         "Better to talk to people than communicate via tweet.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Super big deal"],
     "social network": [
         "Better to talk to people than communicate via tweet.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Super big deal"],
     "disabled": [
         "He’s the worst, sorry.",
@@ -459,6 +477,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -532,6 +551,7 @@ comment_replies: Dict[str, List[str]] = {
     "pronouns": [
         "My pronouns are Prosecute/Fauci",
         "Pronouns suck",
+        "Btw, I regard cisgender as a slur.",
         "The woke mind virus is either defeated or nothing else matters"],
     "youth": ["Idiocracy is happening so fast"],
     "young": ["Idiocracy is happening so fast"],
@@ -587,6 +607,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -601,6 +622,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -609,6 +631,7 @@ comment_replies: Dict[str, List[str]] = {
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
+        "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "You rang? \U0001F608",
         "You’re welcome namaste \U0001F64F"],
@@ -672,13 +695,16 @@ comment_replies: Dict[str, List[str]] = {
     "boomer": ["The gerontocracy is real"],
     "biden": [
         "Concerning",
+        "Strange",
         "The gerontocracy is real"],
     "pelosi": [
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "The gerontocracy is real"],
     "soros": [
         "Extremely concerning",
+        "Strange",
         "The gerontocracy is real"],
     "parent": [
         "Interesting",
@@ -689,11 +715,13 @@ comment_replies: Dict[str, List[str]] = {
         "Interesting",
         "!!",
         "Concerning",
+        "Strange",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "college": [
         "Interesting",
         "!!",
         "Concerning",
+        "Strange",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "child": [
         "Interesting",
@@ -717,26 +745,31 @@ comment_replies: Dict[str, List[str]] = {
     "paranoi": ["falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government"],
     "journalis": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9",
         "They posted my exact real-time location, basically assassination coordinates"],
     "dox": ["They posted my exact real-time location, basically assassination coordinates"],
     "news": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
     "nyt ": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9",
         "The real tragedy of @NYTimes is that their propaganda isn’t even interesting"],
     "new york times": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9",
         "The real tragedy of @NYTimes is that their propaganda isn’t even interesting"],
     "washington post": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
+        "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "press@twitter.com now auto responds with \U0001F4A9"],
     "cbc": ["69% Government-Funded Media"],
@@ -752,6 +785,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -760,6 +794,7 @@ comment_replies: Dict[str, List[str]] = {
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
+        "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
@@ -777,6 +812,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -785,6 +821,7 @@ comment_replies: Dict[str, List[str]] = {
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "You’re terrible & I love you\n\n*not terrible",
+        "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
@@ -811,7 +848,8 @@ comment_replies: Dict[str, List[str]] = {
         "!!",
         "Concerning",
         "Extremely concerning",
-        "Super concerning"],
+        "Super concerning",
+        "Strange"],
     "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -823,6 +861,7 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
+        "Strange",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",

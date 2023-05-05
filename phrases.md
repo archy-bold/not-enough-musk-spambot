@@ -112,3 +112,8 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Lawsuit time.*](https://twitter.com/elonmusk/status/1648784955655192577)
 * [*You’re welcome namaste 🙏*](https://twitter.com/elonmusk/status/1649181726395052039)
 * [*Demographics is destiny*](https://twitter.com/elonmusk/status/1649799372606001153)
+* [*Twitter is a serious danger to their ability to control the narrative*](https://twitter.com/elonmusk/status/1650179119366254594)
+* [*Sometimes, when you learn about something, you think you have it*](https://twitter.com/elonmusk/status/1650729691043573761)
+* [*Btw, I regard cisgender as a slur.*](https://twitter.com/elonmusk/status/1651261302268997634)
+* [*Hard to believe Starship actually did launch on 4/20 lol*](https://twitter.com/elonmusk/status/1650613334968860678)
+* [*Strange*](https://twitter.com/elonmusk/status/1653454476873695245)
