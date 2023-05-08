@@ -117,3 +117,6 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Btw, I regard cisgender as a slur.*](https://twitter.com/elonmusk/status/1651261302268997634)
 * [*Hard to believe Starship actually did launch on 4/20 lol*](https://twitter.com/elonmusk/status/1650613334968860678)
 * [*Strange*](https://twitter.com/elonmusk/status/1653454476873695245)
+* [*This platform is hell bent on being the least untrue source of information*](https://twitter.com/elonmusk/status/1655316060508241924)
+* [*Very important to make new humans. No new humans means no humanity.*](https://twitter.com/elonmusk/status/1655313556404043776)
+* [*I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.*](https://twitter.com/elonmusk/status/1654971702571331584)

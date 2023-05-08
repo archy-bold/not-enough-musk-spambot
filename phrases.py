@@ -105,7 +105,10 @@ submission_replies: Dict[str, List[str]] = {
     "wealth": [
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
-        "$7 is a small price for freedom"],
+        "$7 is a small price for freedom",
+        "I grew up in a lower, transitioning to upper, middle income situation",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
@@ -117,6 +120,7 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "RAGE FOR THE MACHINE!!"],
     "fascis": [
@@ -176,6 +180,7 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth."],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -184,6 +189,7 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth."],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -192,6 +198,7 @@ submission_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth."],
     "opinion": [
         "\U0001F3AF", # bullseye
@@ -426,7 +433,14 @@ comment_replies: Dict[str, List[str]] = {
     "wealth": [
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
-        "$7 is a small price for freedom"],
+        "$7 is a small price for freedom",
+        "I grew up in a lower, transitioning to upper, middle income situation",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
+    "inherit": [
+        "I grew up in a lower, transitioning to upper, middle income situation",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
     "stock": [
         "Funding secured.",
         "I do hope to succeed in business \U0001F91E"],
@@ -466,6 +480,7 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "RAGE FOR THE MACHINE!!"],
     " ban ": ["Comedy is now legal on Twitter."],
@@ -580,6 +595,7 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth."],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -588,6 +604,7 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth."],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -596,6 +613,7 @@ comment_replies: Dict[str, List[str]] = {
         "Twitter needs to become by far the most accurate source of information about the world. That’s our mission.",
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
+        "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth."],
     "opinion": [
         "\U0001F3AF", # bullseye
@@ -730,11 +748,19 @@ comment_replies: Dict[str, List[str]] = {
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
     "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
-    "love": [
+    # "love": [
+    #     "Some hate humanity, but I love humanity so much",
+    #     "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government"],
+    # " hate": ["Some hate humanity, but I love humanity so much"],
+    "human": [
         "Some hate humanity, but I love humanity so much",
-        "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government"],
-    " hate": ["Some hate humanity, but I love humanity so much"],
-    "human": ["Some hate humanity, but I love humanity so much"],
+        "Very important to make new humans."
+        "Very important to make new humans.\n\nNo new humans means no humanity."],
+    "population": [
+        "Vox Populi Vox Dei",
+        "Demographics is destiny",
+        "Very important to make new humans."
+        "Very important to make new humans.\n\nNo new humans means no humanity."],
     "government": [
         "Does seem asymmetric",
         "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government",
