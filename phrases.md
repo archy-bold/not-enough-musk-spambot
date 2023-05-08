@@ -120,3 +120,4 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*This platform is hell bent on being the least untrue source of information*](https://twitter.com/elonmusk/status/1655316060508241924)
 * [*Very important to make new humans. No new humans means no humanity.*](https://twitter.com/elonmusk/status/1655313556404043776)
 * [*I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.*](https://twitter.com/elonmusk/status/1654971702571331584)
+* [*What we need is TruthGPT*](https://twitter.com/elonmusk/status/1626533667408596992)

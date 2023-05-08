@@ -61,7 +61,8 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
-        "We will defeat the spam bots or die trying!"],
+        "We will defeat the spam bots or die trying!",
+        "What we need is TruthGPT"],
     "bug ": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -181,7 +182,8 @@ submission_replies: Dict[str, List[str]] = {
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
         "This platform is hell bent on being the least untrue source of information",
-        "Seeking only the least wrong truth."],
+        "Seeking only the least wrong truth.",
+        "What we need is TruthGPT"],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -190,7 +192,8 @@ submission_replies: Dict[str, List[str]] = {
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
         "This platform is hell bent on being the least untrue source of information",
-        "Seeking only the least wrong truth."],
+        "Seeking only the least wrong truth.",
+        "What we need is TruthGPT"],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -199,7 +202,8 @@ submission_replies: Dict[str, List[str]] = {
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
         "This platform is hell bent on being the least untrue source of information",
-        "Seeking only the least wrong truth."],
+        "Seeking only the least wrong truth.",
+        "What we need is TruthGPT"],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -430,6 +434,13 @@ comment_replies: Dict[str, List[str]] = {
     "daughter": ["Can’t win ‘em all"],
     "thai": ["Sorry pedo guy, you really did ask for it."],
     "diver": ["Sorry pedo guy, you really did ask for it."],
+    "rich": [
+        "I’m rich, bitch!",
+        "Amm rerrch, berrtch!",
+        "$7 is a small price for freedom",
+        "I grew up in a lower, transitioning to upper, middle income situation",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
     "wealth": [
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
@@ -482,7 +493,8 @@ comment_replies: Dict[str, List[str]] = {
         "My prediction is that this will be the only platform you can trust",
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
-        "RAGE FOR THE MACHINE!!"],
+        "RAGE FOR THE MACHINE!!",
+        "What we need is TruthGPT"],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
@@ -501,7 +513,9 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
-        "We will defeat the spam bots or die trying!"],
+        "We will defeat the spam bots or die trying!",
+        "What we need is TruthGPT"],
+    "gpt": ["What we need is TruthGPT"],
     "bug ": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -596,7 +610,8 @@ comment_replies: Dict[str, List[str]] = {
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
         "This platform is hell bent on being the least untrue source of information",
-        "Seeking only the least wrong truth."],
+        "Seeking only the least wrong truth.",
+        "What we need is TruthGPT"],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -605,7 +620,8 @@ comment_replies: Dict[str, List[str]] = {
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
         "This platform is hell bent on being the least untrue source of information",
-        "Seeking only the least wrong truth."],
+        "Seeking only the least wrong truth.",
+        "What we need is TruthGPT"],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -614,7 +630,8 @@ comment_replies: Dict[str, List[str]] = {
         "Fight for truth, whole truth & nothin but!",
         "My prediction is that this will be the only platform you can trust",
         "This platform is hell bent on being the least untrue source of information",
-        "Seeking only the least wrong truth."],
+        "Seeking only the least wrong truth.",
+        "What we need is TruthGPT"],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -754,12 +771,12 @@ comment_replies: Dict[str, List[str]] = {
     # " hate": ["Some hate humanity, but I love humanity so much"],
     "human": [
         "Some hate humanity, but I love humanity so much",
-        "Very important to make new humans."
+        "Very important to make new humans.",
         "Very important to make new humans.\n\nNo new humans means no humanity."],
     "population": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
-        "Very important to make new humans."
+        "Very important to make new humans.",
         "Very important to make new humans.\n\nNo new humans means no humanity."],
     "government": [
         "Does seem asymmetric",
