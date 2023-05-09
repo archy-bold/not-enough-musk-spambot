@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import argparse
 import praw
 import time
 import os
@@ -10,18 +9,7 @@ from src.db import *
 from src.env import *
 from src.reddit import *
 
-# Read flags
-parser = argparse.ArgumentParser()
-parser.add_argument("-env", "--env-file", dest = "env_file", default = None, help="The .env file")
-
-if parser.parse_args().env_file is None:
-    print("Loading environment variables from .env...")
-else:
-    if not os.path.isfile(parser.parse_args().env_file):
-        print("Could not find .env file at " + parser.parse_args().env_file)
-        exit(1)
-    print("Loading environment variables from " + parser.parse_args().env_file + "...")
-load_env(parser.parse_args().env_file)
+load_env_from_flags()
 
 subreddit: str = read_env('SUBREDDIT')
 sleep: int = read_env_int('SLEEP')

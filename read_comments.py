@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
+import argparse
 import os
 import sys
 from typing import List
 import praw
 import sqlite3 as sl
 from src.db import get_replied_comment_ids, get_replied_submission_ids
+from src.env import load_env_from_flags
 from src.reddit import bot_login
 from src.stats.db import have_comment, insert_comment, update_comment
 
-# read argument 
-if len(sys.argv) != 2:
-    print("Usage: python3 read_comments.py <latest | historic>")
-    sys.exit(1)
+parser = argparse.ArgumentParser()
+parser.add_argument("mode", choices = ["latest", "historic"], default = None, help="Whether to load reacent or historic comments")
+load_env_from_flags(parser)
 
-doLatest: bool = sys.argv[1] == "latest"
+doLatest: bool = parser.parse_args().mode == "latest"
 
 r: praw.Reddit = bot_login()
 me: any = r.user.me(use_cache=True)
