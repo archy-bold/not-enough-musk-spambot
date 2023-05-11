@@ -23,6 +23,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -53,6 +54,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -215,6 +217,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -230,6 +233,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -309,7 +313,8 @@ submission_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
-        "Strange"]
+        "Strange",
+        "Odd"]
 }
 
 comment_replies: Dict[str, List[str]] = {
@@ -505,6 +510,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -643,6 +649,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -658,6 +665,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -731,15 +739,18 @@ comment_replies: Dict[str, List[str]] = {
     "biden": [
         "Concerning",
         "Strange",
+        "Odd",
         "The gerontocracy is real"],
     "pelosi": [
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "The gerontocracy is real"],
     "soros": [
         "Extremely concerning",
         "Strange",
+        "Odd",
         "The gerontocracy is real"],
     "parent": [
         "Interesting",
@@ -829,6 +840,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -856,6 +868,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
@@ -892,7 +905,8 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Extremely concerning",
         "Super concerning",
-        "Strange"],
+        "Strange",
+        "Odd"],
     "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -905,6 +919,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "Odd",
         "That’s what she said",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
