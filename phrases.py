@@ -446,6 +446,13 @@ comment_replies: Dict[str, List[str]] = {
         "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
+    "billion": [
+        "I’m rich, bitch!",
+        "Amm rerrch, berrtch!",
+        "$7 is a small price for freedom",
+        "I grew up in a lower, transitioning to upper, middle income situation",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
     "wealth": [
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
