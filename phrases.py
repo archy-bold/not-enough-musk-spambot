@@ -801,6 +801,8 @@ comment_replies: Dict[str, List[str]] = {
         "I keep forgetting that you’re still alive",
         "The gerontocracy is real"],
     "soros": [
+        "Soros reminds me of Magneto",
+        "He wants to erode the very fabric of civilization. Soros hates humanity.",
         "Extremely concerning",
         "Strange",
         "Odd",
@@ -836,11 +838,13 @@ comment_replies: Dict[str, List[str]] = {
     "human": [
         "Some hate humanity, but I love humanity so much",
         "Civilization is more fragile than it would seem",
+        "He wants to erode the very fabric of civilization. Soros hates humanity.",
         "Very important to make new humans.",
         "Very important to make new humans.\n\nNo new humans means no humanity."],
     "population": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
+        "He wants to erode the very fabric of civilization. Soros hates humanity.",
         "Civilization is more fragile than it would seem",
         "Very important to make new humans.",
         "Very important to make new humans.\n\nNo new humans means no humanity."],

@@ -133,3 +133,5 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*I am adamant about defending free speech, even if it means losing money.*](https://twitter.com/elonmusk/status/1657106200075599874)
 * [*I keep forgetting that you’re still alive*](https://twitter.com/elonmusk/status/1459891238384115722)
 * [*Why does ur pp look like u just came?*](https://twitter.com/elonmusk/status/1457497438474981384)
+* [*Soros reminds me of Magneto*](https://twitter.com/elonmusk/status/1658291808592629761)
+* [*He wants to erode the very fabric of civilization. Soros hates humanity.*](https://twitter.com/elonmusk/status/1658294821679951872)
