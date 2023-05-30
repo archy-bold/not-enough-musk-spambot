@@ -31,8 +31,11 @@ submission_replies: Dict[str, List[str]] = {
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Twitter is now trending to breakeven if we keep at it.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "Try it, but don’t trust it yet.",
@@ -45,9 +48,11 @@ submission_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
+        "I hope this platform increasingly brings you joy & elucidation",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
+        "Incompetence, in the limit, is indistinguishable from sabotage",
         "Super big deal"],
     " bot": [
         "Looking into this.",
@@ -136,19 +141,23 @@ submission_replies: Dict[str, List[str]] = {
         "Interesting",
         "We should stop canceling comedy!",
         "Does seem asymmetric",
-        "By the way, I am actually a socialist."],
+        "By the way, I am actually a socialist.",
+        "The intolerant left is driving people right"],
     "racis": [
         "Comedy is now legal on Twitter.",
         "Interesting",
         "We should stop canceling comedy!",
-        "Simultaneously, an interesting question and a tongue twister!"],
+        "Simultaneously, an interesting question and a tongue twister!",
+        "The intolerant left is driving people right"],
     "antifa": [
         "Comedy is now legal on Twitter.",
-        "Does seem asymmetric"],
+        "Does seem asymmetric",
+        "The intolerant left is driving people right"],
     "both sides": [
         "Comedy is now legal on Twitter.",
         "This is not a right wing takeover, but rather a centrist takeover.",
-        "Does seem asymmetric"],
+        "Does seem asymmetric",
+        "The intolerant left is driving people right"],
     "severance": [
         "You’re fired.",
         "Better to talk to people than communicate via tweet.",
@@ -191,7 +200,8 @@ submission_replies: Dict[str, List[str]] = {
         "Trust nothing, not even nothing",
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Maybe it’s not true, hence the question"],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -202,7 +212,8 @@ submission_replies: Dict[str, List[str]] = {
         "Trust nothing, not even nothing",
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Maybe it’s not true, hence the question"],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -213,12 +224,16 @@ submission_replies: Dict[str, List[str]] = {
         "Trust nothing, not even nothing",
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Maybe it’s not true, hence the question"],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Interesting",
         "\#SoBrave",
         "Concerning",
@@ -234,8 +249,11 @@ submission_replies: Dict[str, List[str]] = {
     "reddit": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Interesting",
         "\#SoBrave",
         "Concerning",
@@ -251,9 +269,11 @@ submission_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
+        "I hope this platform increasingly brings you joy & elucidation",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
+        "Incompetence, in the limit, is indistinguishable from sabotage",
         "You rang? \U0001F608",
         "You’re welcome namaste \U0001F64F"],
     " meme": [
@@ -372,8 +392,11 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning ...",
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
         "Haha that would sickkk",
@@ -389,9 +412,11 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
+        "I hope this platform increasingly brings you joy & elucidation",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
+        "Incompetence, in the limit, is indistinguishable from sabotage",
         "Super big deal"],
     "culture": ["End of days vibes"],
     "king of twitter": [
@@ -481,7 +506,8 @@ comment_replies: Dict[str, List[str]] = {
     "inherit": [
         "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
+        "To heir is human,  \nTo procreate divine"],
     "stock": [
         "Funding secured.",
         "I do hope to succeed in business \U0001F91E"],
@@ -493,23 +519,28 @@ comment_replies: Dict[str, List[str]] = {
         "Interesting",
         "By the way, I am actually a socialist.",
         "This is not a right wing takeover, but rather a centrist takeover.",
-        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
+        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong",
+        "The intolerant left is driving people right"],
     "democrat": [
         "That’s what she said",
         "By the way, I am actually a socialist.",
-        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
+        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong",
+        "The intolerant left is driving people right"],
     "party": [
         "That’s what she said",
         "I’m not right wing.",
         "Interesting",
         "By the way, I am actually a socialist.",
-        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong"],
+        "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong",
+        "The intolerant left is driving people right"],
     "socialis": [
         "By the way, I am actually a socialist.",
-        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
+        "The intolerant left is driving people right"],
     "communis": [
         "By the way, I am actually a socialist.",
-        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
+        "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
+        "The intolerant left is driving people right"],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
@@ -525,7 +556,8 @@ comment_replies: Dict[str, List[str]] = {
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "RAGE FOR THE MACHINE!!",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Maybe it’s not true, hence the question"],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
@@ -591,20 +623,28 @@ comment_replies: Dict[str, List[str]] = {
         "Interesting",
         "We should stop canceling comedy!",
         "Does seem asymmetric",
-        "By the way, I am actually a socialist."],
+        "By the way, I am actually a socialist.",
+        "The intolerant left is driving people right"],
     "racis": [
         "Comedy is now legal on Twitter.",
         "Interesting",
         "We should stop canceling comedy!",
-        "Simultaneously, an interesting question and a tongue twister!"],
+        "Simultaneously, an interesting question and a tongue twister!",
+        "The intolerant left is driving people right"],
+    "intoleran": [
+        "The intolerant left is driving people right"],
     "antifa": [
         "Comedy is now legal on Twitter.",
-        "Does seem asymmetric"],
+        "Does seem asymmetric",
+        "The intolerant left is driving people right"],
     "both sides": [
         "Comedy is now legal on Twitter.",
         "This is not a right wing takeover, but rather a centrist takeover.",
-        "Does seem asymmetric"],
-    "january 6": ["Does seem asymmetric"],
+        "Does seem asymmetric",
+        "The intolerant left is driving people right"],
+    "january 6": [
+        "Does seem asymmetric",
+        "The intolerant left is driving people right"],
     "resign": ["I will resign as CEO as soon as I find someone foolish enough to take the job! After that, I will just run the software & servers teams."],
     "woke": [
         "Idiocracy is happening so fast",
@@ -612,20 +652,24 @@ comment_replies: Dict[str, List[str]] = {
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "The woke mind virus is either defeated or nothing else matters",
         "Mind virus got you & you don’t realize it",
-        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",],
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",
+        "The woke mind virus is a parasite that kills its host. It must be eliminated."],
     "pronouns": [
         "My pronouns are Prosecute/Fauci",
         "Pronouns suck",
         "Btw, I regard cisgender as a slur.",
         "Computers are literally binary lol",
         "The woke mind virus is either defeated or nothing else matters",
-        "Mind virus got you & you don’t realize it"],
+        "Mind virus got you & you don’t realize it",
+        "The woke mind virus is a parasite that kills its host. It must be eliminated."],
     "youth": ["Idiocracy is happening so fast"],
     "young": ["Idiocracy is happening so fast"],
     "future": [
         "Idiocracy is happening so fast",
         "Civilization is more fragile than it would seem",
-        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",
+        "To heir is human,  \nTo procreate divine",
+        "The woke mind virus is a parasite that kills its host. It must be eliminated."],
     "chappelle": ["Dave, what should I say?"],
     "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
     "batchnorm": ["Gaming rocks"],
@@ -651,7 +695,8 @@ comment_replies: Dict[str, List[str]] = {
         "Trust nothing, not even nothing",
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Maybe it’s not true, hence the question"],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -662,7 +707,8 @@ comment_replies: Dict[str, List[str]] = {
         "Trust nothing, not even nothing",
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Maybe it’s not true, hence the question"],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -673,7 +719,8 @@ comment_replies: Dict[str, List[str]] = {
         "Trust nothing, not even nothing",
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Maybe it’s not true, hence the question"],
     "free speech": [
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "I am adamant about defending free speech, even if it means losing money.",
@@ -681,8 +728,11 @@ comment_replies: Dict[str, List[str]] = {
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Interesting",
         "\#SoBrave",
         "Concerning",
@@ -698,8 +748,11 @@ comment_replies: Dict[str, List[str]] = {
     "reddit": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Interesting",
         "\#SoBrave",
         "Concerning",
@@ -715,9 +768,11 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
+        "I hope this platform increasingly brings you joy & elucidation",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
+        "Incompetence, in the limit, is indistinguishable from sabotage",
         "You rang? \U0001F608",
         "You’re welcome namaste \U0001F64F"],
     " meme": [
@@ -758,12 +813,18 @@ comment_replies: Dict[str, List[str]] = {
     "business": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "Accurate",
+        "Exactly",
+        "True",
         "I do hope to succeed in business \U0001F91E"],
     "career": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "Accurate",
+        "Exactly",
+        "True",
         "I do hope to succeed in business \U0001F91E"],
     "comedy": [
         "That’s what she said",
@@ -840,18 +901,21 @@ comment_replies: Dict[str, List[str]] = {
         "Civilization is more fragile than it would seem",
         "He wants to erode the very fabric of civilization. Soros hates humanity.",
         "Very important to make new humans.",
-        "Very important to make new humans.\n\nNo new humans means no humanity."],
+        "Very important to make new humans.\n\nNo new humans means no humanity.",
+        "To heir is human,  \nTo procreate divine"],
     "population": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
         "He wants to erode the very fabric of civilization. Soros hates humanity.",
         "Civilization is more fragile than it would seem",
         "Very important to make new humans.",
-        "Very important to make new humans.\n\nNo new humans means no humanity."],
+        "Very important to make new humans.\n\nNo new humans means no humanity.",
+        "To heir is human,  \nTo procreate divine"],
     "government": [
         "Does seem asymmetric",
         "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government",
-        "By the way, I am actually a socialist."],
+        "By the way, I am actually a socialist.",
+        "The intolerant left is driving people right"],
     "russia": [
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "Nice doors"],
@@ -891,8 +955,11 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Interesting",
         "\#SoBrave",
         "Concerning",
@@ -908,9 +975,11 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
+        "I hope this platform increasingly brings you joy & elucidation",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
+        "Incompetence, in the limit, is indistinguishable from sabotage",
         "Why does ur pp look like u just came?",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
@@ -921,8 +990,11 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Interesting",
         "\#SoBrave",
         "Concerning",
@@ -938,9 +1010,11 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
+        "I hope this platform increasingly brings you joy & elucidation",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
+        "Incompetence, in the limit, is indistinguishable from sabotage",
         "Why does ur pp look like u just came?",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
@@ -976,8 +1050,11 @@ comment_replies: Dict[str, List[str]] = {
     "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
+        "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Exactly",
+        "True",
         "Interesting",
         "\#SoBrave",
         "!!",
