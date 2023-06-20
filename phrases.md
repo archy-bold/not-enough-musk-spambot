@@ -145,3 +145,6 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*🦾*](https://twitter.com/elonmusk/status/1662540224780443650)
 * [*Incompetence, in the limit, is indistinguishable from sabotage*](https://twitter.com/elonmusk/status/1663015083738374146)
 * [*Maybe it’s not true, hence the question*](https://twitter.com/elonmusk/status/1662292194672230400)
+* [*You’re such a numbskull. Please point out where we had an actual choice and we will reverse it.*](https://twitter.com/elonmusk/status/1662910256161124352)
+* [*I prefer peace, but if they want war, they will get it*](https://twitter.com/elonmusk/status/1664966513592262656)
+* [*Really*](https://twitter.com/elonmusk/status/1665521102238502920)

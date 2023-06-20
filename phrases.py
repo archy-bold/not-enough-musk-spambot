@@ -35,6 +35,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "Twitter is now trending to breakeven if we keep at it.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
@@ -53,7 +54,8 @@ submission_replies: Dict[str, List[str]] = {
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "Incompetence, in the limit, is indistinguishable from sabotage",
-        "Super big deal"],
+        "Super big deal",
+        "I prefer peace, but if they want war, they will get it"],
     " bot": [
         "Looking into this.",
         "This is bizarre. Looking into it.",
@@ -233,6 +235,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "Interesting",
         "\#SoBrave",
@@ -253,6 +256,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "Interesting",
         "\#SoBrave",
@@ -396,6 +400,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
@@ -417,7 +422,8 @@ comment_replies: Dict[str, List[str]] = {
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
         "Incompetence, in the limit, is indistinguishable from sabotage",
-        "Super big deal"],
+        "Super big deal",
+        "I prefer peace, but if they want war, they will get it"],
     "culture": ["End of days vibes"],
     "king of twitter": [
         "The meme community has high standards!",
@@ -673,6 +679,7 @@ comment_replies: Dict[str, List[str]] = {
     "chappelle": ["Dave, what should I say?"],
     "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
     "batchnorm": ["Gaming rocks"],
+    "game of thrones": ["I prefer peace, but if they want war, they will get it"],
     "game": ["Gaming rocks"],
     "vote ": [
         "Vox Populi Vox Dei",
@@ -724,7 +731,8 @@ comment_replies: Dict[str, List[str]] = {
     "free speech": [
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "I am adamant about defending free speech, even if it means losing money.",
-        "Did your brain fall out of your head, Yglesias? The choice is have Twitter throttled in its entirety or limit access to some tweets. Which one do you want?"],
+        "Did your brain fall out of your head, Yglesias? The choice is have Twitter throttled in its entirety or limit access to some tweets. Which one do you want?",
+        "You’re such a numbskull. Please point out where we had an actual choice and we will reverse it."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -774,7 +782,8 @@ comment_replies: Dict[str, List[str]] = {
         "Haha what a tool",
         "Incompetence, in the limit, is indistinguishable from sabotage",
         "You rang? \U0001F608",
-        "You’re welcome namaste \U0001F64F"],
+        "You’re welcome namaste \U0001F64F",
+        "I prefer peace, but if they want war, they will get it"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -816,6 +825,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F9BE", # mechanical arm
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "I do hope to succeed in business \U0001F91E"],
     "career": [
@@ -824,6 +834,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F9BE", # mechanical arm
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "I do hope to succeed in business \U0001F91E"],
     "comedy": [
@@ -840,6 +851,8 @@ comment_replies: Dict[str, List[str]] = {
         "Civilization is more fragile than it would seem"],
     " bats": ["He loves bats next-level."],
     "concerning": ["Yeah"],
+    "war ": ["I prefer peace, but if they want war, they will get it"],
+    "peace": ["I prefer peace, but if they want war, they will get it"],
     " old": [
         "I keep forgetting that you’re still alive",
         "The gerontocracy is real"],
@@ -959,6 +972,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "Interesting",
         "\#SoBrave",
@@ -984,6 +998,7 @@ comment_replies: Dict[str, List[str]] = {
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
         "You’re welcome namaste \U0001F64F",
+        "I prefer peace, but if they want war, they will get it",
         "Nice doors"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
@@ -994,6 +1009,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "Interesting",
         "\#SoBrave",
@@ -1019,6 +1035,7 @@ comment_replies: Dict[str, List[str]] = {
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
         "You’re welcome namaste \U0001F64F",
+        "I prefer peace, but if they want war, they will get it",
         "Nice doors"],
     "horny": [
         "That’s what she said",
@@ -1054,6 +1071,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Exactly",
+        "Really",
         "True",
         "Interesting",
         "\#SoBrave",
