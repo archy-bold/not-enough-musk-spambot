@@ -19,6 +19,7 @@ submission_replies: Dict[str, List[str]] = {
         "This is bizarre. Looking into it.",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -82,7 +83,8 @@ submission_replies: Dict[str, List[str]] = {
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
         "We will defeat the spam bots or die trying!",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "In the spirit of self-awareness, what are you?"],
     "bug ": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -258,6 +260,7 @@ submission_replies: Dict[str, List[str]] = {
         "True",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -281,6 +284,7 @@ submission_replies: Dict[str, List[str]] = {
         "True",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -406,7 +410,8 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
-        "Odd"]
+        "Odd",
+        "In the spirit of self-awareness, what are you?"]
 }
 
 comment_replies: Dict[str, List[str]] = {
@@ -430,7 +435,8 @@ comment_replies: Dict[str, List[str]] = {
         "Level 9 is make humanity a multiplanet species & true spacefaring civilization. That is why I am gathering resources."],
     "stephen king": [
         "I’m still a fan tbh",
-        "You’re welcome namaste \U0001F64F"],
+        "You’re welcome namaste \U0001F64F",
+        "In the spirit of self-awareness, what are you?"],
     "mastadon": ["What do you call someone who is a master at baiting?"],
     "mastodon": ["What do you call someone who is a master at baiting?"],
     "files": [
@@ -447,6 +453,7 @@ comment_replies: Dict[str, List[str]] = {
         "This is bizarre. Looking into it.",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning ...",
         "\U0001F3AF", # bullseye
@@ -658,7 +665,8 @@ comment_replies: Dict[str, List[str]] = {
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
         "We will defeat the spam bots or die trying!",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "In the spirit of self-awareness, what are you?"],
     "gpt": ["What we need is TruthGPT"],
     "bug ": [
         "Something fundamental is wrong",
@@ -826,6 +834,7 @@ comment_replies: Dict[str, List[str]] = {
         "True",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -848,6 +857,7 @@ comment_replies: Dict[str, List[str]] = {
         "True",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -1108,6 +1118,7 @@ comment_replies: Dict[str, List[str]] = {
         "True",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -1151,6 +1162,7 @@ comment_replies: Dict[str, List[str]] = {
         "True",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
@@ -1208,7 +1220,8 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
-        "Odd"],
+        "Odd",
+        "In the spirit of self-awareness, what are you?"],
     "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1220,6 +1233,7 @@ comment_replies: Dict[str, List[str]] = {
         "True",
         "Interesting",
         "\#SoBrave",
+        "Parody & reality are becoming indistinguishable",
         "!!",
         "Concerning",
         "Extremely concerning",
@@ -1234,7 +1248,8 @@ comment_replies: Dict[str, List[str]] = {
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
-        "I get all my opinions from Twitter"]
+        "I get all my opinions from Twitter",
+        "In the spirit of self-awareness, what are you?"]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat

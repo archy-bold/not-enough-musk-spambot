@@ -161,3 +161,5 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*X will become the most valuable brand on Earth. Make my words.*](https://twitter.com/elonmusk/status/1683946564115394561)
 * [*To sleep with women endlessly without love is a cursed and hollow life*](https://twitter.com/elonmusk/status/1684249598632525825)
 * [*Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting.*](https://twitter.com/elonmusk/status/1672410133832298500)
+* [*In the spirit of self-awareness, what are you?*](https://twitter.com/elonmusk/status/1677110342927765504)
+* [*Parody & reality are becoming indistinguishable*](https://twitter.com/elonmusk/status/1678485678550835200)
