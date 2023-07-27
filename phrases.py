@@ -26,9 +26,12 @@ submission_replies: Dict[str, List[str]] = {
         "Odd",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
@@ -38,6 +41,7 @@ submission_replies: Dict[str, List[str]] = {
         "Really",
         "True",
         "Twitter is now trending to breakeven if we keep at it.",
+        "Looks like this platform may see all time high device user seconds usage this week",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "Try it, but don’t trust it yet.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -47,6 +51,8 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
+        "You are free to be your true self here",
+        "X will become the most valuable brand on Earth. Make my words.",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "I hope this platform increasingly brings you joy & elucidation",
@@ -69,6 +75,7 @@ submission_replies: Dict[str, List[str]] = {
         "Whatever you say, cutie \U0001F979",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
         "Something fundamental is wrong",
         "Something is wrong",
         "Extremely dire situation.",
@@ -82,6 +89,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     " error": [
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -90,6 +98,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "broken": [
         "Something fundamental is wrong",
@@ -97,6 +106,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter down": [
         "Something fundamental is wrong",
@@ -104,6 +114,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter is down": [
         "Something fundamental is wrong",
@@ -111,6 +122,7 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "culture": ["End of days vibes"],
     "no plan": [
@@ -162,17 +174,22 @@ submission_replies: Dict[str, List[str]] = {
         "The intolerant left is driving people right"],
     "severance": [
         "You’re fired.",
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Better to talk to people than communicate via tweet.",
         "Haha what a tool"],
     "payoff": [
         "You’re fired.",
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Better to talk to people than communicate via tweet.",
         "Haha what a tool"],
     "social media": [
         "Better to talk to people than communicate via tweet.",
         "Twitter is a serious danger to their ability to control the narrative",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
+        "X will become the most valuable brand on Earth. Make my words.",
         "Super big deal"],
     "engineer": [
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months."],
@@ -191,7 +208,9 @@ submission_replies: Dict[str, List[str]] = {
     "advert": [
         "Press the heart",
         "Super big deal"],
-    "competitor": ["Press the heart"],
+    "competitor": [
+        "Press the heart",
+        "Competition is fine, cheating is not"],
     "truth": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -248,6 +267,8 @@ submission_replies: Dict[str, List[str]] = {
         "Whatever you say, cutie \U0001F979",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -267,10 +288,16 @@ submission_replies: Dict[str, List[str]] = {
         "Odd",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
+        "Looks like this platform may see all time high device user seconds usage this week",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter",
+        "You are free to be your true self here",
+        "X will become the most valuable brand on Earth. Make my words.",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "I hope this platform increasingly brings you joy & elucidation",
@@ -280,6 +307,26 @@ submission_replies: Dict[str, List[str]] = {
         "Incompetence, in the limit, is indistinguishable from sabotage",
         "You rang? \U0001F608",
         "You’re welcome namaste \U0001F64F"],
+    "facebook": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    "meta": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    "instagram": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    "threads": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -307,19 +354,24 @@ submission_replies: Dict[str, List[str]] = {
         "RAGE FOR THE MACHINE!!"],
     "block": [
         "Negative feedback is a good thing",
-        "Negative feedback received on this platform is great for reducing ego-based errors"],
+        "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
     "tweet": [
         "Concerning",
         "!",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Better to talk to people than communicate via tweet."],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": ["It’s a hit piece", "Concerning"],
     "movie": ["It’s a hit piece", "Concerning"],
-    "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
+    "algorithm": [
+        "Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!",
+        "Announcing formation of @xAI to understand reality"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     "nyt ": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
@@ -346,6 +398,7 @@ submission_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
         "Why does ur pp look like u just came?",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Interesting",
         "!!",
@@ -367,12 +420,14 @@ comment_replies: Dict[str, List[str]] = {
         "My car is currently orbiting Mars",
         "Hard to believe Starship actually did launch on 4/20 lol",
         "Humanity will reach Mars in 2026",
-        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",
+        "Level 9 is make humanity a multiplanet species & true spacefaring civilization. That is why I am gathering resources."],
     "mars": [
         "My car is currently orbiting Mars",
         "Hard to believe Starship actually did launch on 4/20 lol",
         "Humanity will reach Mars in 2026",
-        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars"],
+        "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",
+        "Level 9 is make humanity a multiplanet species & true spacefaring civilization. That is why I am gathering resources."],
     "stephen king": [
         "I’m still a fan tbh",
         "You’re welcome namaste \U0001F64F"],
@@ -404,8 +459,10 @@ comment_replies: Dict[str, List[str]] = {
         "True",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Twitter is now trending to breakeven if we keep at it.",
+        "Looks like this platform may see all time high device user seconds usage this week",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "Try it, but don’t trust it yet.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -415,6 +472,8 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "I get all my opinions from Twitter",
+        "You are free to be your true self here",
+        "X will become the most valuable brand on Earth. Make my words.",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "I hope this platform increasingly brings you joy & elucidation",
@@ -437,10 +496,12 @@ comment_replies: Dict[str, List[str]] = {
         "Let that sink in",
         "This is not a right wing takeover, but rather a centrist takeover."],
     "engineer": [
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months."],
     "developer": [
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
         "Just ~$100/month for API access with ID verification will clean things up greatly."],
@@ -450,14 +511,17 @@ comment_replies: Dict[str, List[str]] = {
     ],
     "severance": [
         "You’re fired.",
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Better to talk to people than communicate via tweet.",
         "Haha what a tool"],
     "payoff": [
         "You’re fired.",
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Better to talk to people than communicate via tweet.",
         "Haha what a tool"],
     "employee": [
         "You’re fired.",
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "We’re going to need you to stay in overnight, we’re going ultra hardcore.",
         "He’s the worst, sorry.",
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
@@ -467,10 +531,14 @@ comment_replies: Dict[str, List[str]] = {
     "social media": [
         "Better to talk to people than communicate via tweet.",
         "Twitter is a serious danger to their ability to control the narrative",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
+        "X will become the most valuable brand on Earth. Make my words.",
         "Super big deal"],
     "social network": [
         "Better to talk to people than communicate via tweet.",
         "Twitter is a serious danger to their ability to control the narrative",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
+        "X will become the most valuable brand on Earth. Make my words.",
         "Super big deal"],
     "disabled": [
         "He’s the worst, sorry.",
@@ -480,8 +548,12 @@ comment_replies: Dict[str, List[str]] = {
         "He’s the worst, sorry.",
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "Better to talk to people than communicate via tweet."],
-    "fired": ["You’re fired!"],
-    " fire ": ["You’re fired, you’re fired!"],
+    "fired": [
+        "You’re fired!",
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere."],
+    " fire ": [
+        "You’re fired, you’re fired!",
+        "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere."],
     "working hours": ["Are you super hardcore?", "Are you extremely hardcore?"],
     "hardcore": ["Are you super hardcore?", "Are you extremely hardcore?"],
     "covid": ["My pronouns are Prosecute/Fauci", "The coronavirus pandemic is dumb"],
@@ -579,6 +651,7 @@ comment_replies: Dict[str, List[str]] = {
         "Whatever you say, cutie \U0001F979",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
         "Something fundamental is wrong",
         "Something is wrong",
         "Extremely dire situation.",
@@ -593,6 +666,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     " error": [
         "Negative feedback received on this platform is great for reducing ego-based errors",
@@ -601,6 +675,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "broken": [
         "Something fundamental is wrong",
@@ -608,6 +683,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter down": [
         "Something fundamental is wrong",
@@ -615,6 +691,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "twitter is down": [
         "Something fundamental is wrong",
@@ -622,6 +699,7 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
         "This platform is so brittle (sigh). Will be fixed shortly.",
+        "X will become the most valuable brand on Earth. Make my words.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
     "suspend": ["Comedy is now legal on Twitter."],
     "fascis": [
@@ -675,7 +753,9 @@ comment_replies: Dict[str, List[str]] = {
         "Civilization is more fragile than it would seem",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",
         "To heir is human,  \nTo procreate divine",
-        "The woke mind virus is a parasite that kills its host. It must be eliminated."],
+        "The woke mind virus is a parasite that kills its host. It must be eliminated.",
+        "Level 9 is make humanity a multiplanet species & true spacefaring civilization. That is why I am gathering resources.",
+        "Announcing formation of @xAI to understand reality"],
     "chappelle": ["Dave, what should I say?"],
     "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
     "batchnorm": ["Gaming rocks"],
@@ -691,7 +771,9 @@ comment_replies: Dict[str, List[str]] = {
     "advert": [
         "Press the heart",
         "Super big deal"],
-    "competitor": ["Press the heart"],
+    "competitor": [
+        "Press the heart",
+        "Competition is fine, cheating is not"],
     "truth": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -729,6 +811,7 @@ comment_replies: Dict[str, List[str]] = {
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question"],
     "free speech": [
+        "I propose a literal dick measuring contest \U0001F4CF",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "I am adamant about defending free speech, even if it means losing money.",
         "Did your brain fall out of your head, Yglesias? The choice is have Twitter throttled in its entirety or limit access to some tweets. Which one do you want?",
@@ -752,6 +835,8 @@ comment_replies: Dict[str, List[str]] = {
         "Whatever you say, cutie \U0001F979",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter"],
     "reddit": [
         "\U0001F3AF", # bullseye
@@ -770,10 +855,16 @@ comment_replies: Dict[str, List[str]] = {
         "Odd",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
+        "Looks like this platform may see all time high device user seconds usage this week",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter",
+        "You are free to be your true self here",
+        "X will become the most valuable brand on Earth. Make my words.",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "I hope this platform increasingly brings you joy & elucidation",
@@ -784,6 +875,26 @@ comment_replies: Dict[str, List[str]] = {
         "You rang? \U0001F608",
         "You’re welcome namaste \U0001F64F",
         "I prefer peace, but if they want war, they will get it"],
+    "facebook": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    "meta": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    "instagram": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    "threads": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -811,12 +922,15 @@ comment_replies: Dict[str, List[str]] = {
         "RAGE FOR THE MACHINE!!"],
     "block": [
         "Negative feedback is a good thing",
-        "Negative feedback received on this platform is great for reducing ego-based errors"],
+        "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
     "tweet": [
         "Concerning",
         "!",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Better to talk to people than communicate via tweet."],
     "business": [
@@ -881,6 +995,16 @@ comment_replies: Dict[str, List[str]] = {
         "Strange",
         "Odd",
         "The gerontocracy is real"],
+    "zuck": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Competition is fine, cheating is not",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    " tate": [
+        "Super concerning",
+        "Strange",
+        "Odd",
+        "To sleep with women endlessly without love is a cursed and hollow life"],
     "parent": [
         "Interesting",
         "!!",
@@ -903,7 +1027,9 @@ comment_replies: Dict[str, List[str]] = {
         "!!",
         "Concerning",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!"],
-    "algorithm": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
+    "algorithm": [
+        "Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!",
+        "Announcing formation of @xAI to understand reality"],
     "open source": ["Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!"],
     # "love": [
     #     "Some hate humanity, but I love humanity so much",
@@ -983,10 +1109,15 @@ comment_replies: Dict[str, List[str]] = {
         "Odd",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter",
+        "You are free to be your true self here",
+        "X will become the most valuable brand on Earth. Make my words.",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "I hope this platform increasingly brings you joy & elucidation",
@@ -1023,7 +1154,11 @@ comment_replies: Dict[str, List[str]] = {
         "Haha that would sickkk",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter",
+        "You are free to be your true self here",
+        "X will become the most valuable brand on Earth. Make my words.",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
         "I hope this platform increasingly brings you joy & elucidation",
@@ -1042,7 +1177,8 @@ comment_replies: Dict[str, List[str]] = {
         "Whatever you say, cutie \U0001F979",
         "You rang? \U0001F608",
         "\U0001F6AC",
-        "Her limbic resonance skill is exceptional"],
+        "Her limbic resonance skill is exceptional",
+        "To sleep with women endlessly without love is a cursed and hollow life"],
     "taylor swift": [
         "You rang? \U0001F608",
         "\U0001F6AC",
@@ -1056,6 +1192,7 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
         "Why does ur pp look like u just came?",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Interesting",
         "!!",
@@ -1083,9 +1220,12 @@ comment_replies: Dict[str, List[str]] = {
         "Odd",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
+        "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
+        "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
+        "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter"]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
