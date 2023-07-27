@@ -1005,6 +1005,12 @@ comment_replies: Dict[str, List[str]] = {
         "Strange",
         "Odd",
         "To sleep with women endlessly without love is a cursed and hollow life"],
+    "judo": [
+        "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting."],
+    "fight": [
+        "Zuck is a cuck",
+        "I propose a literal dick measuring contest \U0001F4CF",
+        "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting."],
     "parent": [
         "Interesting",
         "!!",
@@ -1128,6 +1134,7 @@ comment_replies: Dict[str, List[str]] = {
         "Why does ur pp look like u just came?",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
+        "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting.",
         "You’re welcome namaste \U0001F64F",
         "I prefer peace, but if they want war, they will get it",
         "Nice doors"],
@@ -1169,6 +1176,7 @@ comment_replies: Dict[str, List[str]] = {
         "Why does ur pp look like u just came?",
         "You rang? \U0001F608",
         "A latte is really just an excuse for adults to order warm milk without sounding like a baby",
+        "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting.",
         "You’re welcome namaste \U0001F64F",
         "I prefer peace, but if they want war, they will get it",
         "Nice doors"],
