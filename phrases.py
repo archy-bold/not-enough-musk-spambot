@@ -1067,6 +1067,8 @@ comment_replies: Dict[str, List[str]] = {
     "facebook": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
+        "\U0001F445\U0001F923", # tongue/laugh
+        "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
         "X will become the most valuable brand on Earth. Make my words.",
@@ -1074,6 +1076,8 @@ comment_replies: Dict[str, List[str]] = {
     "meta": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
+        "\U0001F445\U0001F923", # tongue/laugh
+        "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
         "X will become the most valuable brand on Earth. Make my words.",
@@ -1081,6 +1085,8 @@ comment_replies: Dict[str, List[str]] = {
     "instagram": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
+        "\U0001F445\U0001F923", # tongue/laugh
+        "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
         "X will become the most valuable brand on Earth. Make my words.",
@@ -1088,6 +1094,8 @@ comment_replies: Dict[str, List[str]] = {
     "threads": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
+        "\U0001F445\U0001F923", # tongue/laugh
+        "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
         "X will become the most valuable brand on Earth. Make my words.",
@@ -1205,7 +1213,7 @@ comment_replies: Dict[str, List[str]] = {
         "Odd",
         "The gerontocracy is real"],
     "zuck": [
-        # "Zuck is a cuck",
+        "Zuck is a cuck",
         "Zuck is a chicken",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -1246,7 +1254,7 @@ comment_replies: Dict[str, List[str]] = {
         "I’m gonna bang on his door tomorrow and demand to fight",
         "He can’t eat at chic fil a because that would be cannibalism"],
     "fight": [
-        # "Zuck is a cuck",
+        "Zuck is a cuck",
         "Zuck is a chicken",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting.",
