@@ -5,6 +5,7 @@ from typing import Dict, List
 
 submission_replies: Dict[str, List[str]] = {
     "tesla": [
+        "Thread on how safe Tesla cars are",
         "We don’t control the federal reserve. The higher the rates, the harder they fall",
         "The fun police made us do it (sigh)",
         "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil."],

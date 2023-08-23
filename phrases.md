@@ -197,3 +197,4 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*𝕏 as humanity’s collective consciousness*](https://twitter.com/elonmusk/status/1692431667548528661)
 * [*Will greatly improve the esthetics.*](https://twitter.com/elonmusk/status/1693843680904216619)
 * [*A trillion dollar market cap for this platform is not out of the question*](https://twitter.com/elonmusk/status/1694254014869704925)
+* [*Thread on how safe Tesla cars are*](https://twitter.com/elonmusk/status/1611768674653982720)
