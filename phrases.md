@@ -198,3 +198,5 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Will greatly improve the esthetics.*](https://twitter.com/elonmusk/status/1693843680904216619)
 * [*A trillion dollar market cap for this platform is not out of the question*](https://twitter.com/elonmusk/status/1694254014869704925)
 * [*Thread on how safe Tesla cars are*](https://twitter.com/elonmusk/status/1611768674653982720)
+* [*I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.*](https://twitter.com/elonmusk/status/1694244701421830390)
+* [*I’m having a good time blocking people who complain that blocking is going away 😂*](https://twitter.com/elonmusk/status/1693218807160934400)
