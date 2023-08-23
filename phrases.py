@@ -426,7 +426,7 @@ submission_replies: Dict[str, List[str]] = {
     "facebook": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -434,7 +434,7 @@ submission_replies: Dict[str, List[str]] = {
     "meta": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -442,7 +442,7 @@ submission_replies: Dict[str, List[str]] = {
     "instagram": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -450,7 +450,7 @@ submission_replies: Dict[str, List[str]] = {
     "threads": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -460,7 +460,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in",
@@ -470,7 +470,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Funny cause it’s true",
@@ -483,7 +483,7 @@ submission_replies: Dict[str, List[str]] = {
         "Funny cause it’s true",
         "RAGE FOR THE MACHINE!!"],
     "block": [
-        "I’m having a good time blocking people who complain that blocking is going away \U0001F923",
+        "I’m having a good time blocking people who complain that blocking is going away \U0001F602",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
@@ -1189,7 +1189,7 @@ comment_replies: Dict[str, List[str]] = {
     "facebook": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -1197,7 +1197,7 @@ comment_replies: Dict[str, List[str]] = {
     "meta": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -1205,7 +1205,7 @@ comment_replies: Dict[str, List[str]] = {
     "instagram": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -1213,7 +1213,7 @@ comment_replies: Dict[str, List[str]] = {
     "threads": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
@@ -1223,7 +1223,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in",
@@ -1233,7 +1233,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Funny cause it’s true",
@@ -1246,7 +1246,7 @@ comment_replies: Dict[str, List[str]] = {
         "Funny cause it’s true",
         "RAGE FOR THE MACHINE!!"],
     "block": [
-        "I’m having a good time blocking people who complain that blocking is going away \U0001F923",
+        "I’m having a good time blocking people who complain that blocking is going away \U0001F602",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
@@ -1340,7 +1340,7 @@ comment_replies: Dict[str, List[str]] = {
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "If Zuck my \U0001F445 really wants a lesson in why there are weight categories in fighting so badly, I could just head over to his house next week and teach him a lesson he won’t soon forget",
         "I’m gonna bang on his door tomorrow and demand to fight",
         "Voglio ringraziare il ministro Sangiuliano per la gentilezza e la disponibilità nel voler organizzare un evento di intrattenimento, culturale e di beneficenza in Italia. Volevamo promuovere la storia dell’Antica Roma con il supporto di esperti e allo stesso tempo raccogliere soldi per i veterani americani e gli ospedali pediatrici in Italia. Zuckerberg ha rifiutato l’offerta perché non è interessato a questo approccio. Vuole solo combattere se è la UFC organizzare l’incontro. Io comunque sono sempre pronto a combattere \u2694\uFE0F",
@@ -1500,7 +1500,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
         "Precisely",
         "Exactly",
@@ -1557,7 +1557,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
         "Precisely",
         "Exactly",
@@ -1611,7 +1611,7 @@ comment_replies: Dict[str, List[str]] = {
         "Whatever you say, cutie \U0001F979",
         "You rang? \U0001F608",
         "\U0001F6AC",
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "Her limbic resonance skill is exceptional",
         "To sleep with women endlessly without love is a cursed and hollow life"],
     "taylor swift": [
@@ -1645,7 +1645,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
-        "\U0001F445\U0001F923", # tongue/laugh
+        "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
         "Precisely",
         "Exactly",
