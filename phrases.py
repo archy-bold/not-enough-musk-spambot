@@ -1468,9 +1468,15 @@ comment_replies: Dict[str, List[str]] = {
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "Occasional use of Ketamine is a much better option, in my opinion. I have a prescription for when my brain chemistry sometimes goes super negative."],
     "ketamine": [
+        "Make my words.",
+        "Yes!! \U0001F923\U0001F923",
+        "Try it, but don’t trust it yet.",
         "Occasional use of Ketamine is a much better option, in my opinion. I have a prescription for when my brain chemistry sometimes goes super negative.",
         "\U0001F4AF\n\nOnly thing more insane than a nazi is a nazi on meth"],
     "drug": [
+        "Make my words.",
+        "Yes!! \U0001F923\U0001F923",
+        "Try it, but don’t trust it yet.",
         "Occasional use of Ketamine is a much better option, in my opinion. I have a prescription for when my brain chemistry sometimes goes super negative.",
         "\U0001F4AF\n\nOnly thing more insane than a nazi is a nazi on meth"],
     "elon": [
