@@ -8,7 +8,8 @@ submission_replies: Dict[str, List[str]] = {
         "Thread on how safe Tesla cars are",
         "We don’t control the federal reserve. The higher the rates, the harder they fall",
         "The fun police made us do it (sigh)",
-        "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil."],
+        "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil.",
+        "Precision predicates perfectionism."],
     "files": [
         "!!",
         "Interesting",
@@ -284,6 +285,7 @@ submission_replies: Dict[str, List[str]] = {
         "Better to talk to people than communicate via tweet.",
         "Twitter is a serious danger to their ability to control the narrative",
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
+        "I tried using TikTok and felt their AI probing my brain, so I stopped",
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "Super big deal"],
@@ -464,7 +466,9 @@ submission_replies: Dict[str, List[str]] = {
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in",
-        "That’s what she said"],
+        "That’s what she said",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -474,7 +478,9 @@ submission_replies: Dict[str, List[str]] = {
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Funny cause it’s true",
-        "That’s what she said"],
+        "That’s what she said",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -688,13 +694,17 @@ comment_replies: Dict[str, List[str]] = {
         "Although there are some bad things in the world, remember that there are many good things too"],
     "king of twitter": [
         "The meme community has high standards!",
-        "Let that sink in"],
+        "Let that sink in",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "joke": [
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in",
-        "Knock knock  \nWho’s there?  \nKnutsēk  \nNutsack who?  \nKnutsēk Tæbag"],
+        "Knock knock  \nWho’s there?  \nKnutsēk  \nNutsack who?  \nKnutsēk Tæbag",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "knock": [
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Knock knock  \nWho’s there?  \nKnutsēk  \nNutsack who?  \nKnutsēk Tæbag"],
@@ -740,6 +750,7 @@ comment_replies: Dict[str, List[str]] = {
         "Better to talk to people than communicate via tweet.",
         "Twitter is a serious danger to their ability to control the narrative",
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
+        "I tried using TikTok and felt their AI probing my brain, so I stopped",
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "Super big deal"],
@@ -747,6 +758,7 @@ comment_replies: Dict[str, List[str]] = {
         "Better to talk to people than communicate via tweet.",
         "Twitter is a serious danger to their ability to control the narrative",
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
+        "I tried using TikTok and felt their AI probing my brain, so I stopped",
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "Super big deal"],
@@ -847,6 +859,7 @@ comment_replies: Dict[str, List[str]] = {
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "The intolerant left is driving people right"],
     "nazi": [
+        "Does seem asymmetric",
         "This is not a right wing takeover, but rather a centrist takeover.",
         "By the way, I am actually a socialist.",
         "The intolerant left is driving people right",
@@ -902,7 +915,13 @@ comment_replies: Dict[str, List[str]] = {
         "We will defeat the spam bots or die trying!",
         "What we need is TruthGPT",
         "In the spirit of self-awareness, what are you?",],
-    "gpt": ["What we need is TruthGPT"],
+    "gpt": [
+        "Announcing formation of @xAI to understand reality",
+        "What we need is TruthGPT"],
+    " ai ": [
+        "I tried using TikTok and felt their AI probing my brain, so I stopped",
+        "Announcing formation of @xAI to understand reality",
+        "What we need is TruthGPT"],
     "sentien": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1051,7 +1070,8 @@ comment_replies: Dict[str, List[str]] = {
         "To heir is human,  \nTo procreate divine",
         "The woke mind virus is a parasite that kills its host. It must be eliminated.",
         "Level 9 is make humanity a multiplanet species & true spacefaring civilization. That is why I am gathering resources.",
-        "Announcing formation of @xAI to understand reality"],
+        "Announcing formation of @xAI to understand reality",
+        "I will not let you down, no matter what it takes"],
     "chappelle": ["Dave, what should I say?"],
     "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
     "batchnorm": ["Gaming rocks"],
@@ -1218,6 +1238,9 @@ comment_replies: Dict[str, List[str]] = {
         "I propose a literal dick measuring contest \U0001F4CF",
         "Competition is fine, cheating is not",
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
+    "tiktok": [
+        "Better to talk to people than communicate via tweet.",
+        "I tried using TikTok and felt their AI probing my brain, so I stopped"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -1227,7 +1250,9 @@ comment_replies: Dict[str, List[str]] = {
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Let that sink in",
-        "That’s what she said"],
+        "That’s what she said",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -1237,7 +1262,9 @@ comment_replies: Dict[str, List[str]] = {
         "The meme community has high standards!",
         "Have you considered a career in comedy?",
         "Funny cause it’s true",
-        "That’s what she said"],
+        "That’s what she said",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -1309,12 +1336,19 @@ comment_replies: Dict[str, List[str]] = {
     "boomer": [
         "I keep forgetting that you’re still alive",
         "The gerontocracy is real"],
+    "mugshot": ["Next-level"],
     "biden": [
         "Concerning",
         "Strange",
         "Wow",
         "Odd",
         "I keep forgetting that you’re still alive",
+        "The gerontocracy is real"],
+    "trump": [
+        "That’s what she said",
+        "This is not a right wing takeover, but rather a centrist takeover.",
+        "The intolerant left is driving people right",
+        "Next-level",
         "The gerontocracy is real"],
     "pelosi": [
         "Super concerning",
@@ -1443,7 +1477,14 @@ comment_replies: Dict[str, List[str]] = {
         "Does seem asymmetric",
         "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government",
         "By the way, I am actually a socialist.",
-        "The intolerant left is driving people right"],
+        "The intolerant left is driving people right",
+        "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
+    "justice": [
+        "Does seem asymmetric",
+        "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
+    "refugee": [
+        "You’re fired.",
+        "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
     "russia": [
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "Nice doors"],
@@ -1549,7 +1590,11 @@ comment_replies: Dict[str, List[str]] = {
         "Make my words.",
         "Testosterone rocks ngl",
         "A few times a year, I take Sunday afternoons off",
-        "I build muscle fast. Physical endurance is my weak spot."],
+        "I build muscle fast. Physical endurance is my weak spot.",
+        "Precision predicates perfectionism.",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I will not let you down, no matter what it takes"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -1605,7 +1650,11 @@ comment_replies: Dict[str, List[str]] = {
         "Make my words.",
         "Testosterone rocks ngl",
         "A few times a year, I take Sunday afternoons off",
-        "I build muscle fast. Physical endurance is my weak spot."],
+        "I build muscle fast. Physical endurance is my weak spot.",
+        "Precision predicates perfectionism.",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I will not let you down, no matter what it takes"],
     "horny": [
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
@@ -1674,7 +1723,10 @@ comment_replies: Dict[str, List[str]] = {
         "Frankly, I love the negative feedback on this platform. Vastly preferable to some sniffy censorship bureau!",
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter",
-        "In the spirit of self-awareness, what are you?"]
+        "In the spirit of self-awareness, what are you?",
+        "I have overcome the desire to be liked \U0001F923",
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I will not let you down, no matter what it takes"]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat
