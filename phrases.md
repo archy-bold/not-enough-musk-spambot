@@ -206,3 +206,4 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*I tried using TikTok and felt their AI probing my brain, so I stopped*](https://twitter.com/elonmusk/status/1694648613505495368)
 * [*Next-level*](https://twitter.com/elonmusk/status/1694903930981884041)
 * [*The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system.*](https://twitter.com/elonmusk/status/1695005568661147937)
+* [*Правда*](https://twitter.com/elonmusk/status/1694971101397565562)

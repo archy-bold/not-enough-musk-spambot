@@ -323,7 +323,8 @@ submission_replies: Dict[str, List[str]] = {
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
-        "Maybe it’s not true, hence the question"],
+        "Maybe it’s not true, hence the question",
+        "Правда"],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -335,7 +336,8 @@ submission_replies: Dict[str, List[str]] = {
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
-        "Maybe it’s not true, hence the question"],
+        "Maybe it’s not true, hence the question",
+        "Правда"],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -347,7 +349,8 @@ submission_replies: Dict[str, List[str]] = {
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
-        "Maybe it’s not true, hence the question"],
+        "Maybe it’s not true, hence the question",
+        "Правда"],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1101,7 +1104,8 @@ comment_replies: Dict[str, List[str]] = {
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
-        "Maybe it’s not true, hence the question"],
+        "Maybe it’s not true, hence the question",
+        "Правда"],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -1113,7 +1117,8 @@ comment_replies: Dict[str, List[str]] = {
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
-        "Maybe it’s not true, hence the question"],
+        "Maybe it’s not true, hence the question",
+        "Правда"],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -1125,7 +1130,8 @@ comment_replies: Dict[str, List[str]] = {
         "This platform is hell bent on being the least untrue source of information",
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
-        "Maybe it’s not true, hence the question"],
+        "Maybe it’s not true, hence the question",
+        "Правда"],
     "free speech": [
         "I propose a literal dick measuring contest \U0001F4CF",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
@@ -1489,6 +1495,7 @@ comment_replies: Dict[str, List[str]] = {
         "You’re fired.",
         "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
     "russia": [
+        "Правда",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "Nice doors"],
     "paranoi": ["falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government"],
