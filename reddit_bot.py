@@ -5,6 +5,7 @@ import os
 import random
 import sqlite3 as sl
 from phrases import *
+from prawcore.exceptions import ServerError
 from src.db import *
 from src.env import *
 from src.reddit import *
@@ -54,29 +55,35 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
         replied = have_replied_to_comment(c, comment.id)
         if replied is None:
             for key in comment_replies:
-                if (text_contains(comment.body, key) and
-                        comment.author != me and
-                            not comment.submission.locked and
-                                not timestamp_older_than_days(comment.created_utc, reply_age)):
-                    print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id + " (submission " + comment.submission.id + ")")
-                    if random.random() < comment_prob:
-                        response: str = random.choice(comment_replies[key])
-                        if response.lower() in comment.body.lower():
-                            break
+                try:
+                    if (text_contains(comment.body, key) and
+                            comment.author != me and
+                                not comment.submission.locked and
+                                    not timestamp_older_than_days(comment.created_utc, reply_age)):
+                        print("String with \"" + key + "\" found in comment \"" + comment.body + "\" " + comment.id + " (submission " + comment.submission.id + ")")
+                        if random.random() < comment_prob:
+                            response: str = random.choice(comment_replies[key])
+                            if response.lower() in comment.body.lower():
+                                break
+
+                            if env == "production":
+                                comment.reply(response)
+                                con.commit()
+                                time.sleep(2)
+                            print("Replied to comment \"" + comment.id + "\" with \"" + response + "\"")
+
+                            insert_comment(c, comment, replied=True)
+                        else:
+                            insert_comment(c, comment, replied=False)
 
                         if env == "production":
-                            comment.reply(response)
                             con.commit()
-                            time.sleep(2)
-                        print("Replied to comment \"" + comment.id + "\" with \"" + response + "\"")
-
-                        insert_comment(c, comment, replied=True)
-                    else:
-                        insert_comment(c, comment, replied=False)
-
-                    if env == "production":
-                        con.commit()
-                    break
+                        break
+                except ServerError as e:
+                    # 504 gateway timeouts seem to happen when accessing submissions unavailable to the bot, ignore them
+                    # eg seen when accessing the submission of comment jxl3ied (sub id 15zi1up)
+                    if e.response.status_code != 504:
+                        raise
 
     print("Search Completed.")
 

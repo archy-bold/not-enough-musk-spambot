@@ -1485,6 +1485,9 @@ comment_replies: Dict[str, List[str]] = {
     "refugee": [
         "You’re fired.",
         "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
+    "asylum": [
+        "You’re fired.",
+        "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
     "russia": [
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "Nice doors"],
