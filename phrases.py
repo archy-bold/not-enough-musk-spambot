@@ -278,12 +278,6 @@ submission_replies: Dict[str, List[str]] = {
         "Interesting",
         "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
         "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
-    " doj": [
-        "Justice does not thrive in the dark",
-        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
-    "justice": [
-        "Justice does not thrive in the dark",
-        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
     "both sides": [
         "Comedy is now legal on Twitter.",
         "This is not a right wing takeover, but rather a centrist takeover.",
@@ -1066,10 +1060,24 @@ comment_replies: Dict[str, List[str]] = {
         "The intolerant left is driving people right"],
     "intoleran": [
         "The intolerant left is driving people right"],
+    "antisemit": [
+        "Interesting",
+        "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
+        "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
     "antifa": [
         "Comedy is now legal on Twitter.",
         "Does seem asymmetric",
         "The intolerant left is driving people right"],
+    " adl": [
+        "Interesting",
+        "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
+        "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
+    " doj": [
+        "Justice does not thrive in the dark",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
+    "justice": [
+        "Justice does not thrive in the dark",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
     "both sides": [
         "Comedy is now legal on Twitter.",
         "This is not a right wing takeover, but rather a centrist takeover.",
