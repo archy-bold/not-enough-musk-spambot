@@ -41,6 +41,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -50,6 +51,7 @@ submission_replies: Dict[str, List[str]] = {
         "True",
         "Twitter is now trending to breakeven if we keep at it.",
         "Looks like this platform may see all time high device user seconds usage this week",
+        "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
@@ -103,6 +105,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -112,6 +115,7 @@ submission_replies: Dict[str, List[str]] = {
         "True",
         "Twitter is now trending to breakeven if we keep at it.",
         "Looks like this platform may see all time high device user seconds usage this week",
+        "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
@@ -262,10 +266,24 @@ submission_replies: Dict[str, List[str]] = {
         "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!",
         "The intolerant left is driving people right"],
+    "antisemit": [
+        "Interesting",
+        "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
+        "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
     "antifa": [
         "Comedy is now legal on Twitter.",
         "Does seem asymmetric",
         "The intolerant left is driving people right"],
+    " adl": [
+        "Interesting",
+        "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
+        "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
+    " doj": [
+        "Justice does not thrive in the dark",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
+    "justice": [
+        "Justice does not thrive in the dark",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
     "both sides": [
         "Comedy is now legal on Twitter.",
         "This is not a right wing takeover, but rather a centrist takeover.",
@@ -355,6 +373,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -384,6 +403,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -406,6 +426,7 @@ submission_replies: Dict[str, List[str]] = {
         "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Looks like this platform may see all time high device user seconds usage this week",
+        "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
         "Negative feedback is a good thing",
@@ -470,6 +491,7 @@ submission_replies: Dict[str, List[str]] = {
         "Have you considered a career in comedy?",
         "Let that sink in",
         "That’s what she said",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     " fun": [
@@ -482,6 +504,7 @@ submission_replies: Dict[str, List[str]] = {
         "Have you considered a career in comedy?",
         "Funny cause it’s true",
         "That’s what she said",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "babylon": [
@@ -601,6 +624,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -614,6 +638,7 @@ comment_replies: Dict[str, List[str]] = {
         "Haha that would sickkk",
         "Twitter is now trending to breakeven if we keep at it.",
         "Looks like this platform may see all time high device user seconds usage this week",
+        "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
@@ -653,6 +678,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -666,6 +692,7 @@ comment_replies: Dict[str, List[str]] = {
         "Haha that would sickkk",
         "Twitter is now trending to breakeven if we keep at it.",
         "Looks like this platform may see all time high device user seconds usage this week",
+        "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
@@ -698,6 +725,7 @@ comment_replies: Dict[str, List[str]] = {
     "king of twitter": [
         "The meme community has high standards!",
         "Let that sink in",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "joke": [
@@ -706,6 +734,7 @@ comment_replies: Dict[str, List[str]] = {
         "Have you considered a career in comedy?",
         "Let that sink in",
         "Knock knock  \nWho’s there?  \nKnutsēk  \nNutsack who?  \nKnutsēk Tæbag",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "knock": [
@@ -929,6 +958,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Something fundamental is wrong",
         "Extremely dire situation.",
@@ -941,6 +971,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Something fundamental is wrong",
         "Extremely dire situation.",
@@ -953,6 +984,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Something fundamental is wrong",
         "Extremely dire situation.",
@@ -1053,6 +1085,7 @@ comment_replies: Dict[str, List[str]] = {
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "The woke mind virus is either defeated or nothing else matters",
         "Mind virus got you & you don’t realize it",
+        "Woke is fundamentally anti-human",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",
         "The woke mind virus is a parasite that kills its host. It must be eliminated."],
     "pronouns": [
@@ -1062,6 +1095,7 @@ comment_replies: Dict[str, List[str]] = {
         "Computers are literally binary lol",
         "The woke mind virus is either defeated or nothing else matters",
         "Mind virus got you & you don’t realize it",
+        "Woke is fundamentally anti-human",
         "The woke mind virus is a parasite that kills its host. It must be eliminated.",
         "I’m not cis, you are"],
     "youth": ["Idiocracy is happening so fast"],
@@ -1074,6 +1108,7 @@ comment_replies: Dict[str, List[str]] = {
         "The woke mind virus is a parasite that kills its host. It must be eliminated.",
         "Level 9 is make humanity a multiplanet species & true spacefaring civilization. That is why I am gathering resources.",
         "Announcing formation of @xAI to understand reality",
+        "Woke is fundamentally anti-human",
         "I will not let you down, no matter what it takes"],
     "chappelle": ["Dave, what should I say?"],
     "neuralink": ["We are now confident that the Neuralink device is ready for humans"],
@@ -1142,6 +1177,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -1169,6 +1205,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
@@ -1189,6 +1226,7 @@ comment_replies: Dict[str, List[str]] = {
         "I propose a literal dick measuring contest \U0001F4CF",
         "Haha that would sickkk",
         "Looks like this platform may see all time high device user seconds usage this week",
+        "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
         "Negative feedback is a good thing",
@@ -1257,6 +1295,7 @@ comment_replies: Dict[str, List[str]] = {
         "Have you considered a career in comedy?",
         "Let that sink in",
         "That’s what she said",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     " fun": [
@@ -1269,6 +1308,7 @@ comment_replies: Dict[str, List[str]] = {
         "Have you considered a career in comedy?",
         "Funny cause it’s true",
         "That’s what she said",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
     "babylon": [
@@ -1326,6 +1366,7 @@ comment_replies: Dict[str, List[str]] = {
     "film": ["It’s a hit piece", "Concerning"],
     "movie": ["It’s a hit piece", "Concerning"],
     "batman": [
+        "Justice does not thrive in the dark",
         "He loves bats next-level.",
         "Civilization is more fragile than it would seem"],
     " bats": ["He loves bats next-level."],
@@ -1468,6 +1509,7 @@ comment_replies: Dict[str, List[str]] = {
         "Although there are some bad things in the world, remember that there are many good things too",
         "Civilization is more fragile than it would seem",
         "He wants to erode the very fabric of civilization. Soros hates humanity.",
+        "Woke is fundamentally anti-human",
         "Very important to make new humans.",
         "Very important to make new humans.\n\nNo new humans means no humanity.",
         "To heir is human,  \nTo procreate divine"],
@@ -1544,12 +1586,27 @@ comment_replies: Dict[str, List[str]] = {
         "Try it, but don’t trust it yet.",
         "Occasional use of Ketamine is a much better option, in my opinion. I have a prescription for when my brain chemistry sometimes goes super negative.",
         "\U0001F4AF\n\nOnly thing more insane than a nazi is a nazi on meth"],
+    " ego": [
+        "!\U0001F9E0", # brain
+        "Negative feedback received on this platform is great for reducing ego-based errors",
+        "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
+        "Ego/Brains >> 1 is one of the world’s biggest problems"],
+    "brain": [
+        "!\U0001F9E0", # brain
+        "Ego/Brains >> 1 is one of the world’s biggest problems"],
+    "smart": [
+        "!\U0001F9E0", # brain
+        "\U0001F9BE", # mechanical arm
+        "Incompetence, in the limit, is indistinguishable from sabotage",
+        "I will not let you down, no matter what it takes",
+        "Ego/Brains >> 1 is one of the world’s biggest problems"],
     "elon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
@@ -1602,6 +1659,7 @@ comment_replies: Dict[str, List[str]] = {
         "A few times a year, I take Sunday afternoons off",
         "I build muscle fast. Physical endurance is my weak spot.",
         "Precision predicates perfectionism.",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
         "I will not let you down, no matter what it takes"],
@@ -1611,6 +1669,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
@@ -1662,6 +1721,7 @@ comment_replies: Dict[str, List[str]] = {
         "A few times a year, I take Sunday afternoons off",
         "I build muscle fast. Physical endurance is my weak spot.",
         "Precision predicates perfectionism.",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
         "I will not let you down, no matter what it takes"],
@@ -1703,6 +1763,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
+        "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
@@ -1734,6 +1795,7 @@ comment_replies: Dict[str, List[str]] = {
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram",
         "I get all my opinions from Twitter",
         "In the spirit of self-awareness, what are you?",
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
         "I will not let you down, no matter what it takes"]
