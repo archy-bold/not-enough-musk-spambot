@@ -84,6 +84,9 @@ def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
                     # eg seen when accessing the submission of comment jxl3ied (sub id 15zi1up)
                     if e.response.status_code != 504:
                         raise
+                except praw.exceptions.RedditAPIException as e:
+                    # Do nothing, don't reply to deleted comments.
+                    print("Don't reply to deleted comment " + comment.id + " \"" + comment.body + "\"")
 
     print("Search Completed.")
 
