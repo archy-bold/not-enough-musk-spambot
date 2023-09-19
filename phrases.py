@@ -51,11 +51,13 @@ submission_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "Twitter is now trending to breakeven if we keep at it.",
         "Looks like this platform may see all time high device user seconds usage this week",
         "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
+        "Our overarching goal is to maximize unregretted user time.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "Try it, but don’t trust it yet.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -68,6 +70,7 @@ submission_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
+        "Talk to Earth via X!",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -117,11 +120,13 @@ submission_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "Twitter is now trending to breakeven if we keep at it.",
         "Looks like this platform may see all time high device user seconds usage this week",
         "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
+        "Our overarching goal is to maximize unregretted user time.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "Try it, but don’t trust it yet.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -134,6 +139,7 @@ submission_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
+        "Talk to Earth via X!",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -274,7 +280,10 @@ submission_replies: Dict[str, List[str]] = {
     "antisemit": [
         "Interesting",
         "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
-        "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
+        "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion.",
+        "He wants to erode the very fabric of civilization. Soros hates humanity.",
+        "The Soros organization appears to want nothing less than the destruction of western civilization",
+        "Obviously, I’m against antisemitism. Free speech does mean at times someone is saying something you don’t like. That doesn’t mean negativity should be pushed on people. Our overarching goal is to maximize unregretted user time. We can’t police antisemitism ahead of time. We’re not going to promote hate speech."],
     "antifa": [
         "Comedy is now legal on Twitter.",
         "Does seem asymmetric",
@@ -311,7 +320,8 @@ submission_replies: Dict[str, List[str]] = {
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
-        "Production is a hard problem"],
+        "Production is a hard problem",
+        "Do something to program this right"],
     "takeover": [
         "Let that sink in",
         "This is not a right wing takeover, but rather a centrist takeover."],
@@ -386,6 +396,7 @@ submission_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -418,6 +429,7 @@ submission_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -436,6 +448,7 @@ submission_replies: Dict[str, List[str]] = {
         "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
+        "Our overarching goal is to maximize unregretted user time.",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
@@ -444,6 +457,7 @@ submission_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
+        "Talk to Earth via X!",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -581,7 +595,8 @@ submission_replies: Dict[str, List[str]] = {
         "Wow",
         "Odd",
         "Make my words.",
-        "In the spirit of self-awareness, what are you?"]
+        "In the spirit of self-awareness, what are you?",
+        "Every day"]
 }
 
 comment_replies: Dict[str, List[str]] = {
@@ -641,6 +656,7 @@ comment_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
         "I propose a literal dick measuring contest \U0001F4CF",
@@ -650,6 +666,7 @@ comment_replies: Dict[str, List[str]] = {
         "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
+        "Our overarching goal is to maximize unregretted user time.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "Try it, but don’t trust it yet.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -662,6 +679,7 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
+        "Talk to Earth via X!",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -697,6 +715,7 @@ comment_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
         "I propose a literal dick measuring contest \U0001F4CF",
@@ -706,6 +725,7 @@ comment_replies: Dict[str, List[str]] = {
         "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
+        "Our overarching goal is to maximize unregretted user time.",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "Try it, but don’t trust it yet.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -718,6 +738,7 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
+        "Talk to Earth via X!",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -759,16 +780,22 @@ comment_replies: Dict[str, List[str]] = {
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
-        "Production is a hard problem"],
+        "Production is a hard problem",
+        "Do something to program this right"],
     "developer": [
         "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
-        "Just ~$100/month for API access with ID verification will clean things up greatly."],
+        "Just ~$100/month for API access with ID verification will clean things up greatly.",
+        "Do something to program this right"],
     "server": [
         "Print out 50 pages of code you’ve done in the last 30 days",
         "Bring me 10 screenshots of the most salient lines of code you’ve written in the last 6 months.",
+        "Do something to program this right",
     ],
+    "autopilot": [
+        "Do something to program this right",
+        "Precision predicates perfectionism."],
     "severance": [
         "You’re fired.",
         "I would like to apologize for firing these geniuses. Their immense talent will no doubt be of great use elsewhere.",
@@ -859,7 +886,8 @@ comment_replies: Dict[str, List[str]] = {
         "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
-        "To heir is human,  \nTo procreate divine"],
+        "To heir is human,  \nTo procreate divine",
+        "A major part of the fall of Rome was low birth rates"],
     "stock": [
         "Funding secured.",
         "A trillion dollar market cap for this platform is not out of the question",
@@ -910,10 +938,12 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\n\nOnly thing more insane than a nazi is a nazi on meth"],
     "feminis": [
         "To sleep with women endlessly without love is a cursed and hollow life",
-        "Testosterone rocks ngl"],
+        "Testosterone rocks ngl",
+        "Haven’t even had sex in ages (sigh)"],
     "women": [
         "To sleep with women endlessly without love is a cursed and hollow life",
-        "Testosterone rocks ngl"],
+        "Testosterone rocks ngl",
+        "Haven’t even had sex in ages (sigh)"],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
@@ -1093,10 +1123,12 @@ comment_replies: Dict[str, List[str]] = {
         "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
     " doj": [
         "Justice does not thrive in the dark",
-        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
+        "DOJ priorities are not obviously optimal"],
     "justice": [
         "Justice does not thrive in the dark",
-        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923"],
+        "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
+        "DOJ priorities are not obviously optimal"],
     "both sides": [
         "Comedy is now legal on Twitter.",
         "This is not a right wing takeover, but rather a centrist takeover.",
@@ -1140,6 +1172,7 @@ comment_replies: Dict[str, List[str]] = {
         "Civilization is more fragile than it would seem",
         "Unless it is stopped, the woke mind virus will destroy civilization and humanity will never reached Mars",
         "To heir is human,  \nTo procreate divine",
+        "A major part of the fall of Rome was low birth rates",
         "The woke mind virus is a parasite that kills its host. It must be eliminated.",
         "Level 9 is make humanity a multiplanet species & true spacefaring civilization. That is why I am gathering resources.",
         "Announcing formation of @xAI to understand reality",
@@ -1212,7 +1245,8 @@ comment_replies: Dict[str, List[str]] = {
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
         "I am adamant about defending free speech, even if it means losing money.",
         "Did your brain fall out of your head, Yglesias? The choice is have Twitter throttled in its entirety or limit access to some tweets. Which one do you want?",
-        "You’re such a numbskull. Please point out where we had an actual choice and we will reverse it."],
+        "You’re such a numbskull. Please point out where we had an actual choice and we will reverse it.",
+        "Obviously, I’m against antisemitism. Free speech does mean at times someone is saying something you don’t like. That doesn’t mean negativity should be pushed on people. Our overarching goal is to maximize unregretted user time. We can’t police antisemitism ahead of time. We’re not going to promote hate speech."],
     "opinion": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1223,6 +1257,7 @@ comment_replies: Dict[str, List[str]] = {
         "Precisely",
         "Exactly",
         "True",
+        "Touché",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -1251,6 +1286,7 @@ comment_replies: Dict[str, List[str]] = {
         "Precisely",
         "Exactly",
         "True",
+        "Touché",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -1269,6 +1305,7 @@ comment_replies: Dict[str, List[str]] = {
         "The speed at which your message on this platform can reach a vast number of people is mind-blowing",
         "Maximizing unregretted user-seconds",
         "Our user-seconds have reached all time highs in recent months, so something is wrong. Will investigate.",
+        "Our overarching goal is to maximize unregretted user time.",
         "Negative feedback is a good thing",
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
@@ -1277,6 +1314,7 @@ comment_replies: Dict[str, List[str]] = {
         "I get all my opinions from Twitter",
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
+        "Talk to Earth via X!",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "I never take notes",
         "It’s kinda flattering to be insulted on this site tbh",
@@ -1384,6 +1422,7 @@ comment_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "A trillion dollar market cap for this platform is not out of the question",
         "I do hope to succeed in business \U0001F91E"],
     "career": [
@@ -1397,6 +1436,7 @@ comment_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "A trillion dollar market cap for this platform is not out of the question",
         "I do hope to succeed in business \U0001F91E"],
     "comedy": [
@@ -1454,6 +1494,7 @@ comment_replies: Dict[str, List[str]] = {
     "soros": [
         "Soros reminds me of Magneto",
         "He wants to erode the very fabric of civilization. Soros hates humanity.",
+        "The Soros organization appears to want nothing less than the destruction of western civilization",
         "Extremely concerning",
         "Strange",
         "Wow",
@@ -1479,6 +1520,9 @@ comment_replies: Dict[str, List[str]] = {
         "To sleep with women endlessly without love is a cursed and hollow life"],
     "linda": ["CEO is fake title."],
     "yaccarino": ["CEO is fake title."],
+    "tucker carl": [
+        "Haha what a tool",
+        "Views for his episodes on X now exceed the population of the United States."],
     " ceo": ["CEO is fake title."],
     "judo": [
         "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting.",
@@ -1564,7 +1608,8 @@ comment_replies: Dict[str, List[str]] = {
         "Woke is fundamentally anti-human",
         "Very important to make new humans.",
         "Very important to make new humans.\n\nNo new humans means no humanity.",
-        "To heir is human,  \nTo procreate divine"],
+        "To heir is human,  \nTo procreate divine",
+        "A major part of the fall of Rome was low birth rates"],
     "population": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
@@ -1572,7 +1617,8 @@ comment_replies: Dict[str, List[str]] = {
         "Civilization is more fragile than it would seem",
         "Very important to make new humans.",
         "Very important to make new humans.\n\nNo new humans means no humanity.",
-        "To heir is human,  \nTo procreate divine"],
+        "To heir is human,  \nTo procreate divine",
+        "A major part of the fall of Rome was low birth rates"],
     "government": [
         "Does seem asymmetric",
         "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government",
@@ -1580,10 +1626,12 @@ comment_replies: Dict[str, List[str]] = {
         "The intolerant left is driving people right",
         "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system.",
         "A lot of families and companies will leave the state to avoid risking their children being sterilized by the government.",
-        "The United States Congress has not declared war on Russia. If anyone is treasonous, it is those who call me such."],
+        "The United States Congress has not declared war on Russia. If anyone is treasonous, it is those who call me such.",
+        "DOJ priorities are not obviously optimal"],
     "justice": [
         "Does seem asymmetric",
-        "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
+        "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system.",
+        "DOJ priorities are not obviously optimal"],
     "refugee": [
         "You’re fired.",
         "The weaponization of government agencies needs to stop. This fundamentally undermines public faith in the justice system."],
@@ -1684,6 +1732,7 @@ comment_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -1749,6 +1798,7 @@ comment_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -1800,18 +1850,37 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
         "You rang? \U0001F608",
-        "\U0001F6AC",
+        "\U0001F6AC", # smoking
         "\U0001F445\U0001F602", # tongue/laugh
         "Her limbic resonance skill is exceptional",
-        "To sleep with women endlessly without love is a cursed and hollow life"],
+        "To sleep with women endlessly without love is a cursed and hollow life",
+        "She did dress up as Mercy. It was awesome.",
+        "Haven’t even had sex in ages (sigh)"],
     "taylor swift": [
         "You rang? \U0001F608",
-        "\U0001F6AC",
-        "Her limbic resonance skill is exceptional"],
+        "\U0001F6AC", # smoking
+        "Her limbic resonance skill is exceptional",
+        "Haven’t even had sex in ages (sigh)"],
+    "amber heard": [
+        "You rang? \U0001F608",
+        "\U0001F6AC", # smoking
+        "She did dress up as Mercy. It was awesome.",
+        "Haven’t even had sex in ages (sigh)"],
     " law": ["Lawsuit time."],
     "microsoft": ["Lawsuit time."],
     " poo ": ["Yes!! \U0001F923\U0001F923"],
     " poop": ["Yes!! \U0001F923\U0001F923"],
+    "spinal": [
+        "Surgery with artificial disc"],
+    "spine": [
+        "Surgery with artificial disc"],
+    "doctor": [
+        "Surgery with artificial disc"],
+    "medical": [
+        "Surgery with artificial disc"],
+    "roman": [
+        "Every day",
+        "A major part of the fall of Rome was low birth rates"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "That’s what she said",
@@ -1829,7 +1898,8 @@ comment_replies: Dict[str, List[str]] = {
         "Wow",
         "Odd",
         "Make my words.",
-        "In the spirit of self-awareness, what are you?"],
+        "In the spirit of self-awareness, what are you?",
+        "Every day"],
     "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1845,6 +1915,7 @@ comment_replies: Dict[str, List[str]] = {
         "Absolutely",
         "Obviously",
         "True",
+        "Touché",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
