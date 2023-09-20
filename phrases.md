@@ -238,3 +238,8 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Our overarching goal is to maximize unregretted user time.*](https://www.jpost.com/diaspora/article-759592)
 * [*Obviously, I’m against antisemitism. Free speech does mean at times someone is saying something you don’t like. That doesn’t mean negativity should be pushed on people. Our overarching goal is to maximize unregretted user time. We can’t police antisemitism ahead of time. We’re not going to promote hate speech.*](https://www.jpost.com/diaspora/article-759592)
 * [*A major part of the fall of Rome was low birth rates*](https://twitter.com/elonmusk/status/1703888466990530913)
+* [*1000%*](https://twitter.com/elonmusk/status/1703352227057004648)
+* [*Adderall is an anger amplifier. Best used sparingly or not at all.*](https://twitter.com/elonmusk/status/1655332535226753026)
+* [*My pet theory is that too much Adderall is making people grumpy 😂*](https://twitter.com/elonmusk/status/1623544699083694081)
+* [*This a major problem. Adderall is just low-grade speed & greatly amplifies your inner a\*\*hole!*](https://twitter.com/elonmusk/status/1613336585642323968)
+* [*Adderall is an anger amplifier. Avoid at all costs.*](https://twitter.com/elonmusk/status/1520179558665887744)
