@@ -202,7 +202,8 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     " error": [
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
@@ -215,7 +216,8 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "broken": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -226,7 +228,8 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "twitter down": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -237,7 +240,8 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "twitter is down": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -248,7 +252,8 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "culture": [
         "End of days vibes",
         "Although there are some bad things in the world, remember that there are many good things too"],
@@ -1114,7 +1119,8 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     " error": [
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
@@ -1127,7 +1133,8 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "broken": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1138,7 +1145,8 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "twitter down": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1149,7 +1157,8 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "twitter is down": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1160,7 +1169,8 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
-        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason."],
+        "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
+        "Please fix this"],
     "suspend": [
         "Comedy is now legal on Twitter.",
         "He is not suspended on this platform. “Innocent until proven guilty” is a wise and fair maxim."],

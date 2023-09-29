@@ -260,3 +260,4 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*I sometimes wonder if perhaps Rome was started by exiles from Troy. It’s not completely out of the question. At some point in antiquity, a few ships of very competent soldiers (with almost no women) landed on the coast of Italy. Where did they come from?*](https://twitter.com/elonmusk/status/1706442470026867025)
 * [*Please encourage more citizen journalism! You can do live video easily from your phone. More on-the-ground reporting from regular citizens will change the world.*](https://twitter.com/elonmusk/status/1707605322964111677)
 * [*🤯*](https://twitter.com/elonmusk/status/1707331383675298053)
+* [*Please fix this*](https://www.independent.co.uk/news/world/americas/elon-musk-border-visit-livestream-b2420978.html) (From a company-wide email when an X livestream failed at the border)
