@@ -91,6 +91,7 @@ submission_replies: Dict[str, List[str]] = {
         "Will greatly improve the esthetics.",
         "Yeah. Either post or get off the pot. There is no point in having a great handle and not posting.",
         "We are hell bent on making this platform the best place on Earth for great content creators!",
+        "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform.",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
@@ -174,6 +175,7 @@ submission_replies: Dict[str, List[str]] = {
         "Will greatly improve the esthetics.",
         "Yeah. Either post or get off the pot. There is no point in having a great handle and not posting.",
         "We are hell bent on making this platform the best place on Earth for great content creators!",
+        "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform.",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
@@ -311,7 +313,15 @@ submission_replies: Dict[str, List[str]] = {
         "We should stop canceling comedy!",
         "Simultaneously, an interesting question and a tongue twister!",
         "The intolerant left is driving people right",
-        "This is insane"],
+        "This is insane",
+        "The left hates Asians"],
+    "slave": [
+        "Comedy is now legal on Twitter.",
+        "Interesting",
+        "We should stop canceling comedy!",
+        "Simultaneously, an interesting question and a tongue twister!",
+        "This is insane",
+        "Most people don’t know much history.\n\nSlavery was standard practice almost everywhere on Earth since humans existed. Only last century was it made rare."],
     "antisemit": [
         "Interesting",
         "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
@@ -527,6 +537,7 @@ submission_replies: Dict[str, List[str]] = {
         "Will greatly improve the esthetics.",
         "Yeah. Either post or get off the pot. There is no point in having a great handle and not posting.",
         "We are hell bent on making this platform the best place on Earth for great content creators!",
+        "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform.",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
@@ -669,7 +680,8 @@ submission_replies: Dict[str, List[str]] = {
         "Make my words.",
         "In the spirit of self-awareness, what are you?",
         "Every day",
-        "Good question"]
+        "Good question",
+        "How many times did you die trying to beat hatred before winning?"]
 }
 
 comment_replies: Dict[str, List[str]] = {
@@ -774,6 +786,7 @@ comment_replies: Dict[str, List[str]] = {
         "Will greatly improve the esthetics.",
         "Yeah. Either post or get off the pot. There is no point in having a great handle and not posting.",
         "We are hell bent on making this platform the best place on Earth for great content creators!",
+        "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform.",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
@@ -847,6 +860,7 @@ comment_replies: Dict[str, List[str]] = {
         "Will greatly improve the esthetics.",
         "Yeah. Either post or get off the pot. There is no point in having a great handle and not posting.",
         "We are hell bent on making this platform the best place on Earth for great content creators!",
+        "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform.",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
@@ -1028,22 +1042,26 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "By the way, I am actually a socialist.",
         "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong",
-        "Unless there are a few issues where you at least slightly disagree with your political party, then you are not in a political party, you are in a cult"],
+        "Unless there are a few issues where you at least slightly disagree with your political party, then you are not in a political party, you are in a cult",
+        "The left hates Asians"],
     "party": [
         "That’s what she said",
         "I’m not right wing.",
         "Interesting",
         "By the way, I am actually a socialist.",
         "If other party is always wrong  \nAnd your party is always right  \nYou are at least partly wrong",
-        "Unless there are a few issues where you at least slightly disagree with your political party, then you are not in a political party, you are in a cult"],
+        "Unless there are a few issues where you at least slightly disagree with your political party, then you are not in a political party, you are in a cult",
+        "The left hates Asians"],
     "socialis": [
         "By the way, I am actually a socialist.",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
-        "The intolerant left is driving people right"],
+        "The intolerant left is driving people right",
+        "The left hates Asians"],
     "communis": [
         "By the way, I am actually a socialist.",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
-        "The intolerant left is driving people right"],
+        "The intolerant left is driving people right",
+        "The left hates Asians"],
     "nazi": [
         "Does seem asymmetric",
         "This is not a right wing takeover, but rather a centrist takeover.",
@@ -1257,7 +1275,7 @@ comment_replies: Dict[str, List[str]] = {
         "DOJ priorities are not obviously optimal",
         "Is the German public aware of this?",
         "Have you run a poll?",
-        "Has invasion vibes … \U0001F928"
+        "Has invasion vibes … \U0001F928",
         "Are you believing the bs press or something I actually wrote? If it is something I wrote or said, what is it exactly?\n\nI have not “supported” any political party and don’t know AFD from a hole in the ground."],
     " afd": [
         "Is the German public aware of this?",
@@ -1272,6 +1290,9 @@ comment_replies: Dict[str, List[str]] = {
         "Interesting",
         "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
         "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
+    " eu ": [
+        "I still don’t know what they’re talking about!",
+        "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform."],
     " doj": [
         "Justice does not thrive in the dark",
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
@@ -1513,6 +1534,7 @@ comment_replies: Dict[str, List[str]] = {
         "Will greatly improve the esthetics.",
         "Yeah. Either post or get off the pot. There is no point in having a great handle and not posting.",
         "We are hell bent on making this platform the best place on Earth for great content creators!",
+        "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform.",
         "You’re terrible & I love you\n\n*not terrible",
         "Sometimes, when you learn about something, you think you have it",
         "Haha what a tool",
@@ -1791,7 +1813,8 @@ comment_replies: Dict[str, List[str]] = {
         "Concerning",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "A lot of families and companies will leave the state to avoid risking their children being sterilized by the government.",
-        "Having children is saving the world"],
+        "Having children is saving the world",
+        "Instead of knowledge, schools pour poison into the ears of our children"],
     "school": [
         "Interesting",
         "!!",
@@ -1801,7 +1824,9 @@ comment_replies: Dict[str, List[str]] = {
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "A lot of families and companies will leave the state to avoid risking their children being sterilized by the government.",
         "Having children is saving the world",
-        "My nephew, who went to an elite New York high school, was taught that America deserved to have the Twin Towers destroyed"],
+        "My nephew, who went to an elite New York high school, was taught that America deserved to have the Twin Towers destroyed",
+        "The left hates Asians",
+        "Instead of knowledge, schools pour poison into the ears of our children"],
     "college": [
         "Interesting",
         "!!",
@@ -1809,14 +1834,17 @@ comment_replies: Dict[str, List[str]] = {
         "Strange",
         "Wow",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
-        "My nephew, who went to an elite New York high school, was taught that America deserved to have the Twin Towers destroyed"],
+        "My nephew, who went to an elite New York high school, was taught that America deserved to have the Twin Towers destroyed",
+        "The left hates Asians",
+        "Instead of knowledge, schools pour poison into the ears of our children"],
     "child": [
         "Interesting",
         "!!",
         "Concerning",
         "Parents don’t realize the Soviet level of indoctrination that their children are receiving in elite high schools & colleges!",
         "A lot of families and companies will leave the state to avoid risking their children being sterilized by the government.",
-        "Having children is saving the world"],
+        "Having children is saving the world",
+        "Instead of knowledge, schools pour poison into the ears of our children"],
     "algorithm": [
         "Prepare to be disappointed at first when our algorithm is made open source next week, but it will improve rapidly!",
         "Announcing formation of @xAI to understand reality"],
@@ -1840,7 +1868,8 @@ comment_replies: Dict[str, List[str]] = {
         "Yeah, if someone is keen to have fewer humans on Earth, they should start with themselves !",
         "The real fight is not between right and left, but rather between humanists and extinctionists",
         "People can only have debates if people exist, therefore existing is paramount.",
-        "This platform aspires to maximize signal/noise of the human collective."],
+        "This platform aspires to maximize signal/noise of the human collective.",
+        "Most people don’t know much history.\n\nSlavery was standard practice almost everywhere on Earth since humans existed. Only last century was it made rare."],
     "population": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
@@ -1855,7 +1884,8 @@ comment_replies: Dict[str, List[str]] = {
         "Yeah, if someone is keen to have fewer humans on Earth, they should start with themselves !",
         "The real fight is not between right and left, but rather between humanists and extinctionists",
         "People can only have debates if people exist, therefore existing is paramount.",
-        "This platform aspires to maximize signal/noise of the human collective."],
+        "This platform aspires to maximize signal/noise of the human collective.",
+        "Most people don’t know much history.\n\nSlavery was standard practice almost everywhere on Earth since humans existed. Only last century was it made rare."],
     "government": [
         "Does seem asymmetric",
         "falling in love hits different when you know they’re a paid actor sent by the CIA to distract you from dedicating your life to dismantling the government",
@@ -2064,7 +2094,8 @@ comment_replies: Dict[str, List[str]] = {
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
         "I will not let you down, no matter what it takes",
         "I often do not wish to be me",
-        "Nobody—that’s my name"],
+        "Nobody—that’s my name",
+        "How many times did you die trying to beat hatred before winning?"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -2145,7 +2176,8 @@ comment_replies: Dict[str, List[str]] = {
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
         "I will not let you down, no matter what it takes",
         "I often do not wish to be me",
-        "Nobody—that’s my name"],
+        "Nobody—that’s my name",
+        "How many times did you die trying to beat hatred before winning?"],
     "horny": [
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
@@ -2188,7 +2220,42 @@ comment_replies: Dict[str, List[str]] = {
     "roman": [
         "Every day",
         "A major part of the fall of Rome was low birth rates",
-        "I sometimes wonder if perhaps Rome was started by exiles from Troy. It’s not completely out of the question.\n\nAt some point in antiquity, a few ships of very competent soldiers (with almost no women) landed on the coast of Italy. Where did they come from?"],
+        "I sometimes wonder if perhaps Rome was started by exiles from Troy. It’s not completely out of the question.\n\nAt some point in antiquity, a few ships of very competent soldiers (with almost no women) landed on the coast of Italy. Where did they come from?",
+        "Most people don’t know much history."],
+    " gree": [
+        "Most people don’t know much history.",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
+        "The lesson here is that revenge is for the weak."],
+    "sparta": [
+        "Most people don’t know much history.",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
+        "The lesson here is that revenge is for the weak."],
+    "bamf": [
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
+        "The lesson here is that revenge is for the weak."],
+    "revenge": [
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
+        "The lesson here is that revenge is for the weak."],
     "odyssey": ["Nobody—that’s my name"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
@@ -2209,7 +2276,8 @@ comment_replies: Dict[str, List[str]] = {
         "Make my words.",
         "In the spirit of self-awareness, what are you?",
         "Every day",
-        "Good question"],
+        "Good question",
+        "How many times did you die trying to beat hatred before winning?"],
     "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F92F", # mind blown
