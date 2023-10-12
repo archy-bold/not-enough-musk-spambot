@@ -543,7 +543,8 @@ submission_replies: Dict[str, List[str]] = {
         "Haha what a tool",
         "Incompetence, in the limit, is indistinguishable from sabotage",
         "You rang? \U0001F608",
-        "You’re welcome namaste \U0001F64F"],
+        "You’re welcome namaste \U0001F64F",
+        "Merci beaucoup."],
     "facebook": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
@@ -1147,10 +1148,11 @@ comment_replies: Dict[str, List[str]] = {
         "Accurate",
         "Parody & reality are becoming indistinguishable",
         "This was weird",
-        "In the spirit of self-awareneAnother way to think of it that our poor limbic system has to fight off the combined effort of billions of humans honing the tastiness of food for thousands of years!ss, what are you?",
+        "In the spirit of self-awareness, what are you?",
         "I often do not wish to be me",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
-        "If there’s a big scandal about me, my only request is that it be called Elongate"],
+        "If there’s a big scandal about me, my only request is that it be called Elongate",
+        "Merci beaucoup."],
     "self aware": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1167,7 +1169,8 @@ comment_replies: Dict[str, List[str]] = {
         "In the spirit of self-awareness, what are you?",
         "I often do not wish to be me",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
-        "If there’s a big scandal about me, my only request is that it be called Elongate"],
+        "If there’s a big scandal about me, my only request is that it be called Elongate",
+        "Merci beaucoup."],
     "self-aware": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1184,7 +1187,8 @@ comment_replies: Dict[str, List[str]] = {
         "In the spirit of self-awareness, what are you?",
         "I often do not wish to be me",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
-        "If there’s a big scandal about me, my only request is that it be called Elongate"],
+        "If there’s a big scandal about me, my only request is that it be called Elongate",
+        "Merci beaucoup."],
     "bug ": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1291,6 +1295,7 @@ comment_replies: Dict[str, List[str]] = {
         "Our US advertising revenue is still down 60%, primarily due to pressure on advertisers by @ADL (that’s what advertisers tell us), so they almost succeeded in killing X/Twitter!",
         "In our case, they would potentially be on the hook for destroying half the value of the company, so roughly $22 billion."],
     " eu ": [
+        "Our policy is that everything is open source and transparent, an approach that I know the EU supports.\n\nPlease list the violations you allude to on \U0001D54F, so that that the public can see them.\n\nMerci beaucoup.",
         "I still don’t know what they’re talking about!",
         "We take our actions in the open.\n\nNo back room deals.\n\nPlease post your concerns explicitly on this platform."],
     " doj": [
@@ -1541,7 +1546,8 @@ comment_replies: Dict[str, List[str]] = {
         "Incompetence, in the limit, is indistinguishable from sabotage",
         "You rang? \U0001F608",
         "You’re welcome namaste \U0001F64F",
-        "I prefer peace, but if they want war, they will get it"],
+        "I prefer peace, but if they want war, they will get it",
+        "Merci beaucoup."],
     "facebook": [
         # "Zuck is a cuck",
         "Zuck is a chicken",
@@ -2083,6 +2089,7 @@ comment_replies: Dict[str, List[str]] = {
         "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting.",
         "You’re welcome namaste \U0001F64F",
         "I prefer peace, but if they want war, they will get it",
+        "Merci beaucoup.",
         "Nice doors",
         "Make my words.",
         "Testosterone rocks ngl",
@@ -2165,6 +2172,7 @@ comment_replies: Dict[str, List[str]] = {
         "Although very dated now, I trained in judo, Kyokushin (full contact) & no rules streetfighting.",
         "You’re welcome namaste \U0001F64F",
         "I prefer peace, but if they want war, they will get it",
+        "Merci beaucoup.",
         "Nice doors",
         "Make my words.",
         "Testosterone rocks ngl",
@@ -2224,37 +2232,37 @@ comment_replies: Dict[str, List[str]] = {
         "Most people don’t know much history."],
     " gree": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "sparta": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "bamf": [
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "revenge": [
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "odyssey": ["Nobody—that’s my name"],
     "?$": [
@@ -2330,7 +2338,8 @@ comment_replies: Dict[str, List[str]] = {
         "I often do not wish to be me",
         "Nobody—that’s my name",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
-        "If there’s a big scandal about me, my only request is that it be called Elongate"]
+        "If there’s a big scandal about me, my only request is that it be called Elongate",
+        "Merci beaucoup."]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat
