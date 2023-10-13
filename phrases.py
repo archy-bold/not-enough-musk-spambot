@@ -2232,37 +2232,37 @@ comment_replies: Dict[str, List[str]] = {
         "Most people don’t know much history."],
     " gree": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "sparta": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "bamf": [
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "revenge": [
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "odyssey": ["Nobody—that’s my name"],
     "?$": [
