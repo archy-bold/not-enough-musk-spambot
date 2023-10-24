@@ -6,10 +6,12 @@ from typing import Dict, List
 submission_replies: Dict[str, List[str]] = {
     "tesla": [
         "Thread on how safe Tesla cars are",
-        "We don’t control the federal reserve. The higher the rates, the harder they fall",
+        # "We don’t control the federal reserve. The higher the rates, the harder they fall",
         "The fun police made us do it (sigh)",
         "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil.",
-        "Precision predicates perfectionism."],
+        "Precision predicates perfectionism.",
+        "SpaceX option package for new Tesla Roadster will include ~10 small rocket thrusters arranged seamlessly around car. These rocket engines dramatically improve acceleration, top speed, braking & cornering. Maybe they will even allow a Tesla to fly …",
+        "19 years ago, when my 1st company got bought, I had to decide between buying a house in Palo Alto or a McLaren F1 (best car ever imo). Was no contest. I bought F1 & a small condo that was much cheaper than the car. New Tesla Roadster will exceed all gas sports cars in every way…"],
     "files": [
         "!!",
         "Interesting",
@@ -47,6 +49,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -80,6 +83,7 @@ submission_replies: Dict[str, List[str]] = {
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
+        "…Deus\n\n……\U0001D54F\n\nMachina",
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -131,6 +135,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -164,6 +169,7 @@ submission_replies: Dict[str, List[str]] = {
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
+        "…Deus\n\n……\U0001D54F\n\nMachina",
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -207,6 +213,7 @@ submission_replies: Dict[str, List[str]] = {
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
         "We will defeat the spam bots or die trying!",
+        "This should help a lot with spam bots",
         "What we need is TruthGPT",
         "In the spirit of self-awareness, what are you?",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say"],
@@ -387,10 +394,12 @@ submission_replies: Dict[str, List[str]] = {
         "Have you run a poll?"],
     " ad ": [
         "Press the heart",
-        "Super big deal"],
+        "Super big deal",
+        "Advertising revenue on our platform drops massively during war"],
     "advert": [
         "Press the heart",
-        "Super big deal"],
+        "Super big deal",
+        "Advertising revenue on our platform drops massively during war"],
     "competitor": [
         "Press the heart",
         "Competition is fine, cheating is not"],
@@ -445,6 +454,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -484,6 +494,7 @@ submission_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -526,6 +537,7 @@ submission_replies: Dict[str, List[str]] = {
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
+        "…Deus\n\n……\U0001D54F\n\nMachina",
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -661,7 +673,14 @@ submission_replies: Dict[str, List[str]] = {
         "press@twitter.com now auto responds with \U0001F4A9"],
     "cbc": ["69% Government-Funded Media"],
     "catturd": ["Whatever you say, cutie \U0001F979"],
-    "wikipedia": ["We’ve pushed harder for free speech than any other Internet company, including Wokipedia"],
+    "wiki ": [
+        "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
+        "Please fix wokipedia",
+        "I will give them a billion dollars if they change their name to Dickipedia"],
+    "wikipedia": [
+        "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
+        "Please fix wokipedia",
+        "I will give them a billion dollars if they change their name to Dickipedia"],
     "?$": [
         "Simultaneously, an interesting question and a tongue twister!",
         "That’s what she said",
@@ -739,6 +758,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -776,6 +796,7 @@ comment_replies: Dict[str, List[str]] = {
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
+        "…Deus\n\n……\U0001D54F\n\nMachina",
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -813,6 +834,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -850,6 +872,7 @@ comment_replies: Dict[str, List[str]] = {
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
+        "…Deus\n\n……\U0001D54F\n\nMachina",
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -868,6 +891,14 @@ comment_replies: Dict[str, List[str]] = {
         "Incompetence, in the limit, is indistinguishable from sabotage",
         "Super big deal",
         "I prefer peace, but if they want war, they will get it"],
+    "tesla": [
+        # "Thread on how safe Tesla cars are",
+        # "We don’t control the federal reserve. The higher the rates, the harder they fall",
+        "The fun police made us do it (sigh)",
+        "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil.",
+        "Precision predicates perfectionism.",
+        "SpaceX option package for new Tesla Roadster will include ~10 small rocket thrusters arranged seamlessly around car. These rocket engines dramatically improve acceleration, top speed, braking & cornering. Maybe they will even allow a Tesla to fly …",
+        "19 years ago, when my 1st company got bought, I had to decide between buying a house in Palo Alto or a McLaren F1 (best car ever imo). Was no contest. I bought F1 & a small condo that was much cheaper than the car. New Tesla Roadster will exceed all gas sports cars in every way…"],
     "culture": [
         "End of days vibes",
         "Although there are some bad things in the world, remember that there are many good things too"],
@@ -998,21 +1029,24 @@ comment_replies: Dict[str, List[str]] = {
         "$7 is a small price for freedom",
         "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
+        "I will give them a billion dollars if they change their name to Dickipedia"],
     "billion": [
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
         "$7 is a small price for freedom",
         "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
+        "I will give them a billion dollars if they change their name to Dickipedia"],
     "wealth": [
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
         "$7 is a small price for freedom",
         "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
+        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
+        "I will give them a billion dollars if they change their name to Dickipedia"],
     "inherit": [
         "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
@@ -1124,6 +1158,7 @@ comment_replies: Dict[str, List[str]] = {
         "Turns out we just needed to blow on the cartridge",
         "Just ~$100/month for API access with ID verification will clean things up greatly.",
         "We will defeat the spam bots or die trying!",
+        "This should help a lot with spam bots",
         "What we need is TruthGPT",
         "In the spirit of self-awareness, what are you?",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say"],
@@ -1328,12 +1363,16 @@ comment_replies: Dict[str, List[str]] = {
         "The pendulum has swung a bit too far",
         "There seems to be an innate need for religion. Many atheists simply adopt another belief system (eg wokeness) that is essentially a religion.",
         "Pronouns in bio means the woke mind virus ate your brain",
-        "Yeah, just wanna chill"],
+        "Yeah, just wanna chill",
+        "Please fix wokipedia",
+        "Go woke, go …"],
     "gay": [
         "Mind virus got you & you don’t realize it",
         "The woke mind virus is a parasite that kills its host. It must be eliminated.",
         "The pendulum has swung a bit too far",
-        "Yeah, just wanna chill"],
+        "Yeah, just wanna chill",
+        "\U0001F43B \U0001F4A6", # bear/sweat drops
+        ],
     "pronouns": [
         "My pronouns are Prosecute/Fauci",
         "Pronouns suck",
@@ -1372,7 +1411,15 @@ comment_replies: Dict[str, List[str]] = {
     "game": [
         "Gaming rocks",
         "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
-        "Let’s not be too hard on the NPCs – they just say what they’re programmed to say"],
+        "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
+        "\U0001F43B \U0001F4A6", # bear/sweat drops
+        ],
+    "baldur": [
+        "Gaming rocks",
+        "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
+        "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
+        "\U0001F43B \U0001F4A6", # bear/sweat drops
+    ],
     "stream": [
         "I recommend posting some music or concert videos directly on the X platform",
         "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
@@ -1389,10 +1436,14 @@ comment_replies: Dict[str, List[str]] = {
         "Vox Populi Vox Dei",
         "Demographics is destiny",
         "Have you run a poll?"],
-    " ad ": ["Press the heart"],
+    " ad ": [
+        "Press the heart",
+        "Super big deal",
+        "Advertising revenue on our platform drops massively during war"],
     "advert": [
         "Press the heart",
-        "Super big deal"],
+        "Super big deal",
+        "Advertising revenue on our platform drops massively during war"],
     "competitor": [
         "Press the heart",
         "Competition is fine, cheating is not"],
@@ -1455,6 +1506,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "True",
         "Touché",
@@ -1490,6 +1542,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "True",
         "Touché",
@@ -1528,6 +1581,7 @@ comment_replies: Dict[str, List[str]] = {
         "You are free to be your true self here",
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
+        "…Deus\n\n……\U0001D54F\n\nMachina",
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -1691,13 +1745,18 @@ comment_replies: Dict[str, List[str]] = {
         "He loves bats next-level.",
         "Civilization is more fragile than it would seem"],
     " bats": ["He loves bats next-level."],
+    "bear": [
+        "\U0001F43B \U0001F4A6", # bear/sweat drops
+    ],
     "concerning": ["Yeah"],
     "war ": [
         "I prefer peace, but if they want war, they will get it",
-        "It’s a civilized form of war. Men love war."],
+        "It’s a civilized form of war. Men love war.",
+        "Advertising revenue on our platform drops massively during war"],
     "peace": [
         "I prefer peace, but if they want war, they will get it",
-        "It’s a civilized form of war. Men love war."],
+        "It’s a civilized form of war. Men love war.",
+        "Advertising revenue on our platform drops massively during war"],
     " old": [
         "I keep forgetting that you’re still alive",
         "The gerontocracy is real"],
@@ -2031,6 +2090,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -2115,6 +2175,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
@@ -2192,6 +2253,7 @@ comment_replies: Dict[str, List[str]] = {
         "You rang? \U0001F608",
         "\U0001F6AC", # smoking
         "\U0001F445\U0001F602", # tongue/laugh
+        "\U0001F43B \U0001F4A6", # bear/sweat drops
         "Her limbic resonance skill is exceptional",
         "To sleep with women endlessly without love is a cursed and hollow life",
         "She did dress up as Mercy. It was awesome.",
@@ -2296,6 +2358,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F445\U0001F602", # tongue/laugh
         "Accurate",
         "Precisely",
+        "Yes",
         "Exactly",
         "Really",
         "Correct",
