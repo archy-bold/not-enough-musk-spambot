@@ -11,7 +11,8 @@ submission_replies: Dict[str, List[str]] = {
         "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil.",
         "Precision predicates perfectionism.",
         "SpaceX option package for new Tesla Roadster will include ~10 small rocket thrusters arranged seamlessly around car. These rocket engines dramatically improve acceleration, top speed, braking & cornering. Maybe they will even allow a Tesla to fly …",
-        "19 years ago, when my 1st company got bought, I had to decide between buying a house in Palo Alto or a McLaren F1 (best car ever imo). Was no contest. I bought F1 & a small condo that was much cheaper than the car. New Tesla Roadster will exceed all gas sports cars in every way…"],
+        # "19 years ago, when my 1st company got bought, I had to decide between buying a house in Palo Alto or a McLaren F1 (best car ever imo). Was no contest. I bought F1 & a small condo that was much cheaper than the car. New Tesla Roadster will exceed all gas sports cars in every way…",
+    ],
     "files": [
         "!!",
         "Interesting",
@@ -898,7 +899,8 @@ comment_replies: Dict[str, List[str]] = {
         "We’ll go after the Wall St short-sellers, certain law firms & (sometimes) corrupt regulators who are the true evil.",
         "Precision predicates perfectionism.",
         "SpaceX option package for new Tesla Roadster will include ~10 small rocket thrusters arranged seamlessly around car. These rocket engines dramatically improve acceleration, top speed, braking & cornering. Maybe they will even allow a Tesla to fly …",
-        "19 years ago, when my 1st company got bought, I had to decide between buying a house in Palo Alto or a McLaren F1 (best car ever imo). Was no contest. I bought F1 & a small condo that was much cheaper than the car. New Tesla Roadster will exceed all gas sports cars in every way…"],
+        # "19 years ago, when my 1st company got bought, I had to decide between buying a house in Palo Alto or a McLaren F1 (best car ever imo). Was no contest. I bought F1 & a small condo that was much cheaper than the car. New Tesla Roadster will exceed all gas sports cars in every way…",
+    ],
     "culture": [
         "End of days vibes",
         "Although there are some bad things in the world, remember that there are many good things too"],
