@@ -1087,9 +1087,9 @@ comment_replies: Dict[str, List[str]] = {
         "A trillion dollar market cap for this platform is not out of the question",
         "I do hope to succeed in business \U0001F91E",
         "There needs comprehensive deregulation. Period.",
-        "u can’t sell houses u don’t own  \nu can’t sell cars u don’t own  \nbut   \nu *can* sell stock u don’t own!?  \nthis is bs – shorting is a scam  \nlegal only for vestigial reasons"],
+        "u can’t sell houses u don’t own  \nu can’t sell cars u don’t own  \nbut   \nu \*can\* sell stock u don’t own!?  \nthis is bs – shorting is a scam  \nlegal only for vestigial reasons"],
     "shorting": [
-        "u can’t sell houses u don’t own  \nu can’t sell cars u don’t own  \nbut   \nu *can* sell stock u don’t own!?  \nthis is bs – shorting is a scam  \nlegal only for vestigial reasons"],
+        "u can’t sell houses u don’t own  \nu can’t sell cars u don’t own  \nbut   \nu \*can\* sell stock u don’t own!?  \nthis is bs – shorting is a scam  \nlegal only for vestigial reasons"],
     "loan": [
         "A trillion dollar market cap for this platform is not out of the question",
         "Funding secured."],
