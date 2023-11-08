@@ -23,6 +23,7 @@ submission_replies: Dict[str, List[str]] = {
         "$7 is a small price for freedom",
         "Looking into this.",
         "This is bizarre. Looking into it.",
+        "I will look into this",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -32,6 +33,7 @@ submission_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -50,6 +52,7 @@ submission_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -86,6 +89,7 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
         "…Deus\n\n……\U0001D54F\n\nMachina",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -105,12 +109,13 @@ submission_replies: Dict[str, List[str]] = {
         "Haha what a tool",
         "Incompetence, in the limit, is indistinguishable from sabotage",
         "Super big deal",
-        "I prefer peace, but if they want war, they will get it"],
+        "I prefer peace, but if they want war, they will get it",],
     " x ": [
         "Pay me $8!",
         "$7 is a small price for freedom",
         "Looking into this.",
         "This is bizarre. Looking into it.",
+        "I will look into this",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -120,6 +125,7 @@ submission_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -138,6 +144,7 @@ submission_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -174,6 +181,7 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
         "…Deus\n\n……\U0001D54F\n\nMachina",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -197,12 +205,15 @@ submission_replies: Dict[str, List[str]] = {
     " bot": [
         "Looking into this.",
         "This is bizarre. Looking into it.",
+        "I will look into this",
         "Interesting",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -468,6 +479,7 @@ submission_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -490,6 +502,8 @@ submission_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -508,6 +522,7 @@ submission_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -530,6 +545,7 @@ submission_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -553,6 +569,7 @@ submission_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
         "…Deus\n\n……\U0001D54F\n\nMachina",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -618,7 +635,8 @@ submission_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
-        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -631,7 +649,8 @@ submission_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
-        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -711,6 +730,8 @@ submission_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "That happened to me last week",
+        "Be more vulgar",
         "It makes no sense",
         "Wow",
         "Odd",
@@ -718,7 +739,8 @@ submission_replies: Dict[str, List[str]] = {
         "In the spirit of self-awareness, what are you?",
         "Every day",
         "Good question",
-        "How many times did you die trying to beat hatred before winning?"]
+        "How many times did you die trying to beat hatred before winning?",
+        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI"]
 }
 
 comment_replies: Dict[str, List[str]] = {
@@ -747,7 +769,9 @@ comment_replies: Dict[str, List[str]] = {
         "I’m still a fan tbh",
         "You’re welcome namaste \U0001F64F",
         "In the spirit of self-awareness, what are you?",
-        "Thank goodness for modern medical technology"],
+        "Thank goodness for modern medical technology",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
+        ],
     "mastadon": ["What do you call someone who is a master at baiting?"],
     "mastodon": ["What do you call someone who is a master at baiting?"],
     "files": [
@@ -762,6 +786,7 @@ comment_replies: Dict[str, List[str]] = {
         "$7 is a small price for freedom",
         "Looking into this.",
         "This is bizarre. Looking into it.",
+        "I will look into this",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -775,6 +800,7 @@ comment_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -815,6 +841,7 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
         "…Deus\n\n……\U0001D54F\n\nMachina",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -840,6 +867,7 @@ comment_replies: Dict[str, List[str]] = {
         "$7 is a small price for freedom",
         "Looking into this.",
         "This is bizarre. Looking into it.",
+        "I will look into this",
         "Interesting",
         "\#SoBrave",
         "Parody & reality are becoming indistinguishable",
@@ -853,6 +881,7 @@ comment_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -893,6 +922,7 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
         "…Deus\n\n……\U0001D54F\n\nMachina",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -1174,12 +1204,15 @@ comment_replies: Dict[str, List[str]] = {
     " bot": [
         "Looking into this.",
         "This is bizarre. Looking into it.",
+        "I will look into this",
         "Interesting",
         "Concerning",
         "Extremely concerning",
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -1202,12 +1235,35 @@ comment_replies: Dict[str, List[str]] = {
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say"],
     "gpt": [
         "Announcing formation of @xAI to understand reality",
-        "What we need is TruthGPT"],
+        "What we need is TruthGPT",
+        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI"],
     " ai ": [
         "I tried using TikTok and felt their AI probing my brain, so I stopped",
         "Announcing formation of @xAI to understand reality",
         "What we need is TruthGPT",
-        "In the long term, Neuralink hopes to play a role in AI risk civilizational risk reduction by improving human to AI (and human to human) bandwidth by several orders of magnitude."],
+        "In the long term, Neuralink hopes to play a role in AI risk civilizational risk reduction by improving human to AI (and human to human) bandwidth by several orders of magnitude.",
+        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI"],
+    "grok": [
+        "I tried using TikTok and felt their AI probing my brain, so I stopped",
+        "Announcing formation of @xAI to understand reality",
+        "What we need is TruthGPT",
+        "In the long term, Neuralink hopes to play a role in AI risk civilizational risk reduction by improving human to AI (and human to human) bandwidth by several orders of magnitude.",
+        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI",
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923", # shrug / roll laugh
+        "Be more vulgar"],
+    "vulgar": [
+        "Whatever you say, cutie \U0001F979",
+        "You rang? \U0001F608",
+        "\U0001F6AC", # smoking
+        "\U0001F445\U0001F602", # tongue/laugh
+        "\U0001F43B \U0001F4A6", # bear/sweat drops
+        "She did dress up as Mercy. It was awesome.",
+        "Haven’t even had sex in ages (sigh)",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923", # shrug / roll laugh
+        "Even MORE vulgar"],
+    "ai research": ["I signed on to that letter knowing it was futile. I just wanted to be on record as recommending a pause."],
+    "letter": ["I signed on to that letter knowing it was futile. I just wanted to be on record as recommending a pause."],
     "sentien": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1218,7 +1274,10 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Accurate",
+        "Accurate \U0001F602",
         "Parody & reality are becoming indistinguishable",
         "This was weird",
         "In the spirit of self-awareness, what are you?",
@@ -1236,7 +1295,10 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Accurate",
+        "Accurate \U0001F602",
         "Parody & reality are becoming indistinguishable",
         "This was weird",
         "In the spirit of self-awareness, what are you?",
@@ -1254,7 +1316,10 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely dire situation.",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Accurate",
+        "Accurate \U0001F602",
         "Parody & reality are becoming indistinguishable",
         "This was weird",
         "In the spirit of self-awareness, what are you?",
@@ -1273,7 +1338,8 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
-        "Please fix this"],
+        "Please fix this",
+        "I will look into this"],
     " error": [
         "Negative feedback received on this platform is great for reducing ego-based errors",
         "I appreciate the note. Frankly, negative feedback is good. Keeps ego in check.",
@@ -1287,7 +1353,8 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
-        "Please fix this"],
+        "Please fix this",
+        "I will look into this"],
     "broken": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1299,7 +1366,8 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
-        "Please fix this"],
+        "Please fix this",
+        "I will look into this"],
     "twitter down": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1311,7 +1379,8 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
-        "Please fix this"],
+        "Please fix this",
+        "I will look into this"],
     "twitter is down": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1323,7 +1392,8 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001D54F as humanity’s  \ncollective  \nconsciousness",
         "A ground up rewrite is underway that simplifies the X codebase dramatically.",
         "A small API change had massive ramifications. The code stack is extremely brittle for no good reason.",
-        "Please fix this"],
+        "Please fix this",
+        "I will look into this"],
     "suspend": [
         "Comedy is now legal on Twitter.",
         "He is not suspended on this platform. “Innocent until proven guilty” is a wise and fair maxim."],
@@ -1465,13 +1535,25 @@ comment_replies: Dict[str, List[str]] = {
         "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
         "\U0001F43B \U0001F4A6", # bear/sweat drops
-        ],
+        "I will look into this"],
     "baldur": [
         "Gaming rocks",
         "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
         "\U0001F43B \U0001F4A6", # bear/sweat drops
     ],
+    "playstation": [
+        "Gaming rocks",
+        "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
+        "I will look into this"],
+    "xbox": [
+        "Gaming rocks",
+        "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
+        "I will look into this"],
+    "console": [
+        "Gaming rocks",
+        "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
+        "I will look into this"],
     "stream": [
         "I recommend posting some music or concert videos directly on the X platform",
         "People have asked me to stream myself playing video games, so I will try to speedrun a Tier 99 Nightmare dungeon on Diablo (with no malignant hearts).",
@@ -1557,6 +1639,7 @@ comment_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -1575,6 +1658,8 @@ comment_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -1593,6 +1678,7 @@ comment_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -1611,6 +1697,7 @@ comment_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -1634,6 +1721,7 @@ comment_replies: Dict[str, List[str]] = {
         "X will become the most valuable brand on Earth. Make my words.",
         "Talk to Earth via X!",
         "…Deus\n\n……\U0001D54F\n\nMachina",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "I recommend posting some music or concert videos directly on the X platform",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know.",
         "Long form posts on this platform are now at 3 billion views per day and rising\n\nThis is roughly on par with all newspaper article views on Earth",
@@ -1703,7 +1791,8 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
-        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -1716,7 +1805,8 @@ comment_replies: Dict[str, List[str]] = {
         "That’s what she said",
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
-        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -1745,6 +1835,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
         "Accurate",
+        "Accurate \U0001F602",
         "Exactly",
         "Really",
         "Correct",
@@ -1765,6 +1856,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F4AF", # 100
         "\U0001F9BE", # mechanical arm
         "Accurate",
+        "Accurate \U0001F602",
         "Exactly",
         "Really",
         "Correct",
@@ -2159,7 +2251,9 @@ comment_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "\U0001F445\U0001F602", # tongue/laugh
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -2182,6 +2276,8 @@ comment_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -2248,7 +2344,9 @@ comment_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "\U0001F445\U0001F602", # tongue/laugh
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -2271,6 +2369,8 @@ comment_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Wow",
         "Odd",
         "That’s what she said",
@@ -2336,7 +2436,9 @@ comment_replies: Dict[str, List[str]] = {
         "Her limbic resonance skill is exceptional",
         "To sleep with women endlessly without love is a cursed and hollow life",
         "She did dress up as Mercy. It was awesome.",
-        "Haven’t even had sex in ages (sigh)"],
+        "Haven’t even had sex in ages (sigh)",
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
+        ],
     "taylor swift": [
         "You rang? \U0001F608",
         "\U0001F6AC", # smoking
@@ -2419,6 +2521,8 @@ comment_replies: Dict[str, List[str]] = {
         "Extremely concerning",
         "Super concerning",
         "Strange",
+        "That happened to me last week",
+        "Be more vulgar",
         "It makes no sense",
         "Wow",
         "Odd",
@@ -2426,7 +2530,8 @@ comment_replies: Dict[str, List[str]] = {
         "In the spirit of self-awareness, what are you?",
         "Every day",
         "Good question",
-        "How many times did you die trying to beat hatred before winning?"],
+        "How many times did you die trying to beat hatred before winning?",
+        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI"],
     "notenoughmuskspam": [
         "\U0001F3AF", # bullseye
         "\U0001F92F", # mind blown
@@ -2435,7 +2540,9 @@ comment_replies: Dict[str, List[str]] = {
         "!\U0001F9E0", # brain
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "\U0001F445\U0001F602", # tongue/laugh
+        "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "Accurate",
+        "Accurate \U0001F602",
         "Precisely",
         "Yes",
         "Exactly",
@@ -2459,6 +2566,8 @@ comment_replies: Dict[str, List[str]] = {
         "Super concerning",
         "Strange",
         "It makes no sense",
+        "That happened to me last week",
+        "Be more vulgar",
         "Wow",
         "Odd",
         "That’s what she said",
