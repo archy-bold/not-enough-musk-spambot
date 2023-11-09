@@ -1200,12 +1200,6 @@ comment_replies: Dict[str, List[str]] = {
         "I sometimes wonder if perhaps Rome was started by exiles from Troy. It’s not completely out of the question.\n\nAt some point in antiquity, a few ships of very competent soldiers (with almost no women) landed on the coast of Italy. Where did they come from?",
         "Women in the West have been taught that an accidental pregnancy is the worst thing that could possibly happen to them. Thus, they strongly oppose abortion bans as being an existential threat.\n\nMany men also fear that they will be unable to have \"fun\" if abortion is outlawed.",
         "Big difference"],
-    "abort": [
-        "To sleep with women endlessly without love is a cursed and hollow life",
-        "Testosterone rocks ngl",
-        "Haven’t even had sex in ages (sigh)",
-        "Women in the West have been taught that an accidental pregnancy is the worst thing that could possibly happen to them. Thus, they strongly oppose abortion bans as being an existential threat.\n\nMany men also fear that they will be unable to have \"fun\" if abortion is outlawed.",
-        "Big difference"],
     "pelvis": [
         "Big difference"],
     "misinformation": [
