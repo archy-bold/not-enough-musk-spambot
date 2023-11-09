@@ -636,7 +636,8 @@ submission_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
-        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
+        "I am become meme"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -650,7 +651,8 @@ submission_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
-        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
+        "I am become meme"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -965,7 +967,8 @@ comment_replies: Dict[str, List[str]] = {
         "Let that sink in",
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
-        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I am become meme"],
     "joke": [
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "The meme community has high standards!",
@@ -974,7 +977,8 @@ comment_replies: Dict[str, List[str]] = {
         "Knock knock  \nWho’s there?  \nKnutsēk  \nNutsack who?  \nKnutsēk Tæbag",
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
-        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you"],
+        "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I am become meme"],
     "knock": [
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
         "Knock knock  \nWho’s there?  \nKnutsēk  \nNutsack who?  \nKnutsēk Tæbag"],
@@ -1128,6 +1132,12 @@ comment_replies: Dict[str, List[str]] = {
         "Funding secured.",
         "Interesting",
         "There needs comprehensive deregulation. Period."],
+    "fraud": [
+        "Funding secured.",
+        "I do hope to succeed in business \U0001F91E",
+        "Interesting",
+        "Concering",
+        "There needs comprehensive deregulation. Period."],
     "republican": [
         "That’s what she said",
         "I’m not right wing.",
@@ -1174,12 +1184,30 @@ comment_replies: Dict[str, List[str]] = {
     "feminis": [
         "To sleep with women endlessly without love is a cursed and hollow life",
         "Testosterone rocks ngl",
-        "Haven’t even had sex in ages (sigh)"],
+        "Haven’t even had sex in ages (sigh)",
+        "Women in the West have been taught that an accidental pregnancy is the worst thing that could possibly happen to them. Thus, they strongly oppose abortion bans as being an existential threat.\n\nMany men also fear that they will be unable to have \"fun\" if abortion is outlawed.",
+        "Big difference"],
+    "female": [
+        "To sleep with women endlessly without love is a cursed and hollow life",
+        "Testosterone rocks ngl",
+        "Haven’t even had sex in ages (sigh)",
+        "Women in the West have been taught that an accidental pregnancy is the worst thing that could possibly happen to them. Thus, they strongly oppose abortion bans as being an existential threat.\n\nMany men also fear that they will be unable to have \"fun\" if abortion is outlawed.",
+        "Big difference"],
     "women": [
         "To sleep with women endlessly without love is a cursed and hollow life",
         "Testosterone rocks ngl",
         "Haven’t even had sex in ages (sigh)",
-        "I sometimes wonder if perhaps Rome was started by exiles from Troy. It’s not completely out of the question.\n\nAt some point in antiquity, a few ships of very competent soldiers (with almost no women) landed on the coast of Italy. Where did they come from?"],
+        "I sometimes wonder if perhaps Rome was started by exiles from Troy. It’s not completely out of the question.\n\nAt some point in antiquity, a few ships of very competent soldiers (with almost no women) landed on the coast of Italy. Where did they come from?",
+        "Women in the West have been taught that an accidental pregnancy is the worst thing that could possibly happen to them. Thus, they strongly oppose abortion bans as being an existential threat.\n\nMany men also fear that they will be unable to have \"fun\" if abortion is outlawed.",
+        "Big difference"],
+    "abort": [
+        "To sleep with women endlessly without love is a cursed and hollow life",
+        "Testosterone rocks ngl",
+        "Haven’t even had sex in ages (sigh)",
+        "Women in the West have been taught that an accidental pregnancy is the worst thing that could possibly happen to them. Thus, they strongly oppose abortion bans as being an existential threat.\n\nMany men also fear that they will be unable to have \"fun\" if abortion is outlawed.",
+        "Big difference"],
+    "pelvis": [
+        "Big difference"],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
         "Interesting",
@@ -1242,7 +1270,9 @@ comment_replies: Dict[str, List[str]] = {
         "Announcing formation of @xAI to understand reality",
         "What we need is TruthGPT",
         "In the long term, Neuralink hopes to play a role in AI risk civilizational risk reduction by improving human to AI (and human to human) bandwidth by several orders of magnitude.",
-        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI"],
+        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI",
+        "Groooook",
+        "Grok rocks!"],
     "grok": [
         "I tried using TikTok and felt their AI probing my brain, so I stopped",
         "Announcing formation of @xAI to understand reality",
@@ -1250,7 +1280,12 @@ comment_replies: Dict[str, List[str]] = {
         "In the long term, Neuralink hopes to play a role in AI risk civilizational risk reduction by improving human to AI (and human to human) bandwidth by several orders of magnitude.",
         "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI",
         "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923", # shrug / roll laugh
-        "Be more vulgar"],
+        "Be more vulgar",
+        "Not bad \U0001F602",
+        "Groooook",
+        "Grok rocks!",
+        "\U0001F970", # face with hearts
+        ],
     "vulgar": [
         "Whatever you say, cutie \U0001F979",
         "You rang? \U0001F608",
@@ -1262,6 +1297,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923", # shrug / roll laugh
         "Even MORE vulgar"],
+    " roast": ["Not bad \U0001F602"],
     "ai research": ["I signed on to that letter knowing it was futile. I just wanted to be on record as recommending a pause."],
     "letter": ["I signed on to that letter knowing it was futile. I just wanted to be on record as recommending a pause."],
     "sentien": [
@@ -1792,7 +1828,8 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
-        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
+        "I am become meme"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -1806,7 +1843,8 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
-        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923"],
+        "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
+        "I am become meme"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -2333,7 +2371,8 @@ comment_replies: Dict[str, List[str]] = {
         "How many times did you die trying to beat hatred before winning?",
         "The way to beat hatred is friendship",
         "Lot of fools out there",
-        "Unfortunately, it is true"],
+        "Unfortunately, it is true",
+        "Not bad \U0001F602"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
         "\U0001F923\U0001F923", # laugh/laugh
@@ -2425,7 +2464,8 @@ comment_replies: Dict[str, List[str]] = {
         "How many times did you die trying to beat hatred before winning?",
         "The way to beat hatred is friendship",
         "Lot of fools out there",
-        "Unfortunately, it is true"],
+        "Unfortunately, it is true",
+        "Not bad \U0001F602"],
     "horny": [
         "That’s what she said",
         "Whatever you say, cutie \U0001F979",
@@ -2475,37 +2515,37 @@ comment_replies: Dict[str, List[str]] = {
         "Most people don’t know much history."],
     " gree": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "sparta": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "bamf": [
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "revenge": [
-        "Regarding Lycurgus, founder of Sparta.\n\n"
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
-        "BAMF.\n\n"
+        "Regarding Lycurgus, founder of Sparta.\n\n",
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
+        "BAMF.\n\n",
         "The lesson here is that revenge is for the weak."],
     "odyssey": ["Nobody—that’s my name"],
     "?$": [
