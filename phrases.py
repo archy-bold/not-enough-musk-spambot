@@ -701,6 +701,7 @@ submission_replies: Dict[str, List[str]] = {
         "Haha that would sickkk",
         "Better to talk to people than communicate via tweet."],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
+    "aronofsky": ["It’s a hit piece"],
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": [
         "It’s a hit piece",
@@ -1963,6 +1964,7 @@ comment_replies: Dict[str, List[str]] = {
         "Have you considered a career in comedy?",
         "Knock knock  \nWho’s there?  \nKnutsēk  \nNutsack who?  \nKnutsēk Tæbag"],
     "alex gibney": ["It’s a hit piece", "He’s the worst, sorry."],
+    "aronofsky": ["It’s a hit piece"],
     "documentary": ["It’s a hit piece", "Concerning"],
     "film": [
         "It’s a hit piece",
