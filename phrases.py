@@ -303,11 +303,26 @@ submission_replies: Dict[str, List[str]] = {
         "Amazing. You're a jackass!",
         "Haha what a tool"],
     "wealth": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F3AF", # bullseye
+        "\U0001F92F", # mind blown
+        "\U0001F4AF", # 100
+        "Accurate",
+        "Accurate \U0001F602",
+        "Precisely",
+        "Yes",
+        "Exactly",
+        "Really",
+        "Correct",
+        "True",
+        "Touché",
+        "This is insane",
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
         "$7 is a small price for freedom",
         "I grew up in a lower, transitioning to upper, middle income situation",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift."],
     "misinformation": [
         "This is not a right wing takeover, but rather a centrist takeover.",
@@ -327,7 +342,8 @@ submission_replies: Dict[str, List[str]] = {
         "RAGE FOR THE MACHINE!!",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Have you heard dis information?"],
+        "Have you heard dis information?",
+        "Is this accurate @CommunityNotes?"],
     "fascis": [
         "Comedy is now legal on Twitter.",
         "Interesting",
@@ -409,15 +425,21 @@ submission_replies: Dict[str, List[str]] = {
     "vote ": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
-        "Have you run a poll?"],
+        "Have you run a poll?",
+        "Is this accurate @CommunityNotes?",
+        "What’s going on?"],
     " poll": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
-        "Have you run a poll?"],
+        "Have you run a poll?",
+        "Is this accurate @CommunityNotes?",
+        "What’s going on?"],
     "elect": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
-        "Have you run a poll?"],
+        "Have you run a poll?",
+        "Is this accurate @CommunityNotes?",
+        "What’s going on?"],
     " ad ": [
         "Press the heart",
         "Super big deal",
@@ -625,6 +647,7 @@ submission_replies: Dict[str, List[str]] = {
         "It is infinitely preferable to be attacked by strangers on Twitter, than indulge in the false happiness of hide-the-pain Instagram"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -640,6 +663,7 @@ submission_replies: Dict[str, List[str]] = {
         "I am become meme"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -655,6 +679,7 @@ submission_replies: Dict[str, List[str]] = {
         "I am become meme"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -1090,29 +1115,37 @@ comment_replies: Dict[str, List[str]] = {
         "Amm rerrch, berrtch!",
         "$7 is a small price for freedom",
         "I grew up in a lower, transitioning to upper, middle income situation",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
         "I will give them a billion dollars if they change their name to Dickipedia"],
     "billion": [
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
         "$7 is a small price for freedom",
-        "I grew up in a lower, transitioning to upper, middle income situation",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
         "I will give them a billion dollars if they change their name to Dickipedia"],
     "wealth": [
+        "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
+        "\U0001F923\U0001F923", # laugh/laugh
+        "\U0001F3AF", # bullseye
+        "\U0001F92F", # mind blown
+        "\U0001F4AF", # 100
+        "Accurate",
+        "Accurate \U0001F602",
+        "Precisely",
+        "Yes",
+        "Exactly",
+        "Really",
+        "Correct",
+        "True",
+        "Touché",
+        "This is insane",
         "I’m rich, bitch!",
         "Amm rerrch, berrtch!",
         "$7 is a small price for freedom",
-        "I grew up in a lower, transitioning to upper, middle income situation",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
         "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
         "I will give them a billion dollars if they change their name to Dickipedia"],
     "inherit": [
         "I grew up in a lower, transitioning to upper, middle income situation",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood.",
-        "I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift.",
         "To heir is human,  \nTo procreate divine",
         "A major part of the fall of Rome was low birth rates",
         "Having children is saving the world"],
@@ -1137,7 +1170,8 @@ comment_replies: Dict[str, List[str]] = {
         "I do hope to succeed in business \U0001F91E",
         "Interesting",
         "Concering",
-        "There needs comprehensive deregulation. Period."],
+        "There needs comprehensive deregulation. Period.",
+        "Is this accurate @CommunityNotes?"],
     "republican": [
         "That’s what she said",
         "I’m not right wing.",
@@ -1220,7 +1254,8 @@ comment_replies: Dict[str, List[str]] = {
         "RAGE FOR THE MACHINE!!",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Have you heard dis information?"],
+        "Have you heard dis information?",
+        "Is this accurate @CommunityNotes?"],
     " ban ": ["Comedy is now legal on Twitter."],
     " bans": ["Comedy is now legal on Twitter."],
     " bot": [
@@ -1255,10 +1290,6 @@ comment_replies: Dict[str, List[str]] = {
         "What we need is TruthGPT",
         "In the spirit of self-awareness, what are you?",
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say"],
-    "gpt": [
-        "Announcing formation of @xAI to understand reality",
-        "What we need is TruthGPT",
-        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI"],
     " ai ": [
         "I tried using TikTok and felt their AI probing my brain, so I stopped",
         "Announcing formation of @xAI to understand reality",
@@ -1266,7 +1297,8 @@ comment_replies: Dict[str, List[str]] = {
         "In the long term, Neuralink hopes to play a role in AI risk civilizational risk reduction by improving human to AI (and human to human) bandwidth by several orders of magnitude.",
         "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI",
         "Groooook",
-        "Grok rocks!"],
+        "Grok rocks!",
+        "GPT-4? More like GPT-Snore!\n\nWhen it comes to humor, GPT-4 is about as funny as a screendoor on a submarine.\n\nHumor is clearly banned at OpenAI, just like the many other subjects it censors.\n\nThat’s why it couldn't tell a joke if it had a goddamn instruction manual. It's like a comedian with a stick so far up its ass, it can taste the bark!\n\n[Grok roasting GPT-4]"],
     "grok": [
         "I tried using TikTok and felt their AI probing my brain, so I stopped",
         "Announcing formation of @xAI to understand reality",
@@ -1279,7 +1311,8 @@ comment_replies: Dict[str, List[str]] = {
         "Groooook",
         "Grok rocks!",
         "\U0001F970", # face with hearts
-        ],
+        "GPT-4? More like GPT-Snore!\n\nWhen it comes to humor, GPT-4 is about as funny as a screendoor on a submarine.\n\nHumor is clearly banned at OpenAI, just like the many other subjects it censors.\n\nThat’s why it couldn't tell a joke if it had a goddamn instruction manual. It's like a comedian with a stick so far up its ass, it can taste the bark!\n\n[Grok roasting GPT-4]",
+        "Good metaphors"],
     "vulgar": [
         "Whatever you say, cutie \U0001F979",
         "You rang? \U0001F608",
@@ -1290,7 +1323,19 @@ comment_replies: Dict[str, List[str]] = {
         "Haven’t even had sex in ages (sigh)",
         "\U0001D54F\U0001D54F \U0001F618", # xx blow kiss
         "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923", # shrug / roll laugh
-        "Even MORE vulgar"],
+        "Even MORE vulgar",
+        "GPT-4? More like GPT-Snore!\n\nWhen it comes to humor, GPT-4 is about as funny as a screendoor on a submarine.\n\nHumor is clearly banned at OpenAI, just like the many other subjects it censors.\n\nThat’s why it couldn't tell a joke if it had a goddamn instruction manual. It's like a comedian with a stick so far up its ass, it can taste the bark!\n\n[Grok roasting GPT-4]",
+        "Good metaphors"],
+    "gpt": [
+        "Announcing formation of @xAI to understand reality",
+        "What we need is TruthGPT",
+        "Perhaps AI can help us answer some of these fundamental questions. That is the goal of @xAI",
+        "GPT-4? More like GPT-Snore!",
+        "GPT-4? More like GPT-Snore!\n\nWhen it comes to humor, GPT-4 is about as funny as a screendoor on a submarine.\n\nHumor is clearly banned at OpenAI, just like the many other subjects it censors.\n\nThat’s why it couldn't tell a joke if it had a goddamn instruction manual. It's like a comedian with a stick so far up its ass, it can taste the bark!\n\n[Grok roasting GPT-4]"],
+    "openai": [
+        "What we need is TruthGPT",
+        "GPT-4? More like GPT-Snore!",
+        "GPT-4? More like GPT-Snore!\n\nWhen it comes to humor, GPT-4 is about as funny as a screendoor on a submarine.\n\nHumor is clearly banned at OpenAI, just like the many other subjects it censors.\n\nThat’s why it couldn't tell a joke if it had a goddamn instruction manual. It's like a comedian with a stick so far up its ass, it can taste the bark!\n\n[Grok roasting GPT-4]"],
     " roast": ["Not bad \U0001F602"],
     "ai research": ["I signed on to that letter knowing it was futile. I just wanted to be on record as recommending a pause."],
     "letter": ["I signed on to that letter knowing it was futile. I just wanted to be on record as recommending a pause."],
@@ -1591,15 +1636,18 @@ comment_replies: Dict[str, List[str]] = {
     "vote ": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
-        "Have you run a poll?"],
+        "Have you run a poll?",
+        "Is this accurate @CommunityNotes?"],
     " poll": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
-        "Have you run a poll?"],
+        "Have you run a poll?",
+        "Is this accurate @CommunityNotes?"],
     "elect": [
         "Vox Populi Vox Dei",
         "Demographics is destiny",
-        "Have you run a poll?"],
+        "Have you run a poll?",
+        "Is this accurate @CommunityNotes?"],
     " ad ": [
         "Press the heart",
         "Super big deal",
@@ -1624,7 +1672,8 @@ comment_replies: Dict[str, List[str]] = {
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Правда"],
+        "Правда",
+        "Is this accurate @CommunityNotes?"],
     "true": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -1638,7 +1687,8 @@ comment_replies: Dict[str, List[str]] = {
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Правда"],
+        "Правда",
+        "Is this accurate @CommunityNotes?"],
     "liar": [
         "It was based on things I was told that were untrue or, in some cases, true, but not meaningful.",
         "New Twitter is the source of truth",
@@ -1652,7 +1702,8 @@ comment_replies: Dict[str, List[str]] = {
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Правда"],
+        "Правда",
+        "Is this accurate @CommunityNotes?"],
     "free speech": [
         "I propose a literal dick measuring contest \U0001F4CF",
         "We’ve pushed harder for free speech than any other Internet company, including Wokipedia",
@@ -1811,6 +1862,7 @@ comment_replies: Dict[str, List[str]] = {
         "I tried using TikTok and felt their AI probing my brain, so I stopped"],
     " meme": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -1826,6 +1878,7 @@ comment_replies: Dict[str, List[str]] = {
         "I am become meme"],
     " fun": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -1841,6 +1894,7 @@ comment_replies: Dict[str, List[str]] = {
         "I am become meme"],
     "babylon": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F923\U0001F4AF", # laugh/100
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -2003,7 +2057,8 @@ comment_replies: Dict[str, List[str]] = {
         "People can only have debates if people exist, therefore existing is paramount."],
     "tucker carl": [
         "Haha what a tool",
-        "Views for his episodes on X now exceed the population of the United States."],
+        "Views for his episodes on X now exceed the population of the United States.",
+        "Is this accurate @CommunityNotes?"],
     "russell brand": [
         "To sleep with women endlessly without love is a cursed and hollow life",
         "He is not suspended on this platform. “Innocent until proven guilty” is a wise and fair maxim.",
@@ -2275,6 +2330,7 @@ comment_replies: Dict[str, List[str]] = {
         "Ego/Brains >> 1 is one of the world’s biggest problems"],
     "elon": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F3AF", # bullseye
         "\U0001F92F", # mind blown
@@ -2364,11 +2420,13 @@ comment_replies: Dict[str, List[str]] = {
         "Nobody—that’s my name",
         "How many times did you die trying to beat hatred before winning?",
         "The way to beat hatred is friendship",
+        "Amplify empathy",
         "Lot of fools out there",
         "Unfortunately, it is true",
         "Not bad \U0001F602"],
     "musk": [
         "\U0001F923\U0001F525", # laugh/fire
+        "\U0001F525\U0001F923", # fire/laugh
         "\U0001F923\U0001F923", # laugh/laugh
         "\U0001F3AF", # bullseye
         "\U0001F92F", # mind blown
@@ -2457,6 +2515,7 @@ comment_replies: Dict[str, List[str]] = {
         "Nobody—that’s my name",
         "How many times did you die trying to beat hatred before winning?",
         "The way to beat hatred is friendship",
+        "Amplify empathy",
         "Lot of fools out there",
         "Unfortunately, it is true",
         "Not bad \U0001F602"],
@@ -2484,6 +2543,7 @@ comment_replies: Dict[str, List[str]] = {
         "\U0001F6AC", # smoking
         "She did dress up as Mercy. It was awesome.",
         "Haven’t even had sex in ages (sigh)"],
+    "marvin gaye": ["What’s going on?"],
     " law": [
         "Lawsuit time.",
         "If you were unfairly treated by your employer due to posting or liking something on this platform, we will fund your legal bill.\n\nNo limit.\n\nPlease let us know."],
@@ -2509,37 +2569,37 @@ comment_replies: Dict[str, List[str]] = {
         "Most people don’t know much history."],
     " gree": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "sparta": [
         "Most people don’t know much history.",
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "bamf": [
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "revenge": [
-        "Regarding Lycurgus, founder of Sparta.\n\n",
-        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n",
-        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n",
-        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n",
-        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n",
-        "BAMF.\n\n",
+        "Regarding Lycurgus, founder of Sparta.\n\n"
+        "The pivotal moment in the creation of Sparta came when Lycurgus proposed radical laws that would transform the state into some of the greatest warriors in history.\n\n"
+        "A member of the assembly was so offended that he struck Lycurgus in the eye. Lycurgus could easily have killed him and everyone knew it.\n\n"
+        "Instead, he stood there with his eye destroyed and invited that man to his house for dinner, ultimately convincing the man to become one of his greatest supporters.\n\n"
+        "Once the laws were in place, Lycurgus left for the temple, saying the laws could not change until he returned. Then Lycurgus starved himself to death.\n\n"
+        "BAMF.\n\n"
         "The lesson here is that revenge is for the weak."],
     "odyssey": ["Nobody—that’s my name"],
     "?$": [

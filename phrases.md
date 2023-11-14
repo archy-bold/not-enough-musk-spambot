@@ -336,3 +336,8 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Big difference*](https://twitter.com/elonmusk/status/1722378259734667406)
 * [*Grok rocks!*](https://twitter.com/elonmusk/status/1722394240083194209)
 * [*🥰 I am become meme*](https://twitter.com/elonmusk/status/1722392628233384218)
+* [*GPT-4? More like GPT-Snore! ... [Grok roasting GPT-4]*](https://twitter.com/elonmusk/status/1722893370010313117)
+* [*Good metaphors*](https://twitter.com/elonmusk/status/1723364827467255997)
+* [*Amplify empathy*](https://twitter.com/elonmusk/status/1723504813638340802)
+* [*Is this accurate @CommunityNotes?*](https://twitter.com/elonmusk/status/1723177188155908314)
+* [*What’s going on?*](https://twitter.com/elonmusk/status/1723364652250267813)
