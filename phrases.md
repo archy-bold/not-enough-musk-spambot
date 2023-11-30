@@ -361,3 +361,6 @@ Elon Musk has said a bunch of dumb things, but everything this bot says is word-
 * [*Vulgar troll mode is best 😂*](https://twitter.com/elonmusk/status/1729351586286051332)
 * [*Does seem at least a little suspicious*](https://news.sky.com/story/elon-musk-accused-of-promoting-pizzagate-conspiracy-theory-13018728) (deleted tweet in reference to Pizzagate)
 * [*Amazing lmaooo*](https://twitter.com/elonmusk/status/1729363122144616572)
+* [*If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself.*](https://www.wired.com/story/elon-musk-x-advertisers-interview/) (NYT DealBook Interview 2023)
+* [*I think it's a real weakness to want to be liked. I do not have that.*](https://www.nytimes.com/2023/11/30/podcasts/elon-musks-mindset-its-a-weakness-to-be-liked.html?smid=tw-nytimes&smtyp=cur) (NYT DealBook Interview 2023)
+* [*What I see all over the place is people who care about looking good while doing evil. Fuck them!*](https://www.realclearpolitics.com/video/2023/11/29/elon_musk_i_see_people_who_care_about_looking_good_while_doing_evil_fuck_them.html) (NYT DealBook Interview 2023)

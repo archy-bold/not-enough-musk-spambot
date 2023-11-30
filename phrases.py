@@ -84,7 +84,7 @@ submission_replies: Dict[str, List[str]] = {
         "This is a major problem",
         "Please fix this",
         "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
-        "In an upcoming release, 𝕏 will overlay title in the upper potion of the image of a URL card",
+        "In an upcoming release, \U0001D54F will overlay title in the upper potion of the image of a URL card",
         "A trillion dollar market cap for this platform is not out of the question",
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
@@ -180,7 +180,7 @@ submission_replies: Dict[str, List[str]] = {
         "This is a major problem",
         "Please fix this",
         "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
-        "In an upcoming release, 𝕏 will overlay title in the upper potion of the image of a URL card",
+        "In an upcoming release, \U0001D54F will overlay title in the upper potion of the image of a URL card",
         "A trillion dollar market cap for this platform is not out of the question",
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
@@ -472,14 +472,16 @@ submission_replies: Dict[str, List[str]] = {
         "Advertising revenue on our platform drops massively during war",
         "Media Matters is an evil organization",
         "Media Matters is pure evil",
-        "\U0001F64F"],
+        "\U0001F64F",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself."],
     "advert": [
         "Press the heart",
         "Super big deal",
         "Advertising revenue on our platform drops massively during war",
         "Media Matters is an evil organization",
         "Media Matters is pure evil",
-        "\U0001F64F"],
+        "\U0001F64F",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself."],
     "competitor": [
         "Press the heart",
         "Competition is fine, cheating is not"],
@@ -496,7 +498,7 @@ submission_replies: Dict[str, List[str]] = {
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Правда"
+        "Правда",
         "Is this accurate @CommunityNotes?",
         "Once you see it, you can’t unsee it"],
     "true": [
@@ -512,7 +514,7 @@ submission_replies: Dict[str, List[str]] = {
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Правда"
+        "Правда",
         "Is this accurate @CommunityNotes?",
         "Once you see it, you can’t unsee it"],
     "liar": [
@@ -528,7 +530,7 @@ submission_replies: Dict[str, List[str]] = {
         "Seeking only the least wrong truth.",
         "What we need is TruthGPT",
         "Maybe it’s not true, hence the question",
-        "Правда"
+        "Правда",
         "Is this accurate @CommunityNotes?",
         "Once you see it, you can’t unsee it"],
     "opinion": [
@@ -701,6 +703,7 @@ submission_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
         "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
         "I am become meme"],
     " fun": [
@@ -717,6 +720,7 @@ submission_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
         "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
         "I am become meme"],
     "babylon": [
@@ -764,14 +768,26 @@ submission_replies: Dict[str, List[str]] = {
         "Some of the smartest people I know actively believe the press … amazing",
         "Really Aaron, really? You actually believe the media … wow.",
         "press@twitter.com now auto responds with \U0001F4A9",
-        "The real tragedy of @NYTimes is that their propaganda isn’t even interesting"],
+        "The real tragedy of @NYTimes is that their propaganda isn’t even interesting",
+        "Newspapers basically just report on what they read yesterday on X lmao",
+        "I think it's a real weakness to want to be liked. I do not have that.",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself.",
+        "What I see all over the place is people who care about looking good while doing evil. Fuck them!"],
     "new york times": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Twitter is a serious danger to their ability to control the narrative",
         "Some of the smartest people I know actively believe the press … amazing",
         "Really Aaron, really? You actually believe the media … wow.",
         "press@twitter.com now auto responds with \U0001F4A9",
-        "The real tragedy of @NYTimes is that their propaganda isn’t even interesting"],
+        "Newspapers basically just report on what they read yesterday on X lmao",
+        "The real tragedy of @NYTimes is that their propaganda isn’t even interesting",
+        "I think it's a real weakness to want to be liked. I do not have that.",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself.",
+        "What I see all over the place is people who care about looking good while doing evil. Fuck them!"],
     "washington post": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -909,7 +925,7 @@ comment_replies: Dict[str, List[str]] = {
         "This is a major problem",
         "Please fix this",
         "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
-        "In an upcoming release, 𝕏 will overlay title in the upper potion of the image of a URL card",
+        "In an upcoming release, \U0001D54F will overlay title in the upper potion of the image of a URL card",
         "A trillion dollar market cap for this platform is not out of the question",
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
@@ -994,7 +1010,7 @@ comment_replies: Dict[str, List[str]] = {
         "This is a major problem",
         "Please fix this",
         "Titter was trending to lose ~$3B/year (revenue drop of ~$1.5B + debt servicing of ~$1.5B) and had $1B in cash, so only 4 months of money. Extremely dire situation.",
-        "In an upcoming release, 𝕏 will overlay title in the upper potion of the image of a URL card",
+        "In an upcoming release, \U0001D54F will overlay title in the upper potion of the image of a URL card",
         "A trillion dollar market cap for this platform is not out of the question",
         "Extremely dire situation.",
         "Turns out we just needed to blow on the cartridge",
@@ -1047,6 +1063,7 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
         "I am become meme"],
     "joke": [
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -1057,6 +1074,7 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
         "I am become meme"],
     "knock": [
         "\U0001F4AF\U0001F3AF\U0001F923", # 100/bullseye/laugh
@@ -1431,7 +1449,9 @@ comment_replies: Dict[str, List[str]] = {
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
         "If there’s a big scandal about me, my only request is that it be called Elongate",
         "Merci beaucoup.",
-        "Vulgar troll mode is best \U0001F602"],
+        "Vulgar troll mode is best \U0001F602",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?"],
     "self aware": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1453,7 +1473,9 @@ comment_replies: Dict[str, List[str]] = {
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
         "If there’s a big scandal about me, my only request is that it be called Elongate",
         "Merci beaucoup.",
-        "Vulgar troll mode is best \U0001F602"],
+        "Vulgar troll mode is best \U0001F602",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?"],
     "self-aware": [
         "\U0001F3AF", # bullseye
         "\U0001F4AF", # 100
@@ -1475,7 +1497,9 @@ comment_replies: Dict[str, List[str]] = {
         "Let’s not be too hard on the NPCs – they just say what they’re programmed to say",
         "If there’s a big scandal about me, my only request is that it be called Elongate",
         "Merci beaucoup.",
-        "Vulgar troll mode is best \U0001F602"],
+        "Vulgar troll mode is best \U0001F602",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?"],
     "bug ": [
         "Something fundamental is wrong",
         "Something is wrong",
@@ -1744,14 +1768,16 @@ comment_replies: Dict[str, List[str]] = {
         "Advertising revenue on our platform drops massively during war",
         "Media Matters is an evil organization",
         "Media Matters is pure evil",
-        "\U0001F64F"],
+        "\U0001F64F",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself."],
     "advert": [
         "Press the heart",
         "Super big deal",
         "Advertising revenue on our platform drops massively during war",
         "Media Matters is an evil organization",
         "Media Matters is pure evil",
-        "\U0001F64F"],
+        "\U0001F64F",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself."],
     "competitor": [
         "Press the heart",
         "Competition is fine, cheating is not"],
@@ -1977,6 +2003,7 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
         "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
         "I am become meme"],
     " fun": [
@@ -1993,6 +2020,7 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
         "Grok is based & loves sarcasm. I have no idea who could have guided it this way \U0001f937\u200d\u2642\ufe0f \U0001F923",
         "I am become meme"],
     "babylon": [
@@ -2382,7 +2410,12 @@ comment_replies: Dict[str, List[str]] = {
         "Really Aaron, really? You actually believe the media … wow.",
         "press@twitter.com now auto responds with \U0001F4A9",
         "The real tragedy of @NYTimes is that their propaganda isn’t even interesting",
-        "Newspapers basically just report on what they read yesterday on X lmao"],
+        "Newspapers basically just report on what they read yesterday on X lmao",
+        "I think it's a real weakness to want to be liked. I do not have that.",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself.",
+        "What I see all over the place is people who care about looking good while doing evil. Fuck them!"],
     "new york times": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -2390,7 +2423,12 @@ comment_replies: Dict[str, List[str]] = {
         "Really Aaron, really? You actually believe the media … wow.",
         "press@twitter.com now auto responds with \U0001F4A9",
         "The real tragedy of @NYTimes is that their propaganda isn’t even interesting",
-        "Newspapers basically just report on what they read yesterday on X lmao"],
+        "Newspapers basically just report on what they read yesterday on X lmao",
+        "I think it's a real weakness to want to be liked. I do not have that.",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?",
+        "If someone is going to try and blackmail me with advertising? Blackmail me with money? Go fuck yourself.",
+        "What I see all over the place is people who care about looking good while doing evil. Fuck them!"],
     "washington post": [
         "You represent the problem: journalists who think they are the only source of legitimate information. That’s the big lie.",
         "Twitter is a serious danger to their ability to control the narrative",
@@ -2533,6 +2571,10 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?",
+        "What I see all over the place is people who care about looking good while doing evil. Fuck them!",
         "I will not let you down, no matter what it takes",
         "I often do not wish to be me",
         "Nobody—that’s my name",
@@ -2632,6 +2674,10 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?",
+        "What I see all over the place is people who care about looking good while doing evil. Fuck them!",
         "I will not let you down, no matter what it takes",
         "I often do not wish to be me",
         "Nobody—that’s my name",
@@ -2805,6 +2851,7 @@ comment_replies: Dict[str, List[str]] = {
         "I just can’t … roflmao … the irony is too much \U0001F923\U0001F923",
         "I have overcome the desire to be liked \U0001F923",
         "I have overcome the desire to be liked \U0001F923\n\nFwiw, I like you",
+        "I think it's a real weakness to want to be liked. I do not have that.",
         "I will not let you down, no matter what it takes",
         "I often do not wish to be me",
         "Nobody—that’s my name",
@@ -2812,7 +2859,9 @@ comment_replies: Dict[str, List[str]] = {
         "If there’s a big scandal about me, my only request is that it be called Elongate",
         "Merci beaucoup.",
         "There is a large graveyard filled with my enemies.\n\nI do not wish to add to it, but will if given no choice.\n\nThose who pick fights with me do so at their own peril, but maybe this is their lucky day …",
-        "Vulgar troll mode is best \U0001F602"]
+        "Vulgar troll mode is best \U0001F602",
+        "Go. Fuck. Yourself.",
+        "Go. Fuck. Yourself. Is that clear?"]
     # "trans": ["My pronouns are Prosecute/Fauci", "Pronouns suck"],
     # boring company
     # microservices just add bloat
