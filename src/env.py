@@ -18,9 +18,12 @@ def load_env_from_flags(parser: argparse.ArgumentParser=None) -> None:
         print("Loading environment variables from " + parser.parse_args().env_file + "...")
     load_dotenv(parser.parse_args().env_file)
 
-def read_env(key: str, default: str=None) -> str:
+def read_env(key: str, default: str=None, secret: bool=False) -> str:
     val: str = os.getenv(key, default)
-    print(key + "=" + val)
+    if secret:
+        print(key + "=********")
+    else:
+        print(key + "=" + val)
     return val
 
 def read_env_float(key: str, default: float=None) -> float:
