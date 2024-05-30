@@ -23,7 +23,10 @@ def read_env(key: str, default: str=None, secret: bool=False) -> str:
     if secret:
         print(key + "=********")
     else:
-        print(key + "=" + val)
+        valStr = val
+        if valStr is None:
+            valStr = "None"
+        print(key + "=" + valStr)
     return val
 
 def read_env_float(key: str, default: float=None) -> float:
