@@ -6,13 +6,17 @@ from typing import List
 import praw
 import sqlite3 as sl
 from src.db import get_replied_comment_ids, get_replied_submission_ids
-from src.env import load_env_from_flags
+from src.env import load_env_from_flags, read_env
 from src.reddit import bot_login
 from src.stats.db import have_comment, insert_comment, update_comment
+from src.gcs import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument("mode", choices = ["latest", "historic"], default = None, help="Whether to load reacent or historic comments")
 load_env_from_flags(parser)
+
+gcs_bucket: str = read_env('GCS_BUCKET', None)
+gcs_key: str = read_env('GCS_KEY', secret=True, default=None)
 
 doLatest: bool = parser.parse_args().mode == "latest"
 
@@ -20,21 +24,32 @@ r: praw.Reddit = bot_login()
 me: any = r.user.me(use_cache=True)
 dir: str = os.path.dirname(os.path.realpath(__file__))
 
+# Get the stats database from GCS
+download_db_file_from_gcs(gcs_bucket, gcs_key, dir, 'stats.db')
+if not doLatest:
+    download_db_file_from_gcs(gcs_bucket, gcs_key, dir, 'bot.db')
+
 # Read the stats database
 conStats: sl.Connection = sl.connect(dir + '/stats.db')
 cStats: sl.Cursor = conStats.cursor()
 
+count_inserted: int = 0
+count_updated: int = 0
 if doLatest:
     # read all comments from reddit user
-    for comment in me.comments.hot(limit=None):
+    for comment in me.comments.new(limit=None):
         if not have_comment(cStats, comment.id):
+            count_inserted += 1
             insert_comment(cStats, comment)
         else:
+            count_updated += 1
             update_comment(cStats, comment)
+    print("Inserted " + str(count_inserted) + " comments")
+    print("Updated " + str(count_updated) + " comments")
 
 else:
     # Read the bot database
-    conBot: sl.Connection = sl.connect(dir + '/live.db')
+    conBot: sl.Connection = sl.connect(dir + '/bot.db')
     cBot: sl.Cursor = conBot.cursor()
 
     submissions: List[str] = get_replied_submission_ids(cBot)
@@ -82,3 +97,4 @@ else:
         i += 1
 
 conStats.commit()
+upload_db_file_to_gcs(gcs_bucket, gcs_key, dir, 'stats.db')
