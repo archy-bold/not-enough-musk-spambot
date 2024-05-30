@@ -61,6 +61,22 @@ Run your bot:
 $ python reddit_bot.py
 ```
 
+#### Docker
+
+It's possible to containerise the script.
+
+To build it:
+
+```sh
+docker build -t reddit_bot -f .docker/reddit_bot/Dockerfile .
+```
+
+Then run with:
+
+```sh
+docker run -e SUBREDDIT=test -e SLEEP=0 -e SUBMISSION_PROBABILITY=0.25 -e COMMENT_PROBABILITY=0.1 -e REPLY_AGE=4 -e ENV=test -e MODE=once -e BOT_NAME=xxx -e PASSWORD=xxx -e CLIENT_ID=xxx -e CLIENT_SECRET=xxx reddit_bot
+```
+
 ### Phrase Sources
 
 For a rundown of the phrases and their sources, see [phrases.md](phrases.md). Yes, Elon Musk has said everything this dumb bot repeats.
