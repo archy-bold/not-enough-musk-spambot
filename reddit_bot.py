@@ -9,6 +9,7 @@ from prawcore.exceptions import ServerError
 from src.db import *
 from src.env import *
 from src.reddit import *
+from src.gcs import *
 
 load_env_from_flags()
 
@@ -19,6 +20,8 @@ comment_prob: float = read_env_float('COMMENT_PROBABILITY')
 env: str = read_env('ENV', 'test')
 mode: str = read_env('MODE', 'once')
 reply_age: int = read_env_int('REPLY_AGE', 7)
+gcs_bucket: str = read_env('GCS_BUCKET', None)
+gcs_key: str = read_env('GCS_KEY', secret=True, default=None)
 me = None
 
 def run_bot(r: praw.Reddit, con: sl.Connection, c: sl.Cursor) -> None:
@@ -102,14 +105,26 @@ def text_contains(haystack: str, needle: str) -> bool:
 def timestamp_older_than_days(ts: float, days: int) -> bool:
     return (time.time() - ts) > (days * 86400)
 
+# Load reddit
 r: praw.Reddit = bot_login()
 me: any = r.user.me(use_cache=True)
+
+# Load the DB
 dir: str = os.path.dirname(os.path.realpath(__file__))
+# Check GCS if we have a GCS key
+gcs_client: storage.Client = None
+if gcs_bucket is not None and gcs_key is not None:
+    gcs_client = get_gcs_client(gcs_key)
+    gcs_client.bucket(gcs_bucket).get_blob('bot.db').download_to_filename(dir + '/bot.db')
+
 con: sl.Connection = sl.connect(dir + '/bot.db')
 c: sl.Cursor = con.cursor()
 
 if mode == "once":
     run_bot(r, con, c)
+    if gcs_client is not None:
+        gcs_client.bucket(gcs_bucket).blob('bot.db').upload_from_filename(dir + '/bot.db')
 else:
     while True:
         run_bot(r, con, c)
+        gcs_client.bucket(gcs_bucket).blob('bot.db').upload_from_filename(dir + '/bot.db')
